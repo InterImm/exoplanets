@@ -244,8 +244,8 @@ Kepler 卫星的工作原理主要就是凌日法。这种方法的特点是速�
        * 不能是一个进行核聚变的天体，因为这样就像恒星了。
        * 要围绕着一个恒星（或恒星遗迹）转的，要不然就会放任漂泊了，这类也不叫行星，很多可以被归类到次棕矮星（sbu-brown dwarf）。（不过在 Exoplanets 的数据库中有一颗 CFBDSIR2149，是无寄主的行星。）
        * 即使是现在没有核聚变，那么质量太大了，以至于在 H 的热核聚变的极限质量至上了，甚至可能曾经进行过核聚变，只是不能维持下去罢了，那也不能叫做行星，因为有一类棕矮星（brown dwarf）已经把这类包括进来了。
-.. [2] 维基百科有关于观测方法的很好的解释：`系外行星侦测法 <http://zh.wikipedia.org/wiki/%E7%B3%BB%E5%A4%96%E8%A1%8C%E6%98%9F%E5%81%B5%E6%B8%AC%E6%B3%95>`_。不过，英文的 Wikipedia 的解释更加全面：`Methods of detecting extrasolar planets <http://en.wikipedia.org/wiki/Methods_of_detecting_extrasolar_planets>`_ .
-.. [3] 当然 Kepler 的任务可不仅仅是找候选者。更详细的了解 Kepler 卫星可以阅读维基百科的`开普勒太空望远镜词条 <http://zh.wikipedia.org/wiki/%E5%BC%80%E6%99%AE%E5%8B%92%E5%A4%AA%E7%A9%BA%E6%9C%9B%E8%BF%9C%E9%95%9C>`_。
+.. [2] 维基百科有关于观测方法的很好的解释：`系外行星侦测法 <http://zh.wikipedia.org/wiki/%E7%B3%BB%E5%A4%96%E8%A1%8C%E6%98%9F%E5%81%B5%E6%B8%AC%E6%B3%95>`_ .不过，英文的 Wikipedia 的解释更加全面：`Methods of detecting extrasolar planets <http://en.wikipedia.org/wiki/Methods_of_detecting_extrasolar_planets>`_ .
+.. [3] 当然 Kepler 的任务可不仅仅是找候选者。更详细的了解 Kepler 卫星可以阅读维基百科的“开普勒太空望远镜词条” 。
 .. [4] http://www.dtm.ciw.edu/boss/definition.html
 .. [5] http://openexoplanetcatalogue.com/contest/
-.. [6] 维基百科的`行星适居性 <http://zh.wikipedia.org/wiki/%E8%A1%8C%E6%98%9F%E9%81%A9%E5%B1%85%E6%80%A7>`_ 和 `ASTR 202 <http://exoplanet.as.arizona.edu/~lclose/teaching/a202/a202_sched.html>`_ 。这个话题也将会在本文档中记录。
+.. [6] 维基百科的“行星适居性” 和 `ASTR 202 <http://exoplanet.as.arizona.edu/~lclose/teaching/a202/a202_sched.html>`_ 。这个话题也将会在本文档中记录。
