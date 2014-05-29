@@ -17,7 +17,7 @@ exoplanets
 
 [文档浏览地址在此](http://exoplanets.readthedocs.org/zh_CN/latest/)。
 
-本文档使用 [Sphinx](http://sphinx-doc.org/) 写成，并在 [readthedocs](https://readthedocs.org/projects/exoplanets/) 上生成。
+本文档使用 [reStructuredText](http://docutils.sourceforge.net/rst.html) 写成，并在 [readthedocs](https://readthedocs.org/projects/exoplanets/) 上生成。当然，也可以使用 [Sphinx](http://sphinx-doc.org/) 离线生成。
 
 文档的 source 在 `docs` 目录内，readthedocs 会自动搜索 `conf.py` 自动找到目录地址。所以请勿在本仓库内创建其他名为 `conf.py` 的文件。
 
