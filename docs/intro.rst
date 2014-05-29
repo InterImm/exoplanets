@@ -24,7 +24,7 @@
 
 间隔十多年，可谓是好事多磨难。现在，随着各类技术的出现，和人们对系外行星的关注度越来越高，系外行星已经不在稀有，被确认的系外行星现在达到了 1713 颗（此为 `NASA Exoplanet Archive <http://exoplanetarchive.ipac.caltech.edu/index.html>`_ 的数据，截止到 2014-05-14； 在 `The Extrasolar Planets Encyclopaedia <http://exoplanet.eu/>`_ 上截止到 2014-05-28 有 1792 颗），而被列入 Kepler Object of Interest 的候选达到了 3845 颗（`NASA Exoplanet Archive <http://exoplanetarchive.ipac.caltech.edu/index.html>`_，截止到 2013-02-13），并且有 443 个多行星系统（`NASA Exoplanet Archive <http://exoplanetarchive.ipac.caltech.edu/index.html>`_，截止到 2013-05-14）。
 
-越来越多的系外行星的发现，使得有些原来看起来很遥远的科幻，也突然变得亲切起来。似乎我们的世界有了一个很重要的目标，那就是**飞出太阳系，飞向系外行星**。
+越来越多的系外行星的发现，使得有些原来看起来很遥远的科幻，也突然变得亲切起来。似乎我们的世界有了一个很重要的目标，那就是“飞出太阳系，飞向系外行星”。
 
 
 .. figure:: _static/images/exoplanetsInfo.jpg
@@ -193,7 +193,7 @@ Kepler 卫星的工作原理主要就是凌日法。这种方法的特点是速�
 
 当然可视化是一个很庞大很复杂的话题，我对这个方向了解不多，所以保持对他们的敬畏，这一部分就仅仅列举几个有趣的可视化吧。
 
-**这篇文章的第二张图**，是一张非常棒的图，信息量很大，而且很容易看懂。我再重新贴过来。
+这篇文章的第二张图，是一张非常棒的图，信息量很大，而且很容易看懂。我再重新贴过来。
 
 
 .. figure:: _static/images/exoplanetsInfo.jpg
@@ -203,7 +203,7 @@ Kepler 卫星的工作原理主要就是凌日法。这种方法的特点是速�
    系外行星：历史，方法，恒星属性，距离。来自 http://www.wired.co.uk/magazine/archive/2011/02/start/infoporn 图的制作过程见此链接：http://www.informationisbeautiful.net/book/process/executing-the-exos/
 
 
-**XKCD 的 1071 号作品**是一个很有趣的可视化，使用了 bubble chart 的手段：
+”XKCD 的 1071 号作品“是一个很有趣的可视化，使用了 bubble chart 的手段：
 
 
 .. figure:: http://multiverse.lamost.org/blog/wp-content/uploads/2013/05/exoplanets.png
