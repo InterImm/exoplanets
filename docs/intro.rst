@@ -156,7 +156,7 @@ Kepler 卫星的工作原理主要就是凌日法。这种方法的特点是速�
   .. image:: assets/intro/NASAExoplanets.png
      :alt: PlanetQuest, JPL@NASA
 
-* `Exoplanet Archive, CalTech <http://exoplanetarchive.ipac.caltech.edu/>`， 提供数据和全面的分析工作。
+* `Exoplanet Archive CalTech <http://exoplanetarchive.ipac.caltech.edu/>`_， 提供数据和全面的分析工作。
 
   .. image:: assets/intro/CalTech.png
      :alt: Exoplanet Archive, CalTech
