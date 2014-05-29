@@ -11,6 +11,7 @@
 本文档由 `星际移民中心 <http://interimm.github.io/>`_ 维护。
 
 .. image:: _static/images/logo.jpg
+   :align: center
 
 文档内容若无特殊说明使用 CC BY-SA 协议。
 
@@ -28,7 +29,7 @@
 
 
 目录
-
+-----
 .. toctree::
    :maxdepth: 2
 
@@ -36,9 +37,4 @@
 
 
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
