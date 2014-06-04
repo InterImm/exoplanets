@@ -20,3 +20,46 @@
        However, this hypothesis seems inconsistent with the lack of observational evidence to support it.
 
        -- `费米悖论|维基百科 <http://zh.wikipedia.org/wiki/%E8%B4%B9%E7%B1%B3%E6%82%96%E8%AE%BA>`_
+
+
+
+
+David Brin 的 Great Silence
+----------------------------
+
+
+Glen Brin 在 1983 年曾经发表过一篇名为`The Great Silence - the Controversy Concerning Extraterrestrial Intelligent Life <http://adsabs.harvard.edu/full/1983QJRAS..24..283B>`_ 的论文。
+
+
+
+刘慈欣的黑暗森林
+---------------------------
+
+
+
+
+Randall Munroe (xkcd) 的 Fish
+-------------------------------
+
+
+.. figure:: http://imgs.xkcd.com/comics/fish.png
+   :align: center
+   :alt: Randall Munroe's Fish
+
+   Randall Munroe 的 `1377号 <http://xkcd.com/1377/>`_ 漫画。
+
+
+
+Bezsudnov 和 Snarskii 的智慧扩张模型
+-----------------------------------
+
+
+
+`Where is everybody? -- Wait a moment ... New approach to the Fermi paradox <http://arxiv.org/abs/1007.2774>`_
+
+
+`为什么我们还没遇到外星人？ <http://www.guokr.com/article/129942/>`_
+
+
+
+.
