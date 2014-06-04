@@ -34,7 +34,4 @@
    :maxdepth: 2
 
    intro.rst
-
-
-
-
+   fermi.rst
