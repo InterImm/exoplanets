@@ -28,7 +28,7 @@ David Brin 的 Great Silence
 ----------------------------
 
 
-Glen Brin 在 1983 年曾经发表过一篇名为`The Great Silence - the Controversy Concerning Extraterrestrial Intelligent Life <http://adsabs.harvard.edu/full/1983QJRAS..24..283B>`_ 的论文。
+Glen Brin 在 1983 年曾经发表过一篇名为`The Great Silence - the Controversy Concerning Extraterrestrial Intelligent Life <http://www.brin-l.com/downloads/silence.pdf>`_ 的论文。
 
 
 
