@@ -48,7 +48,7 @@
 .. figure:: assets/detection/raidalSpectrumESO1035g.gif
    :align: center
 
-   恒星的运动带来的光谱变化。
+   恒星的运动带来的光谱变化。视频：`raidalSpectrumESO1035g.m4v <assets/detection/raidalSpectrumESO1035g.m4v>`_ 。来源：`The radial velocity method for finding exoplanets | ESO <http://www.eso.org/public/usa/videos/eso1035g/>`_
 
 
 HARPS 的光谱测量可以达到 1 m/s 的径向速度测量精度。而这要求仪器能够测量 15 纳米的波长变化，或者说要去能够测量 1/1000 的 CCD 上的单像素上的变化。这样也就需要我们把仪器的温度降低到足够低，使得热涨落降低到不影响我们测量的程度。
@@ -70,6 +70,7 @@ HARPS 的光谱测量可以达到 1 m/s 的径向速度测量精度。而这要�
 .. image:: assets/detection/Solar_System_Barycenter_2000-2050.png
    :align: center
 
+那么，如果我们能够时刻监测恒星的位置，我们就可以推导出行星的状况。
 
 
 
