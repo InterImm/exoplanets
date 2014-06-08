@@ -131,11 +131,16 @@
 然而实际上对于多行星的系统，行星之间的共同作用可以产生一些显著的效果。例如对于太阳系来说，土星和木星的联合作用比较显著，可以产生比较大的太阳的移动。
 
 
-.. figure:: assets/sunMove.png
+.. figure:: assets/detection/Solar_system_barycenter_pl.png
    :align: center
-   :alt: 行星引起的太阳的运动和太阳半径的关系
 
-   （需要使用 wikipedia 的原图来替代这张。）
+   图片来自 Wikipedia `File:Solar system barycenter pl.svg <http://commons.wikimedia.org/wiki/File:Solar_system_barycenter_pl.svg>`_
+
+
+.. figure:: assets/detection/Solar_System_Barycenter_2000-2050.png
+   :align: center
+
+   图片来自 Wikipedia `File:Solar System Barycenter 2000-2050.png <http://en.wikiversity.org/wiki/File:Solar_System_Barycenter_2000-2050.png>`_
 
 
 

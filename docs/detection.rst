@@ -8,7 +8,7 @@
 
 在之前的理论的讨论中，我们提到了轨道平面不一定平行于我们的视线。
 
-.. figure:: assets/tiltedOrbitPlane.png
+.. figure:: assets/detection/tiltedOrbitPlane.png
    :align: center
    :alt: 投影平面
 
@@ -34,7 +34,7 @@
 
 对于太阳来说，我们可以看几个例子[1]_ ，
 
-.. figure:: assets/radialVelocitySolar.png
+.. figure:: assets/detection/radialVelocitySolar.png
    :align: center
    :alt: 太阳的径向运动
 
@@ -45,10 +45,11 @@
 下面的问题是，这些径向运动都这么小，我们如何探测恒星的这种径向运动呢？
 
 
-.. figure:: assets/radialVelocityDect.png
+.. figure:: assets/detection/raidalSpectrumESO1035g.gif
    :align: center
 
-   （需要更换原版）
+   恒星的运动带来的光谱变化。
+
 
 HARPS 的光谱测量可以达到 1 m/s 的径向速度测量精度。而这要求仪器能够测量 15 纳米的波长变化，或者说要去能够测量 1/1000 的 CCD 上的单像素上的变化。这样也就需要我们把仪器的温度降低到足够低，使得热涨落降低到不影响我们测量的程度。
 
@@ -60,11 +61,20 @@ HARPS 的光谱测量可以达到 1 m/s 的径向速度测量精度。而这要�
 
 
 
-Astrometry
+天体测量学
 --------------
 
 
+天体测量学（Astrometry）是测量天体位置的一个天文学分支。我们之前看到过我们的太阳其实一直在变动位置。
+
+.. image:: assets/detection/Solar_System_Barycenter_2000-2050.png
+   :align: center
 
 
 
-.. [1] .. [2] 来自 `Coursera 的 The Diversities of Exoplanets <https://class.coursera.org/extrasolarplanets-001>`_
+
+
+
+
+
+.. [1] 来自 `Coursera 的 The Diversities of Exoplanets <https://class.coursera.org/extrasolarplanets-001>`_
