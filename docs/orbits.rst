@@ -161,7 +161,7 @@
 
 
 
-.. figure:: assets/tiltedOrbitPlane.png
+.. figure:: assets/detection/tiltedOrbitPlane.png
    :align: center
    :alt: 投影平面
 
