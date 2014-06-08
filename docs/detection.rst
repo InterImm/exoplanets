@@ -85,11 +85,10 @@ HARPS 的光谱测量可以达到 1 m/s 的径向速度测量精度。而这要�
 .. math::
    m_2 = \alpha_1 d \left(\frac{m_1}{m_2}\right)^{2/3}
 
-<<<<<<< HEAD
+
 可以看到对于长周期的情况，astrometric signature 更大，也就更容易测量。
 
-=======
->>>>>>> 61161bac8875e0145ae4408c43548e2d9f206761
+
 
 .. admonition:: 证明
    :class: note
@@ -103,7 +102,7 @@ HARPS 的光谱测量可以达到 1 m/s 的径向速度测量精度。而这要�
 
 
 
-<<<<<<< HEAD
+
 为了有些数值上的经验，下图是几个例子。[1]_
 
 .. image:: assets/detection/astrometrySolar.png
@@ -149,7 +148,7 @@ ESA 发射了 `GAIA 卫星 <http://www.esa.int/spaceinvideos/Videos/2013/12/Insi
 .. raw:: html
 
    <div id='flashplayer'>Loading player...</div><script type='text/javascript' src='http://www.eso.org/public/archives/djangoplicity/shadowbox3/libraries/mediaplayer5/jwplayer.js'></script><script type='text/javascript'>var sdfile = 'http://www.eso.org/public/archives/videos/medium_flash/adaptiveopticsandmask.flv';var imagefile = 'http://www.eso.org/public/archives/videos/videoframe/adaptiveopticsandmask.jpg';var flashsrc = 'http://www.eso.org/public/archives/djangoplicity/shadowbox3/libraries/mediaplayer5/player.swf';var sharelink = 'http://www.eso.org/public/videos/adaptiveopticsandmask/';var sharecode = '';var gaid = 'UA-1965004-1';var ipadfile = 'http://www.eso.org/public/archives/videos/medium_podcast/adaptiveopticsandmask.m4v';var mobilefile = 'http://www.eso.org/public/archives/videos/medium_podcast/adaptiveopticsandmask.m4v';var hdfile = 'http://www.eso.org/public/archives/videos/hd_and_apple/adaptiveopticsandmask.m4v';;</script><script type='text/javascript' src='http://www.eso.org/public/archives/djangoplicity/js/videoembed.js'></script>
-=======
+
 
 
 
