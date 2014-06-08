@@ -72,6 +72,33 @@ HARPS 的光谱测量可以达到 1 m/s 的径向速度测量精度。而这要�
 
 那么，如果我们能够时刻监测恒星的位置，我们就可以推导出行星的状况。
 
+理论上来说，我们的测量需要能够精确的分辨出的一个很大的距离上的变化。一颗距离我们 :math:`d` （单位：秒差距）的恒星，距离的变化最大为长轴的长度 :math:`2a_1`。也就是说，量化之后，需要能够分辨如下一个份数（乘坐 astrometric signature）。
+
+.. math::
+   \alpha_1 = \frac{a_1}{d} = \frac{m_2}{d}\left(\frac{P}{m_1+m_2}\right)^{2/3}.
+
+
+实际的测量中，我们可以获得周期 :math:`P`，恒星距离我们的距离 :math:`d` 也可以测得，如果我们知道这个 astrometric signature，那么我们就可以获得两个质量的关系。实际上恒星的质量可以推算出来，所以我们就可以得知行星的质量。
+
+因为行星的质量常常远远小于恒星的质量，:math:`m_2\ll m_1`，
+
+.. math::
+   m_2 = \alpha_1 d \left(\frac{m_1}{m_2}\right)^{2/3}
+
+
+.. admonition:: 证明
+   :class: note
+
+   这里我们可以使用泰勒展开来获得 :math:`m_2\ll m_1` 的情况下的公式。
+
+   我们知道 :math:`1/(1+m_2/m_1)\approx 1`，所以 astrometric signature 的式子可以简化成，
+
+   .. math::
+      \alpha_1 = \frac{m_2}{d} \left(\frac{P}{m_1}\right)^{2/3}.
+
+
+
+
 
 
 
