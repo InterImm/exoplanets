@@ -7,6 +7,10 @@
 系外行星
 ======================================
 
+.. figure:: _static/images/Planets_everywhere_(artist’s_impression).jpg
+   :align: center
+
+   来源：Wikipedia `File:Planets everywhere (artist’s impression).jpg <https://en.wikipedia.org/wiki/File:Planets_everywhere_(artist%E2%80%99s_impression).jpg>`_
 
 本文档由 `星际移民中心 <http://interimm.github.io/>`_ 维护。
 
