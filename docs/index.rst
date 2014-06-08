@@ -34,4 +34,5 @@
    :maxdepth: 2
 
    intro.rst
+   detection.rst
    fermi.rst
