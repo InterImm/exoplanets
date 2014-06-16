@@ -314,7 +314,7 @@ ESA 发射了 `GAIA 卫星 <http://www.esa.int/spaceinvideos/Videos/2013/12/Insi
 
 现在的不同的项目已经能够覆盖从地球质量以上的行星了，
 
-.. figure:: assets/detection/massRange.png
+.. figure:: assets/detection/massRangeDetected.png
    :align: center
 
    红色区域是我们能够探测的区域。
@@ -330,7 +330,6 @@ ESA 发射了 `GAIA 卫星 <http://www.esa.int/spaceinvideos/Videos/2013/12/Insi
 
 
 
-http://astro.unl.edu/naap/esp/animations/transitSimulator.html
 
 
 
