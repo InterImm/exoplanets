@@ -190,7 +190,7 @@ ESA 发射了 `GAIA 卫星 <http://www.esa.int/spaceinvideos/Videos/2013/12/Insi
 .. figure:: assets/detection/exoplanetsTransitNonTrasit.png
    :align: center
 
-   来源：` LCOGT <http://lcogt.net/spacebook/transit-method>`_
+   来源：`LCOGT <http://lcogt.net/spacebook/transit-method>`_
 
 
 假设所有行星的轨道平面是随机分布的，那么我们观测能够观测到一个行星凌日的概率是跟以下几个因素相关的：
@@ -270,7 +270,7 @@ ESA 发射了 `GAIA 卫星 <http://www.esa.int/spaceinvideos/Videos/2013/12/Insi
 
 1. 行星的密度
 2. 行星的轨道的参数，包括半长轴，偏心率，周期
-3.
+
 
 这些都是可以计算的参数。例如轨道的偏心率，因为我们有关于凌日的公式：
 
