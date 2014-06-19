@@ -40,4 +40,5 @@
    intro.rst
    orbits.rst
    detection.rst
+   statistics.rst
    fermi.rst
