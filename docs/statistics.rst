@@ -10,7 +10,7 @@
 ~~~~~~~~~~~~~~
 
 
-自1995年第一颗系外行星 `51 Peg b<http://zh.wikipedia.org/zh-cn/%E9%A3%9B%E9%A6%AC%E5%BA%A751b>`_ 被发现一直到2004年，天文学家一共发现了大约130颗系外行星，并根据这些数据得出了一些初步的结论：
+自1995年第一颗系外行星 `51 Peg b <http://zh.wikipedia.org/zh-cn/%E9%A3%9B%E9%A6%AC%E5%BA%A751b>`_ 被发现一直到2004年，天文学家一共发现了大约130颗系外行星，并根据这些数据得出了一些初步的结论：
 
 1. 1%的太阳型恒星有“热木星”。
 
@@ -101,9 +101,7 @@
 
 在系外行星探测中，径向速度法和凌日法是最主要的两种方法，这两种方法各有局限性：
 
- `径向速度法<http://exoplanets.readthedocs.org/zh_CN/latest/detection.html#id2>`_ 通过测量恒星光谱微小的变化来探测行星，这种方法能够准确测量行星的周期和质量，但却无法测量行星的半径。
-
- `凌日法<http://exoplanets.readthedocs.org/zh_CN/latest/detection.html#id7>`_ 通过测量恒星亮度的微小变化来探测行星，这种方法能够准确测量行星的周期和半径，但却无法测量行星的质量。
+`径向速度法 <http://exoplanets.readthedocs.org/zh_CN/latest/detection.html#id2>`_ 通过测量恒星光谱微小的变化来探测行星，这种方法能够准确测量行星的周期和质量，但却无法测量行星的半径。 `凌日法 <http://exoplanets.readthedocs.org/zh_CN/latest/detection.html#id7>`_ 通过测量恒星亮度的微小变化来探测行星，这种方法能够准确测量行星的周期和半径，但却无法测量行星的质量。
 
 我们可以通过比较HARPS和Kepler年具体看看两种方法各自的适用范围：
 
@@ -123,11 +121,13 @@
    
    径向速度法主要分布中对质量较小、周期较长的部分进行修正。
    
+   
 .. figure:: assets/statistics/Correction3.jpg
    :align: center
    :alt: 分布修正3
    
    凌日法主要对分布中半径较小，周期较长的部分进行修正。
+
 
 在修正之后，得到了无偏的行星质量、半径分布，如下图所示：
 
