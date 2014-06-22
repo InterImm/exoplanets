@@ -47,16 +47,16 @@
 
    5. 迷你海王星(Mini-Neptune):质量低于天王星和海王星，但组成却和海王星相当类似。
 
-.. figure:: assets/statistics/The_variety_of_exoplanets.jpg
-   :align: center
-   :alt: 系外行星的种类
+   .. figure:: assets/statistics/The_variety_of_exoplanets.jpg
+      :align: center
+      :alt: 系外行星的种类
 
 
-早期发现的系外行星，质量分布在0.2木星质量~20木星质量之间，轨道周期大于2.5天，轨道偏心率分布在0~0.93之间。
+   早期发现的系外行星，质量分布在0.2木星质量~20木星质量之间，轨道周期大于2.5天，轨道偏心率分布在0~0.93之间。
 
-.. figure:: assets/statistics/Extrasolar_planets.jpg
-   :align: center
-   :alt: 早期统计结果概览
+   .. figure:: assets/statistics/Extrasolar_planets.jpg
+      :align: center
+      :alt: 早期统计结果概览
 
 
 系外行星系统的多样性
@@ -84,6 +84,11 @@
 .. figure:: assets/statistics/different_curves.jpg
    :align: center
    :alt: 不同曲线形状
+
+
+.. note::
+   分层系统（Heirarchized System）中，两颗行星的周期没有确定的关系，两颗行星的周期是任意的。而共振系统（Resonant System）的意思是说，行星的轨道周期之间有确定的关系，例如两颗行星轨道周期之比是 2 等等。
+
 
 
 如果行星系的中心天体是两颗互相旋转的双星，那么情况又有所不同。由于双星的运动对行星轨道的影响，在双星的一定范围内无法形成稳定的行星轨道，只有在范围以外，行星轨道才可以稳定。
