@@ -3,6 +3,15 @@
 
 通过对系外行星的探测，我们获得了大量的数据，并得出了一些统计结果。通过这些数据分析，我们能修正行星演化的模型并做出预测。
 
+.. admonition:: 一个谜团
+
+   第一颗确认的系外行星 `51 Peg b <http://zh.wikipedia.org/zh-cn/%E9%A3%9B%E9%A6%AC%E5%BA%A751b>`_ 是一颗“热木星”——质量巨大，然而这颗行星距离其恒星却非常近——甚至要比太阳系内任意一颗行星到太阳的距离。可是问题在于，距离恒星这么近的地方，并没有足够的质量来形成一颗这么巨大的行星。
+
+   谜题的答案是，这颗行星实际上是在距离恒星更远的地方形成的，但是在形成的过程中以及形成之后，这颗行星在周围物质的作用下，逐渐损失能量，轨道原来越小。
+
+   然而这给我们带来另一个问题，为什么这颗行星没有因为损失太多的动能和势能，从而掉进恒星中去呢？
+
+
 行星质量-距离-半径
 --------------
 
@@ -26,29 +35,29 @@
    :class: note
 
    现已发现的系外行星根据其半径、组成和轨道半径大体可以分为以下五类：[1]_
-   
+
    1. 热木星(Hot Jupiter):质量接近或超过木星,行星轨道与母恒星距离在0.5至0.015天文单位以内。
-   
+
    2. 气态巨行星(Gas gaint):与木星、土星类似的行星。
-   
+
    3. 冰巨星(Ice gaint):与天王星、海王星类似的行星。
-   
+
    4. 超级地球(Super-Earth):质量约为地球的2.5到10倍的岩质行星。
-   
+
    5. 迷你海王星(Mini-Neptune):质量低于天王星和海王星，但组成却和海王星相当类似。
-   
+
 .. figure:: assets/statistics/The_variety_of_exoplanets.jpg
    :align: center
    :alt: 系外行星的种类
 
-   
+
 早期发现的系外行星，质量分布在0.2木星质量~20木星质量之间，轨道周期大于2.5天，轨道偏心率分布在0~0.93之间。
 
 .. figure:: assets/statistics/Extrasolar_planets.jpg
    :align: center
    :alt: 早期统计结果概览
-   
-   
+
+
 系外行星系统的多样性
 ~~~~~~~~~~~~~~
 
@@ -58,14 +67,14 @@
    :align: center
    :alt: 小偏心率轨道
 
-   
+
 上图所示的径向速度曲线与正弦曲线相似，因此该行星的偏心率很小，近似于圆轨道。
 
 .. figure:: assets/statistics/large_eccentricity.jpg
    :align: center
    :alt: 大偏心率轨道
 
-   
+
 上图所示的阶跃型曲线表示该行星轨道的偏心率相当大。
 
 如果行星系内的两颗行星的轨道周期相差很大，就会形成分层系统(Heirarchized System)，其径向速度曲线可以看做是两个频率相差很大的波形的叠加。
@@ -75,27 +84,27 @@
    :align: center
    :alt: 不同曲线形状
 
-   
+
 如果行星系的中心天体是两颗互相旋转的双星，那么情况又有所不同。由于双星的运动对行星轨道的影响，在双星的一定范围内无法形成稳定的行星轨道，只有在范围以外，行星轨道才可以稳定。
 
 .. figure:: assets/statistics/Planets_in_binaries.jpg
    :align: center
-   :alt: 双星中的行星  
-   
-   
+   :alt: 双星中的行星
+
+
 不同种类的系外行星系统展示在下图中：
 
 
 .. figure:: assets/statistics/The_Kepler_Orrery.gif
    :align: center
    :alt: 多种行星系统
-   
+
 .. figure:: assets/statistics/The_Kepler_Orrery2.gif
    :align: center
-    
+
    来源：`Kepler Orrery - Daniel Fabrycky | Nasa <http://kepler.nasa.gov/multimedia/animations/scienceconcepts/?ImageID=136>`_
 
-   
+
 行星的分布、质量及距离
 ~~~~~~~~~~~~~~
 
@@ -110,22 +119,22 @@
 2. Kepler(凌日法)对于周期小于50-100天的行星，最小能测出 :math:`R_p \approx 1R_{\oplus}` 的无偏分布。
 
 由于两种方法各自的局限性，它们并不能得出完整的行星分布，因此需要对结果进行修正。
-   
+
 .. figure:: assets/statistics/Correction1.jpg
    :align: center
    :alt: 分布修正1
-   
+
 .. figure:: assets/statistics/Correction2.jpg
    :align: center
    :alt: 分布修正2
-   
+
    径向速度法主要分布中对质量较小、周期较长的部分进行修正。
-   
-   
+
+
 .. figure:: assets/statistics/Correction3.jpg
    :align: center
    :alt: 分布修正3
-   
+
    凌日法主要对分布中半径较小，周期较长的部分进行修正。
 
 
@@ -135,14 +144,14 @@
    :align: center
    :alt: 无偏分布
 
-   
+
 另外，通过比较母恒星Fe/H的比值与行星数量的关系，我们可以得出母恒星的金属性与行星的关系：
 
 .. figure:: assets/statistics/Metallicity.jpg
    :align: center
    :alt: 金属性
 
-   
+
 综合分析HARPS与Kepler数据，我们可以得出以下结论：
 
 1. 1%的恒星拥有热木星，其存在于富金属恒星周围的概率更大。
@@ -171,15 +180,15 @@
    :align: center
    :alt: 红矮星与木星
 
-   
+
 可见，了解行星质量与半径的关系对于行星分类具有重要作用，进而还可了解的行星的形成过程。
 最新的系外行星质量-半径关系如下图：
 
 .. figure:: assets/statistics/Mass-radius.jpg
    :align: center
    :alt: 质量与半径关系
-   
-   
+
+
 观测与理论
 ~~~~~~~~~~~~~~
 
@@ -189,17 +198,17 @@
 .. figure:: assets/statistics/Synthesis.gif
    :align: center
    :alt: 模拟
-   
+
    来源：`W. Benz, S. Ida, Y. Alibert, D.N.C. Lin, C. Mordasini. Planet Population Synthesis <http://arxiv.org/abs/1402.7086>`_
 
-   
+
 而对系外行星的实际观测的结果如下：
-   
+
 .. figure:: assets/statistics/observation.jpg
    :align: center
    :alt: 实际观测
-   
-   
+
+
 更多的观测与理论符合的情况可以见上述论文与课程视频，在此不一一赘述。
 未来我们对于系外行星的观测方向主要将集中于：
 
@@ -210,13 +219,13 @@
 3. 特定行星系统的具体分析，包括：
 
    -行星轨道参数
-   
+
    -行星内部结构
-   
+
    -行星大气层
-   
-4. 与理论相符   
+
+4. 与理论相符
 
 
-   
+
 .. [1] 来自 `WikiPedia <http://zh.wikipedia.org/wiki/Template:%E7%B3%BB%E5%A4%96%E8%A1%8C%E6%98%9F>`_
