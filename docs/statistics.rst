@@ -325,7 +325,7 @@ RV 方法给出了一些数据表明[2]_ ，M Dwarfs 周围的大行星很少，
 
 另一个研究可以让我们看的更清楚。下 图绘制了轨道偏心率和系统中行星个数的关系，[5]_
 
-.. figure:: assets/stastics/eVSmulti.png
+.. figure:: assets/statistics/eVSmulti.png
    :align: center
 
    非常清楚的看到，系统中行星的个数越多，最大的偏心率就越小。换句话说，系统中的行星数量越少，偏心率的多样性就越好。
