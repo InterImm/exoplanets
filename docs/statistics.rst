@@ -359,7 +359,7 @@ Monash University 的 R. Marding 进行了一些模拟，可以发现在某些�
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-.. figure:: assets/stastics/massVSp.png
+.. figure:: assets/statistics/massVSp.png
    :align: center
 
    阴影部分的行星距离恒星太近，引潮力的作用变得很重要。并且广义相对论效应也会变得显著。
@@ -374,7 +374,7 @@ HD10180 系统中发现了 7 颗行星。使用牛顿模型，这个系统是不
 
 然而，从下图我们发现，有些行星距离恒星足够近，引潮力的效应足够明显，能够使得行星的偏心率很快的降下来。但是观测却发现有些这样的行星有着很大的偏心率。
 
-.. image:: assets/stastics/eVSSemiAxis.png
+.. image:: assets/statistics/eVSSemiAxis.png
    :align: center
 
 这种现象怎么解释呢？这样很可能是因为另一颗行星的存在，其扰动使得发现的这颗行星有很大的偏心率。
@@ -387,7 +387,7 @@ HD10180 系统中发现了 7 颗行星。使用牛顿模型，这个系统是不
 之前的数值和解析的方法，我们讨论的最多两颗行星的系统，因为当行星的数量增多的时候，系统变得非常复杂。所以从观测数据上来总结一下多行星系统的特性，除了在一定程度上验证我们之前的理论模型，也有助于我们对多行星系统物理的理解。
 
 
-.. figure:: assets/stastics/diversityOfMulti.png
+.. figure:: assets/statistics/diversityOfMulti.png
    :align: center
 
    多行星系统多样性：行星的数量，行星的轨道半径，行星的质量，一个星系内行星的类型，等等。
@@ -395,7 +395,7 @@ HD10180 系统中发现了 7 颗行星。使用牛顿模型，这个系统是不
 
 对照一下多行星系统和只有一颗行星的系统，
 
-.. figure:: assets/stastics/seperationAndMassDifference.png
+.. figure:: assets/statistics/seperationAndMassDifference.png
    :align: center
 
    径向速度法的数据
@@ -406,7 +406,7 @@ HD10180 系统中发现了 7 颗行星。使用牛顿模型，这个系统是不
 
 开普勒的探测结果为我们提供了更多的多行星系统，
 
-.. figure:: assets/stastics/
+.. figure:: assets/statistics/
    :align: center
 
 Dan Fabrycky 制作了一张基于开普勒的观测结果的多行星系统图，图中清楚的显示了前面提到的多样性。
