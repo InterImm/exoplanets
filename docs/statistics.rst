@@ -411,6 +411,8 @@ HD10180 系统中发现了 7 颗行星。使用牛顿模型，这个系统是不
 
 Dan Fabrycky 制作了一张基于开普勒的观测结果的多行星系统图，图中清楚的显示了前面提到的多样性。
 
+.. image:: assets/statistics/mulitPeriod.png
+   :align: center
 
 
 
