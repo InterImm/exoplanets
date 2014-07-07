@@ -41,4 +41,5 @@
    orbits.rst
    detection.rst
    statistics.rst
+   atmosphere.rst
    fermi.rst
