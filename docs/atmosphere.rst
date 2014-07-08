@@ -216,7 +216,7 @@
 我们可以定义热发射流量比，即恒星的热发射的流量与恒星的比值，
 
 .. math::
-   \frac{F_p(\lambda)}{F_s(\lambda)} = \left(\frac{R_p}{R_s})^2 \sqrt{R_s}{a}\left(\frac{1-A_B}{4}\right)^{/4}.
+   \frac{F_p(\lambda)}{F_s(\lambda)} = \left(\frac{R_p}{R_s}\right)^2 \sqrt{R_s}{a}\left(\frac{1-A_B}{4}\right)^{/4}.
 
 可以发现右侧是一些跟轨道半长轴 a，恒星行星半径 :math:`R_p`，恒星半径 :math:`R_s`，:math:`A_B` 有关的量，而左边是观测值，这样我们通过对不同波长的对比，可以得到很多行星大气的信息。
 
