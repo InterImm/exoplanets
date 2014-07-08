@@ -253,4 +253,4 @@
 
 本文参考 Couresera 课程 `The Diversity of Exoplanets <https://class.coursera.org/extrasolarplanets-001>`_ .
 
-一篇关于如何探测工业文明的文章。
+一篇关于如何探测工业文明的文章: `arXiv:1406.3025 <http://arxiv.org/abs/1406.3025>`_ 。
