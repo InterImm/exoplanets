@@ -148,7 +148,7 @@
 
 
 
-.. figure:: assets/atmopshere/transit.png
+.. figure:: assets/atmosphere/transit.png
    :align: center
 
 
