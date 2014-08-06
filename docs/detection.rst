@@ -322,14 +322,70 @@ ESA 发射了 `GAIA 卫星 <http://www.esa.int/spaceinvideos/Videos/2013/12/Insi
 
 
 
+微引力透镜
+------------------------
+
+
+前面这两种方法有个很大的缺陷，就是对于长周期的行星的观测几乎无能无力，除非我们能够做几个世纪的观测，显然对现在而言，这是不现实的。另外，对于距离恒星太远的行星，对于恒星的光谱扰动太小，极不容易观测。所以我们需要另外的完全不同的方法。
+
+引力的时空几何，所以跟所有的运动耦合，因此可以影响物质的运动，包括光。
+
+.. figure:: assets/detection/400px-Gravitational_micro_rev.svg.png
+   :align: center
+
+   光线在引力的作用下弯曲。来源：`Wiki Commons <https://commons.wikimedia.org/wiki/File:Gravitational_micro_rev.svg>`_
+
+
+
+无限远来的光线在引力的作用下弯曲之后，到达无限远处时，与原来入射光线的偏角是可以由下式计算的（一阶近似），
+
+.. math::
+   \theta=\frac{4GM}{rc^2},
+
+这里的 :math:`M` 是引力源天体的质量，:math:`r` 是散射参数，即引力源天体中心距离入射光线的距离。
+
+
+一个实际的例子是这样的：
+
+.. figure:: assets/detection/800px-A_Horseshoe_Einstein_Ring_from_Hubble.JPG
+   :align: center
+
+   来源：`Wiki Commons <https://commons.wikimedia.org/wiki/File:A_Horseshoe_Einstein_Ring_from_Hubble.JPG>`_
+
+
+那么微引力透镜是什么思路呢？我们可以观测夜空，如果一个行星在某个光源和我们之间，这颗行星就可以对光源传来的光线造成微引力透镜效应。就我们银河系而言，我们可以朝着银河系中心看，因为那里的恒星的数密度比较大，也就是在背景星空上恒星更密集，对应于有更大的几率发现一颗行星对某恒星的光线产生影响，形成微引力透镜效应。
+
+当然，这里有个问题，我们先看一眼银河系的可见光图片，
+
+.. figure:: assets/detection/1280px-ESO-VLT-Laser-phot-33a-07.jpg
+   :class: note
+
+   来源：`Wikipedia <https://en.wikipedia.org/wiki/File:ESO-VLT-Laser-phot-33a-07.jpg>`_
+
+可以看到银河系平面上因为被尘埃遮挡从而变得比较暗。因此一个比较好的策略是，朝向银河系平面稍稍上方的地方观测。
+
+
+稍作估算，天文学家发现，如果要发现一个行星，大致需要望远镜的叫分辨率达到 :math:`3.1\times 10^{-5}` arsec 才可以分辨这种引力透镜图像，这要比哈勃望远镜的叫分辨率还要高的多。所以直接看到图像太困难了。所以大家想到了另外一种非常巧妙的方法。
+
+
+假设我们的背景恒星和地球之间有一颗行星，那么恒星的光线经过行星的时候会发生偏折。这样造成我们在地球轨道的不同位置，接收到的光子数不同，也就是说背景恒星的亮度在不同的季节是不同的。通过观察这种变化，我们就可以找到行星的候选。实际操作中，我们可以看到甚至几天之内的变化，即便我们会受到太阳光线变化的影响。
+
+
+另外，由于行星绕着主恒星运动，背景恒星的运动，也会造成的微引力透镜随着时间变化，
+
+.. figure:: assets/detection/hs-2012-07-b-web_print.jpg
+   :align: center
+
+   来源：`Scientific American <http://blogs.scientificamerican.com/life-unbounded/2012/03/07/gravitational-mesolensing-and-the-hunt-for-exoplanet/>`_
+
+我们实际上看到的变化是之前提到的地球位置变化和上面这两种的结合。
 
 
 
 
 
-
-
-
+参考及尾注
+-----------------
 
 
 
