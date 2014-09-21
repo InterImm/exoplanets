@@ -22,7 +22,7 @@
    1. `Habitable Zone Gallery <http://www.hzgallery.org/>`_
 
 
-宜居带内的行星列表：[1]_
+宜居带内的行星列表： [#]_
 
 +---------------+--------+--------+--------+-------+-------+-------+-------+--------+--------+--------+--------+
 | PLANET        | MASS   | RADIUS | PERIOD | ECC   | OMEGA | THZC  | THZO  | TEQA   | TEQB   | TEQC   | TEQD   |
