@@ -22,7 +22,7 @@
    1. `Habitable Zone Gallery <http://www.hzgallery.org/>`_
 
 
-宜居带内的行星列表： [#]_
+宜居带内的行星列表： [1]_
 
 +---------------+--------+--------+--------+-------+-------+-------+-------+--------+--------+--------+--------+
 | PLANET        | MASS   | RADIUS | PERIOD | ECC   | OMEGA | THZC  | THZO  | TEQA   | TEQB   | TEQC   | TEQD   |
@@ -435,4 +435,4 @@
 Refs & Notes
 --------------------
 
-1. 使用 `Tables Generator <http://www.tablesgenerator.com/text_tables>`_ 将 `Habitable Zone Gallery <http://www.hzgallery.org/>`_ 下载下来的 CSV 表格转换成的文字表格。
+.. [1] 使用 `Tables Generator <http://www.tablesgenerator.com/text_tables>`_ 将 `Habitable Zone Gallery <http://www.hzgallery.org/>`_ 下载下来的 CSV 表格转换成的文字表格。
