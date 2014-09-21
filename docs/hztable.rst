@@ -4,6 +4,7 @@
 宜居带（Habitable Zone），Wikipedia 的词条给的解释是，
 
    适居带（英语：circumstellar habitable zone, CHZ），是天文学上给一种空间的名称，指的是行星系中适合生命存在的区域。适居带中的情况有利于生命的发展，并且可能像地球般出现高等生命。有两种区域是有可能的，一个是在行星系内，另一个则存在于星系之中。在适合的区域内的行星和天然卫星是最佳的候选者，这些地球外的生命有能力生活在类似我们的环境下。天文学家相信生命最可能发生在像太阳系这样的星周盘适居带（CHZ）和大星系的星系适居带（GHZ） 内（虽然天文学家对后者的研究才刚开始）。适居带也许是指“生命带”、“绿带”或“古迪洛克带”（Goldilocks）。在我们的太阳系中，适居带为距离恒星0.99至1.70天文单位之间的区域。
+
    -- `宜居带@维基百科 <https://zh.wikipedia.org/wiki/%E9%81%A9%E5%B1%85%E5%B8%B6>`_
 
 
@@ -23,6 +24,22 @@
 
 
 宜居带内的行星列表： [1]_
+
+.. admonition:: 各列的意思
+
+   1. PlANET：对应的行星
+   2. MASS：行星的质量
+   3. RADIUS：行星半径
+   4. PERIOD：行星轨道公转周期
+   5. ECC：行星轨道的偏心率
+   6. OMEGA：行星轨道近心点幅角
+   7. THZC：行星轨道在 Conservative Habitable Zone 内相位的百分比
+   8. THZO：行星轨道在 Optimistic Habitable Zone 内相位的百分比
+   9. TEQA：Periastron, hot-dayside 模型的温度
+   10. TEQB：Periastron, well-mixed 模型的温度
+   11. TEQC：Apastron, hot-dayside 模型的温度
+   12. TEQD：Apastron, well-mixed 模型的温度
+
 
 +---------------+--------+--------+--------+-------+-------+-------+-------+--------+--------+--------+--------+
 | PLANET        | MASS   | RADIUS | PERIOD | ECC   | OMEGA | THZC  | THZO  | TEQA   | TEQB   | TEQC   | TEQD   |
