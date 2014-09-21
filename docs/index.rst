@@ -42,4 +42,5 @@
    detection.rst
    statistics.rst
    atmosphere.rst
+   hztable.rst
    fermi.rst
