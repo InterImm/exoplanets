@@ -14,7 +14,7 @@
 
 本文档由 `星际移民中心 <http://interimm.github.io/>`_ 维护。
 
-.. image:: _static/images/logo.jpg
+.. image:: _static/images/banner.png
    :align: center
 
 文档内容若无特殊说明使用 CC BY-SA 协议。
