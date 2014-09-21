@@ -28,17 +28,17 @@
 .. admonition:: 各列的意思
 
    1. PlANET：对应的行星
-   2. MASS：行星的质量
-   3. RADIUS：行星半径
-   4. PERIOD：行星轨道公转周期
+   2. MASS：行星的质量（单位：木星质量）
+   3. RADIUS：行星半径（单位：木星半径）
+   4. PERIOD：行星轨道公转周期（单位：天）
    5. ECC：行星轨道的偏心率
-   6. OMEGA：行星轨道近心点幅角
+   6. OMEGA：行星轨道近心点幅角（单位：°）
    7. THZC：行星轨道在 Conservative Habitable Zone 内相位的百分比
    8. THZO：行星轨道在 Optimistic Habitable Zone 内相位的百分比
-   9. TEQA：Periastron, hot-dayside 模型的温度
-   10. TEQB：Periastron, well-mixed 模型的温度
-   11. TEQC：Apastron, hot-dayside 模型的温度
-   12. TEQD：Apastron, well-mixed 模型的温度
+   9. TEQA：Periastron, hot-dayside 模型的温度（单位：开尔文）
+   10. TEQB：Periastron, well-mixed 模型的温度（单位：开尔文）
+   11. TEQC：Apastron, hot-dayside 模型的温度（单位：开尔文）
+   12. TEQD：Apastron, well-mixed 模型的温度（单位：开尔文）
 
 
 +---------------+--------+--------+--------+-------+-------+-------+-------+--------+--------+--------+--------+
