@@ -42,6 +42,7 @@
    detection.rst
    statistics.rst
    atmosphere.rst
+   hz.rst
    hztable.rst
    fermi.rst
    exoint.rst
