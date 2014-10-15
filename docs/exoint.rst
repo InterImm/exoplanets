@@ -9,7 +9,7 @@
    :class: note
    :name: kepler-10c
 
-   Kepler-10c】这颗“类地行星中的巨无霸”直径只有地球的2.3倍，质量却有地球的17倍还多，表面温度584K。Kepler-10c和它的小伙伴Kepler-10b（图中红色星球，被岩浆覆盖）绕着Kepler-10运行，距离地球570光年，被中心划为“最低移民价值”地外行星。
+   【Kepler-10c】这颗“类地行星中的巨无霸”直径只有地球的2.3倍，质量却有地球的17倍还多，表面温度584K。Kepler-10c和它的小伙伴Kepler-10b（图中红色星球，被岩浆覆盖）绕着Kepler-10运行，距离地球570光年，被中心划为“最低移民价值”地外行星。
 
    .. figure:: assets/exoint/kepler-10c.jpg
       :align: center
@@ -78,7 +78,13 @@
    :class: note
    :name: kepler-62e
 
-   Kepler-62e】所在的恒星系统有五颗行星，在天球上位于天琴座。比地球大六成，公转周期 122 天。发表在 ApJ 上的文章通过模拟证明该行星可能表面完全被海洋覆盖。地球相似指数为 0.83，很像地球，距离地球有 1200 光年。
+   【Kepler-62e】所在的恒星系统有五颗行星，在天球上位于天琴座。比地球大六成，公转周期 122 天。发表在 ApJ 上的文章通过模拟证明该行星可能表面完全被海洋覆盖。地球相似指数为 0.83，很像地球，距离地球有 1200 光年。
+
+   .. figure:: assets/exoint/Kepler-62f_with_62e_as_Morning_Star.jpg
+      :align: center
+
+      前景中的行星为 Kepler-62f，背景中的十字光芒的星为 Kepler-62e. Image Credit: `NASA Ames/JPL-Caltech <http://en.wikipedia.org/wiki/File:Kepler-62f_with_62e_as_Morning_Star.jpg>`_
+
 
    .. figure:: assets/exoint/Relative_sizes_of_all_of_the_habitable-zone_planets_discovered_to_date_alongside_Earth.jpg
       :align: center
@@ -86,11 +92,9 @@
       图中从左往右分别为 Kepler-62c, Kepler-62e, Kepler-62f. Image Credit: `NASA Ames/JPL-Caltech <http://en.wikipedia.org/wiki/File:Relative_sizes_of_all_of_the_habitable-zone_planets_discovered_to_date_alongside_Earth.jpg>`_
 
    
-   .. figure:: assets/exoint/Kepler-62f_with_62e_as_Morning_Star.jpg
-      :align: center
 
-      前景中的行星为 Kepler-62f，背景中的十字光芒的星为 Kepler-62e. Image Credit: `NASA Ames/JPL-Caltech <http://en.wikipedia.org/wiki/File:Kepler-62f_with_62e_as_Morning_Star.jpg>`_
 
+    
 
 
 
