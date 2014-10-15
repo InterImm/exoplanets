@@ -85,10 +85,11 @@
 
       图中从左往右分别为 Kepler-62c, Kepler-62e, Kepler-62f. Image Credit: `NASA Ames/JPL-Caltech <http://en.wikipedia.org/wiki/File:Relative_sizes_of_all_of_the_habitable-zone_planets_discovered_to_date_alongside_Earth.jpg>`_
 
+   
    .. figure:: assets/exoint/Kepler-62f_with_62e_as_Morning_Star.jpg
       :align: center
 
-      Kepler-62f，背景中的十字光芒的星为 Kepler-62e. Image Credit: `NASA Ames/JPL-Caltech <http://en.wikipedia.org/wiki/File:Kepler-62f_with_62e_as_Morning_Star.jpg>`_
+      前景中的行星为 Kepler-62f，背景中的十字光芒的星为 Kepler-62e. Image Credit: `NASA Ames/JPL-Caltech <http://en.wikipedia.org/wiki/File:Kepler-62f_with_62e_as_Morning_Star.jpg>`_
 
 
 
