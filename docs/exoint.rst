@@ -51,7 +51,7 @@
       :align: center
 
 
-.. admonition:: GJ 1214 b
+.. admonition:: GJ 1214b
    :class: note
    :name: gj-1214b
 
@@ -60,6 +60,17 @@
    .. figure:: assets/exoint/gj-1214b.jpg
       :align: center
 
+
+.. admonition:: Gliese 667 Cc
+   :class: note
+   :name: gliese-667-cc
+
+   【Gliese 667 Cc】这是一颗三体星系中的行星，身处宜居带，质量也仅为地球的 4.4 倍，由于距离恒星比较近（只有地球到太阳距离的 0.125 倍），其一年只有 28 天多一点。表面温度要比地球稍暖。ESI 指数：0.85，接近 1，很像地球。
+
+   .. figure:: assets/exoint/Gliese_667_Cc_sunset.jpg
+      :align: center
+
+      Image Credit: `ESO/L. Calçada <http://en.wikipedia.org/wiki/File:Gliese_667_Cc_sunset.jpg>`_ .
 
 
 
