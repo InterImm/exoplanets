@@ -44,3 +44,4 @@
    atmosphere.rst
    hztable.rst
    fermi.rst
+   exoint.rst
