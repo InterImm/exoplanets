@@ -10,7 +10,7 @@ exoplanets
 0. 系外行星文档
 1. 可视化
 2. exoplanets 与 Benfold's Law
-
+3. Immigration Value of a exoplanet
 
 
 ## 系外行星文档
@@ -55,3 +55,12 @@ More recent data of all exoplanets including unconfirmed ones,
 橙色是 exoplanet 质量，绿色是 Benford's Law 的理论值。比较接近。太奇怪。
 
 半径数据并不遵守此项定律。
+
+
+
+
+
+
+## Immigration Value of a exoplanet
+
+[A ipython notebook](http://nbviewer.ipython.org/github/InterImm/exoplanets/blob/master/codes/Value_of_Exoplanets.ipynb).
