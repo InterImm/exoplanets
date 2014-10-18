@@ -44,5 +44,6 @@
    atmosphere.rst
    hz.rst
    hztable.rst
+   viscat.rst
    fermi.rst
    exoint.rst
