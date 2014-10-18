@@ -107,6 +107,33 @@
       前景中的行星为 Kepler-62f，背景中的十字光芒的星为 Kepler-62e. Image Credit: `NASA Ames/JPL-Caltech <http://en.wikipedia.org/wiki/File:Kepler-62f_with_62e_as_Morning_Star.jpg>`_
 
 
+.. admonition:: HAT-P-11b / Kepler-3b
+   :class: note
+   :name: kepler-3b
+
+   【HAT-P-11b】一颗半径为地球 5 倍、质量为地球 26 倍的行星。虽然是一颗比海王星还要大的气态行星，但是上面却存在着晴朗的天空和水蒸气。温度可能高达 600 摄氏度。距离地球 122 光年，天球上位于天鹅座。
+
+   .. figure:: assets/exoint/Exoplanet_Comparison_HAT-P-11_b.png
+      :align: center
+
+      HAT-P-11b 或者称作 Kepler-3b 与海王星的比较。左为海王星。`图片作者 Aldaron <https://commons.wikimedia.org/wiki/File:Exoplanet_Comparison_HAT-P-11_b.png>`_
+
+
+
+   .. figure:: assets/exoint/hat-p-11b.jpg
+      :align: center
+
+      艺术想象图。`Image Credit: NASA/JPL-Caltech <http://www.nasa.gov/press/2014/september/nasa-telescopes-find-clear-skies-and-water-vapor-on-exoplanet/>`_
+
+
+
+   .. figure:: assets/exoint/hat-p-11b-water.jpg
+      :align: center
+
+      艺术想象图。`Image Credit: NASA/JPL-Caltech <http://www.nasa.gov/press/2014/september/nasa-telescopes-find-clear-skies-and-water-vapor-on-exoplanet/>`_
+
+
+
    
 .. admonition:: More
    :class: note
