@@ -17,7 +17,7 @@
 1988 年，Campbell, B., Walker, G. A. H., & Yang, S. 在 Astrophysical Journal 上面发表了一篇题为 `A search for substellar companions to solar-type stars <http://adsbit.harvard.edu/cgi-bin/nph-iarticle_query?bibcode=1988ApJ...331..902C>`_ [0]_ 的文章，文章使用 radial velocity 的方法发现恒星异常，只是文章说的很保守，"these low-mass objects could represent the tip of the planetary mass spectrum". 直到 2003 年，Artie P. 等人才使用 4 组不相关的数据来验证了这颗行星的发现（`论文 <http://arxiv.org/abs/astro-ph/0305110>`_）。这样我们可以说，第一颗系外行星，其实是在 1988 年就看到了。
 
 
-1995 年，人们确认了第一颗围绕主序星运动的系外行星，名为 `51 Pegasi <http://en.wikipedia.org/wiki/51_Pegasi>`_ 。
+1995 年，人们确认了第一颗围绕主序星运动的系外行星，名为 `51 Pegasi b <http://en.wikipedia.org/wiki/51_Pegasi>`_ 。
 
 .. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/51_Pegasi_b_v3.jpg/640px-51_Pegasi_b_v3.jpg
    :alt: center
