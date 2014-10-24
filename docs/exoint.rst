@@ -134,6 +134,17 @@
 
 
 
+.. admonition:: Gliese 832c
+   :class: note
+   :name: gliese-832c
+
+   【Gliese 832c】 一颗非常像地球的行星（ESI 0.81），是地球质量的 5.4 倍，公转周期大约 36 天。表面平均温度 -40到7摄氏度。围绕一颗红矮星公转，尚未确认大气存在。
+
+   .. figure:: assets/exoint/Gj832c.png
+      :align: center
+
+      Gliese 832c 想象图。来源：`File:Gj832c.png @ Wikipedia <https://en.wikipedia.org/wiki/File:Gj832c.png>`_
+
    
 .. admonition:: More
    :class: note
