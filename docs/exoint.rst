@@ -146,6 +146,25 @@
       Gliese 832c 想象图。来源：`File:Gj832c.png @ Wikipedia <https://en.wikipedia.org/wiki/File:Gj832c.png>`_
 
    
+.. admonition:: Tau Ceti e
+   :class: note
+   :name: tau-ceti-e
+
+   #系外行星档案# 【Tau Ceti e】一颗距离地球仅有不到12光年的行星，质量为地球的4.3倍，围绕天仓五运行。由于靠近宜居带内侧，接收到更多的太阳光，因此会比地球更热，表面平均温度在70°。所在的恒星系统至少有五颗行星。
+
+
+   .. figure:: assets/exoint/HEC_HD10700e.jpg
+      :align: center
+
+      Tau Ceti e 艺术想象图。图源：`PHL <http://phl.upr.edu/press-releases/twonearbyhabitableworlds>`_
+
+
+   .. figure:: assets/exoint/HEC_HD10700ef_Comparison.jpg
+      :align: center
+
+      图源：`PHL <http://phl.upr.edu/press-releases/twonearbyhabitableworlds>`_
+
+   
 .. admonition:: More
    :class: note
    :name: more
