@@ -1,0 +1,456 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>系外行星的探测 &mdash; Exoplanets 3.14 documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="Exoplanets 3.14 documentation" href="index.html"/>
+        <link rel="next" title="系外行星统计结果" href="statistics.html"/>
+        <link rel="prev" title="天体轨道理论" href="orbits.html"/> 
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+          <a href="index.html" class="fa fa-home"> Exoplanets</a>
+        
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">我们的征途——系外行星</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#id6">什么是系外行星</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#id10">系外行星观测手段</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#id15">系外行星数据</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#id19">系外行星数据可视化</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#id20">未完</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="orbits.html">天体轨道理论</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="orbits.html#id2">开普勒定律</a></li>
+<li class="toctree-l2"><a class="reference internal" href="orbits.html#id7">开普勒三定律与系外行星探测</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">系外行星的探测</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">径向速度法</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">天体测量学</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">直接影像</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id7">凌日法</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id13">微引力透镜</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id15">参考及尾注</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="statistics.html">系外行星统计结果</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="statistics.html#id2">行星质量-距离-半径</a></li>
+<li class="toctree-l2"><a class="reference internal" href="statistics.html#id12">行星的轨道特征和星系的结构</a></li>
+<li class="toctree-l2"><a class="reference internal" href="statistics.html#id19">参考及尾注</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="atmosphere.html">行星大气</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="atmosphere.html#id2">基础知识</a></li>
+<li class="toctree-l2"><a class="reference internal" href="atmosphere.html#id6">区分恒星光谱和行星光谱</a></li>
+<li class="toctree-l2"><a class="reference internal" href="atmosphere.html#id14">参考及尾注</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="hz.html">宜居性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hztable.html">宜居带行星列表</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="hztable.html#id3">宜居带内行星列表</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hztable.html#refs-notes">Refs &amp; Notes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="viscat.html">系外行星的分类和可视化</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="viscat.html#id2">系外行星周期表</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="fermi.html">费米悖论——他们在哪里</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="fermi.html#david-brin-great-silence">David Brin 的 Great Silence</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fermi.html#id3">刘慈欣的黑暗森林</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fermi.html#randall-munroe-xkcd-fish">Randall Munroe (xkcd) 的 Fish</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fermi.html#bezsudnov-snarskii">Bezsudnov 和 Snarskii 的智慧扩张模型</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="exoint.html">有趣的档案</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exoint.html#refs-notes">Refs &amp; Notes</a></li>
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">Exoplanets</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>系外行星的探测</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          <a href="_sources/detection.txt" rel="nofollow"> View page source</a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="id1">
+<h1>系外行星的探测<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p>系外行星的探测方法有两大类，直接探测和间接探测。</p>
+<div class="section" id="id2">
+<h2>径向速度法<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>在之前的理论的讨论中，我们提到了轨道平面不一定平行于我们的视线。</p>
+<div class="figure align-center">
+<img alt="投影平面" src="_images/tiltedOrbitPlane.png" />
+<p class="caption">轨道平面有个倾角 <span class="math">\(i\)</span>。</p>
+</div>
+<p>原则上说只要轨道平面不是垂直于我们的视线，我们就可以观测到恒星在行星的作用下的前后摆动，即恒星有径向的速度变化。</p>
+<p>恒星在我们的视线方向的运动速度是</p>
+<div class="math">
+\[\begin{split}v_{rad} &amp;= k\left( \cos(\Lambda(t))+e\cos\omega \right) \\
+k &amp; = \frac{2\pi a_1\sin i}{P\sqrt{1-e^2}}\end{split}\]</div>
+<p>其中的 <span class="math">\(k\)</span> 是径向运动的幅值，也是我们最关心的部分。而从上图可以看出 <span class="math">\(i\)</span> 是轨道的倾角，当然倾角越大，径向运动越明显。</p>
+<p>在实际的观测中，周期是容易获得的量，而半长轴并不是。不过我们可以通过开普勒丁三定律把径向运动的幅值跟天体的质量联系起来，</p>
+<div class="math">
+\[k =C \frac{2\pi m_2 \sin i}{P^{1/3} (m_1+m_2)^{2/3}\sqrt{1-e^2}}.\]</div>
+<p>这样我们可以看出，行星的质量越大，恒星质量越小，周期越短，轨道的偏心率越大，能够观测的径向速度幅值越大。不过值得注意的是，只要我们能够看到恒星，这种方法跟我们和恒星的距离无关，是一种普适性比较好的方法。</p>
+<p>对于太阳来说，我们可以看几个例子 <a class="footnote-reference" href="#id16" id="id3">[1]</a> ，</p>
+<div class="figure align-center">
+<img alt="太阳的径向运动" src="_images/radialVelocitySolar.png" />
+<p class="caption">这张图表给出了以太阳为例，不同质量的天体在不同的轨道半径的地方所引起的太阳的径向运动的数值。可见这都是些很小的数值。</p>
+</div>
+<p>下面的问题是，这些径向运动都这么小，我们如何探测恒星的这种径向运动呢？</p>
+<div class="figure align-center">
+<img alt="_images/raidalSpectrumESO1035g.gif" src="_images/raidalSpectrumESO1035g.gif" />
+<p class="caption">恒星的运动带来的光谱变化。视频：<a class="reference external" href="assets/detection/raidalSpectrumESO1035g.m4v">raidalSpectrumESO1035g.m4v</a> 。来源：<a class="reference external" href="http://www.eso.org/public/usa/videos/eso1035g/">The radial velocity method for finding exoplanets | ESO</a></p>
+</div>
+<p>HARPS 的光谱测量可以达到 1 m/s 的径向速度测量精度。而这要求仪器能够测量 15 纳米的波长变化，或者说要去能够测量 1/1000 的 CCD 上的单像素上的变化。这样也就需要我们把仪器的温度降低到足够低，使得热涨落降低到不影响我们测量的程度。</p>
+<p>然而，径向速度法所遇到的困难是，因为恒星在长时间上会有一些活动，从而导致光谱的变化，所以这种方法在测量长周期的天体的时候，需要考虑到恒星本身的变化。</p>
+</div>
+<div class="section" id="id4">
+<h2>天体测量学<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>天体测量学（Astrometry）是测量天体位置的一个天文学分支。我们之前看到过我们的太阳其实一直在变动位置。</p>
+<img alt="_images/Solar_System_Barycenter_2000-2050.png" class="align-center" src="_images/Solar_System_Barycenter_2000-2050.png" />
+<p>那么，如果我们能够时刻监测恒星的位置，我们就可以推导出行星的状况。</p>
+<p>理论上来说，我们的测量需要能够精确的分辨出的一个很大的距离上的变化。一颗距离我们 <span class="math">\(d\)</span> （单位：秒差距）的恒星，距离的变化最大为长轴的长度 <span class="math">\(2a_1\)</span>。也就是说，量化之后，需要能够分辨如下一个份数（乘坐 astrometric signature）。</p>
+<div class="math">
+\[\alpha_1 = \frac{a_1}{d} = \frac{m_2}{d}\left(\frac{P}{m_1+m_2}\right)^{2/3}.\]</div>
+<p>实际的测量中，我们可以获得周期 <span class="math">\(P\)</span>，恒星距离我们的距离 <span class="math">\(d\)</span> 也可以测得，如果我们知道这个 astrometric signature，那么我们就可以获得两个质量的关系。实际上恒星的质量可以推算出来，所以我们就可以得知行星的质量。</p>
+<p>因为行星的质量常常远远小于恒星的质量，<span class="math">\(m_2\ll m_1\)</span>，</p>
+<div class="math">
+\[m_2 = \alpha_1 d \left(\frac{m_1}{m_2}\right)^{2/3}\]</div>
+<p>可以看到对于长周期的情况，astrometric signature 更大，也就更容易测量。</p>
+<div class="note admonition">
+<p class="first admonition-title">证明</p>
+<p>这里我们可以使用泰勒展开来获得 <span class="math">\(m_2\ll m_1\)</span> 的情况下的公式。</p>
+<p>我们知道 <span class="math">\(1/(1+m_2/m_1)\approx 1\)</span>，所以 astrometric signature 的式子可以简化成，</p>
+<div class="last math">
+\[\alpha_1 = \frac{m_2}{d} \left(\frac{P}{m_1}\right)^{2/3}.\]</div>
+</div>
+<p>为了有些数值上的经验，下图是几个例子。<a class="footnote-reference" href="#id16" id="id5">[1]</a></p>
+<img alt="_images/astrometrySolar.png" class="align-center" src="_images/astrometrySolar.png" />
+<p>天体测量学方法的问题是，我们需要测量非常非常小的角度。而且，越远的恒星，astrometric signature 就越小，越难测量，所以这是一种跟恒星距离有关的测量方法。但是这种方法的特点是，对于长周期的情况，这种方法会越准确，越容易测量。恰好跟径向速度方法构成互补。</p>
+<div class="figure align-center">
+<img alt="_images/Gaia_spacecraft.jpg" src="_images/Gaia_spacecraft.jpg" />
+<p class="caption">来源：Wikipedia <a class="reference external" href="https://en.wikipedia.org/wiki/File:Gaia_spacecraft.jpg">File:Gaia spacecraft.jpg</a></p>
+</div>
+<p>ESA 发射了 <a class="reference external" href="http://www.esa.int/spaceinvideos/Videos/2013/12/Inside_Gaia_s_billion-pixel_camera">GAIA 卫星</a> ，用来精确测量距离并且探测巨行星。以下视频来自 <a class="reference external" href="http://www.esa.int/spaceinvideos/Videos/2013/12/Inside_Gaia_s_billion-pixel_camera">ESA</a> .</p>
+<iframe src="http://www.esa.int/spaceinvideos/content/view/embedjw/424168" width="640" height="360" frameborder="0"></iframe></div>
+<div class="section" id="id6">
+<h2>直接影像<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center">
+<img alt="_images/directImaging.jpg" src="_images/directImaging.jpg" />
+<p class="caption">直接影像法。来源：Wikipedia <a class="reference external" href="https://zh.wikipedia.org/wiki/File:444226main_exoplanet20100414-a-full.jpg">File:444226main exoplanet20100414-a-full.jpg</a></p>
+</div>
+<p>由于行星反射的光子太少，加上恒星的掩盖，直接拍摄行星的影像非常困难。然而通过一些技术手段，这是可以做到的，而且这种方法的优点也很显著。</p>
+<p>相比于之前的天体测量学方法，这种方法需要测量的角度就不需要那么小了，因为我们现在是在测量行星的轨道，而不是恒星的。</p>
+<p>然而，想要直接看到行星，我们需要一个大口径的望远镜，而大口径的望远镜受到大气扰动的影响就越大。解决这个问题的方式是使用 adaptive optics. 下面来自 <a class="reference external" href="http://www.eso.org/public/videos/adaptiveopticsandmask/">ESO</a> 的视频清楚的展示了大气扰动的问题和自适应光学方法的效果。</p>
+<div id='flashplayer'>Loading player...</div><script type='text/javascript' src='http://www.eso.org/public/archives/djangoplicity/shadowbox3/libraries/mediaplayer5/jwplayer.js'></script><script type='text/javascript'>var sdfile = 'http://www.eso.org/public/archives/videos/medium_flash/adaptiveopticsandmask.flv';var imagefile = 'http://www.eso.org/public/archives/videos/videoframe/adaptiveopticsandmask.jpg';var flashsrc = 'http://www.eso.org/public/archives/djangoplicity/shadowbox3/libraries/mediaplayer5/player.swf';var sharelink = 'http://www.eso.org/public/videos/adaptiveopticsandmask/';var sharecode = '';var gaid = 'UA-1965004-1';var ipadfile = 'http://www.eso.org/public/archives/videos/medium_podcast/adaptiveopticsandmask.m4v';var mobilefile = 'http://www.eso.org/public/archives/videos/medium_podcast/adaptiveopticsandmask.m4v';var hdfile = 'http://www.eso.org/public/archives/videos/hd_and_apple/adaptiveopticsandmask.m4v';;</script><script type='text/javascript' src='http://www.eso.org/public/archives/djangoplicity/js/videoembed.js'></script></div>
+<div class="section" id="id7">
+<h2>凌日法<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<p>利用行星对恒星光源的遮挡，我们可以探测行星。</p>
+<p>一个非常好的理解凌日现象的例子是金星凌日：</p>
+<div class="figure align-center">
+<img alt="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/NASA%27s_SDO_Satellite_Captures_First_Image_of_2012_Venus_Transit_%28Full_Disc%29.jpg/768px-NASA%27s_SDO_Satellite_Captures_First_Image_of_2012_Venus_Transit_%28Full_Disc%29.jpg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/NASA%27s_SDO_Satellite_Captures_First_Image_of_2012_Venus_Transit_%28Full_Disc%29.jpg/768px-NASA%27s_SDO_Satellite_Captures_First_Image_of_2012_Venus_Transit_%28Full_Disc%29.jpg" />
+<p class="caption">来源：Wikipedia: <a class="reference external" href="https://en.wikipedia.org/wiki/File:NASA%27s_SDO_Satellite_Captures_First_Image_of_2012_Venus_Transit_(Full_Disc).jpg">File:SDO Satellite Captures First Image of 2012 Venus Transit</a></p>
+</div>
+<p>为了看得更明白些，我们看看下面这张 gif 图片：</p>
+<div class="figure align-center">
+<img alt="https://upload.wikimedia.org/wikipedia/commons/8/82/Astronomical_Transit.gif" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Astronomical_Transit.gif" />
+<p class="caption">来源：Wikipedia: <a class="reference external" href="https://en.wikipedia.org/wiki/File:Astronomical_Transit.gif">File:Astronomical Transit.gif</a></p>
+</div>
+<p>这样当恒星被行星遮挡的时候，我们就会看到恒星的亮度有个降低，因为行星的遮挡是周期性的，我们可以看到周期性的亮度曲线的降低。</p>
+<div class="figure align-center">
+<img alt="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Planetary_transit.svg/800px-Planetary_transit.svg.png" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Planetary_transit.svg/800px-Planetary_transit.svg.png" />
+<p class="caption">来源：Wikipedia: <a class="reference external" href="https://commons.wikimedia.org/wiki/File:Planetary_transit.svg">File:Planetary transit.svg</a></p>
+</div>
+<p><strong>一个需要考虑的问题是，系外行星中，我们能够观测到的这种现象需要什么条件呢？</strong></p>
+<p>倘若轨道平面的法向正对我们，那么我们是没法在地球这边观测到的。</p>
+<div class="figure align-center">
+<img alt="_images/exoplanetsTransitNonTrasit.png" src="_images/exoplanetsTransitNonTrasit.png" />
+<p class="caption">来源：<a class="reference external" href="http://lcogt.net/spacebook/transit-method">LCOGT</a></p>
+</div>
+<p>假设所有行星的轨道平面是随机分布的，那么我们观测能够观测到一个行星凌日的概率是跟以下几个因素相关的：</p>
+<ol class="arabic simple">
+<li>行星的大小。行星越大，对恒星的遮挡越大。</li>
+<li>恒星的大小。恒星越大，同样大小的行星对它的遮挡越小。</li>
+<li>行星距离恒星的距离。行星距离恒星越近，对于一定距离外的观测者，观测到的可能性越大。</li>
+<li>行星的周期。行星的周期太长，我们可能不能等到完成一个周期的观测。</li>
+</ol>
+<div class="figure align-center">
+<img alt="_images/shadowZone.png" src="_images/shadowZone.png" />
+<p class="caption">来源：Winn et al. 2010. 如果我们正好在行星形成的阴影区中，我们就能看到。否则我们没法看到。</p>
+</div>
+<p>这样我们实际上可以计算我们看到凌日的概率，</p>
+<div class="math">
+\[P_{tra}= \left(\frac{R_{S}\pm R_p}{a}\right) \left( \frac{1+e \sin\omega}{1-e^2} \right)\]</div>
+<p>这里面 <span class="math">\(a\)</span> 是半长轴，<span class="math">\(R_{S}\)</span> 和 <span class="math">\(R_p\)</span> 分别是恒星和行星的半径，<span class="math">\(e\)</span> 是轨道偏心率。</p>
+<p>一个值得注意的是，即便第一项很小，轨道的偏心率足够大的话，我们可以将概率提高很多倍。因此实际上这种方法要比一开始想象的要实用的多。只需要一台小望远镜，我们也能够发现这种现象。</p>
+<p>设想如果行星的大小跟恒星的大小差不多，这样我们可以几乎观测到一个完成想“日食”。而且如果轨道半径足够短，这种日蚀的的周期也会足够短，更容易被观测到。因此，凌日法对于 hot jupters 的观测来说，是一种非常强大的方法。</p>
+<div class="section" id="id8">
+<h3>一般讨论<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<p>我们可以通过观察凌日光变曲线来精确的计算很多系统的属性。</p>
+<div class="figure align-center">
+<img alt="_images/transitInTime.png" src="_images/transitInTime.png" />
+<p class="caption">行星进入完全凌日状态的时间和退出时间可以从光变曲线读取出来，然后我们可以计算出真正的凌日时间。</p>
+</div>
+<p>在观测中，一个非常重要的量是光通量比，</p>
+<div class="math">
+\[f(t) = F(t)/F_S\]</div>
+<p>也就是我们计算光通量的相对变化。</p>
+<p>影响光变曲线的的因素很多，比较重要的几个有：</p>
+<ol class="arabic">
+<li><p class="first">行星的反射光</p>
+<p>考虑到行星也会反射光，所以不同相位的行星会对总的通量有个影响，会形成一个类似正弦曲线的曲线。</p>
+<div class="figure align-center">
+<img alt="_images/transitPlanetPhase.png" src="_images/transitPlanetPhase.png" />
+<p class="caption">来源：<a class="reference external" href="http://arxiv.org/abs/1402.1169">Exoplanetary Atmospheres</a></p>
+</div>
+</li>
+<li><p class="first">观测的波长</p>
+</li>
+<li><p class="first">恒星并不是一个圆盘，而是一个流动的圆球。<a class="footnote-reference" href="#id19" id="id9">[3]</a></p>
+</li>
+</ol>
+</div>
+<div class="section" id="id10">
+<h3>计算行星系统参数<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<p>我们想要获得的信息包括：</p>
+<ol class="arabic simple">
+<li>行星的密度</li>
+<li>行星的轨道的参数，包括半长轴，偏心率，周期</li>
+</ol>
+<p>这些都是可以计算的参数。例如轨道的偏心率，因为我们有关于凌日的公式：</p>
+<ol class="arabic">
+<li><p class="first">除去行星的凌日过程和隐藏（occultation）时间</p>
+<div class="math">
+\[\Delta t_c \approx \frac{P}{2}\left( 1+\frac{4}{\pi}e\cos\omega \right)\]</div>
+</li>
+<li><p class="first">行星的凌日时间和隐藏时间的比值</p>
+<div class="math">
+\[\frac{T_{occ}}{T_{tra}}\approx \frac{1+e\sin\omega}{1-e\sin\omega}\]</div>
+</li>
+</ol>
+<p>这样我们就可以计算偏心率了。</p>
+</div>
+<div class="section" id="id11">
+<h3>如何确认一颗行星<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<p>凌日现象可能有其他因素造成的，例如</p>
+<ol class="arabic simple">
+<li>双星系统，transiting stellar object</li>
+<li>背景中可能的星蚀</li>
+<li>跟一颗恒星在光学上相隔很近的一个行星系统发生凌日</li>
+</ol>
+<p>所以需要通过对光变曲线和它的噪音的研究，排除这些可能性，才能进一步提高置信度。</p>
+</div>
+<div class="section" id="id12">
+<h3>实际观测<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><a class="reference external" href="http://www.superwasp.org">SUPERWASP</a> 口径很小，只有 11 厘米，目的并不是获得足够清晰的图像，而是获取光变曲线，所以并不需要大口径的望远镜。</li>
+<li><a class="reference external" href="http://kepler.nasa.gov/">KEPLER</a> 口径要大得多。Kepler 可以获得比较小的行星的光变曲线。而且 Kepler 的观测周期已经有 5 年了，所以它获取的数据可以进行自洽性确认，并且可以观测到较长的周期的行星。</li>
+</ol>
+<p>现在的不同的项目已经能够覆盖从地球质量以上的行星了，</p>
+<div class="figure align-center">
+<img alt="_images/massRangeDetected.png" src="_images/massRangeDetected.png" />
+<p class="caption">红色区域是我们能够探测的区域。</p>
+</div>
+</div>
+</div>
+<div class="section" id="id13">
+<h2>微引力透镜<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h2>
+<p>前面这两种方法有个很大的缺陷，就是对于长周期的行星的观测几乎无能无力，除非我们能够做几个世纪的观测，显然对现在而言，这是不现实的。另外，对于距离恒星太远的行星，对于恒星的光谱扰动太小，极不容易观测。所以我们需要另外的完全不同的方法。</p>
+<p>引力的时空几何，所以跟所有的运动耦合，因此可以影响物质的运动，包括光。</p>
+<div class="figure align-center">
+<img alt="_images/400px-Gravitational_micro_rev.svg.png" src="_images/400px-Gravitational_micro_rev.svg.png" />
+<p class="caption">光线在引力的作用下弯曲。来源：<a class="reference external" href="https://commons.wikimedia.org/wiki/File:Gravitational_micro_rev.svg">Wiki Commons</a></p>
+</div>
+<p>无限远来的光线在引力的作用下弯曲之后，到达无限远处时，与原来入射光线的偏角是可以由下式计算的（一阶近似），</p>
+<div class="math">
+\[\theta=\frac{4GM}{rc^2},\]</div>
+<p>这里的 <span class="math">\(M\)</span> 是引力源天体的质量，<span class="math">\(r\)</span> 是散射参数，即引力源天体中心距离入射光线的距离。</p>
+<p>一个实际的例子是这样的：</p>
+<div class="figure align-center">
+<img alt="_images/800px-A_Horseshoe_Einstein_Ring_from_Hubble.JPG" src="_images/800px-A_Horseshoe_Einstein_Ring_from_Hubble.JPG" />
+</div>
+<p>那么微引力透镜是什么思路呢？我们可以观测夜空，如果一个行星在某个光源和我们之间，这颗行星就可以对光源传来的光线造成微引力透镜效应。就我们银河系而言，我们可以朝着银河系中心看，因为那里的恒星的数密度比较大，也就是在背景星空上恒星更密集，对应于有更大的几率发现一颗行星对某恒星的光线产生影响，形成微引力透镜效应。</p>
+<p>当然，这里有个问题，我们先看一眼银河系的可见光图片，</p>
+<div class="figure">
+<img alt="_images/1280px-ESO-VLT-Laser-phot-33a-07.jpg" class="note" src="_images/1280px-ESO-VLT-Laser-phot-33a-07.jpg" />
+<p class="caption">来源：<a class="reference external" href="https://en.wikipedia.org/wiki/File:ESO-VLT-Laser-phot-33a-07.jpg">Wikipedia</a></p>
+</div>
+<p>可以看到银河系平面上因为被尘埃遮挡从而变得比较暗。因此一个比较好的策略是，朝向银河系平面稍稍上方的地方观测。</p>
+<p>稍作估算，天文学家发现，如果要发现一个行星，大致需要望远镜的叫分辨率达到 <span class="math">\(3.1\times 10^{-5}\)</span> arsec 才可以分辨这种引力透镜图像，这要比哈勃望远镜的叫分辨率还要高的多。所以直接看到图像太困难了。所以大家想到了另外一种非常巧妙的方法。</p>
+<p>假设我们的背景恒星和地球之间有一颗行星，那么恒星的光线经过行星的时候会发生偏折。这样造成我们在地球轨道的不同位置，接收到的光子数不同，也就是说背景恒星的亮度在不同的季节是不同的。通过观察这种变化，我们就可以找到行星的候选。实际操作中，我们可以看到甚至几天之内的变化，即便我们会受到太阳光线变化的影响。</p>
+<p>另外，由于行星绕着主恒星运动，背景恒星的运动，也会造成的微引力透镜随着时间变化，</p>
+<div class="figure align-center">
+<img alt="_images/hs-2012-07-b-web_print.jpg" src="_images/hs-2012-07-b-web_print.jpg" />
+<p class="caption">来源：<a class="reference external" href="http://blogs.scientificamerican.com/life-unbounded/2012/03/07/gravitational-mesolensing-and-the-hunt-for-exoplanet/">Scientific American</a></p>
+</div>
+<p>我们实际上看到的变化是之前提到的地球位置变化和上面这两种的结合。</p>
+</div>
+<div class="section" id="id15">
+<h2>参考及尾注<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h2>
+<table class="docutils footnote" frame="void" id="id16" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[1]</td><td><em>(<a class="fn-backref" href="#id3">1</a>, <a class="fn-backref" href="#id5">2</a>)</em> 来自 <a class="reference external" href="https://class.coursera.org/extrasolarplanets-001">Coursera 的 The Diversities of Exoplanets</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id17" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[2]</td><td>在 <a class="reference external" href="https://class.coursera.org/extrasolarplanets-001">Coursera 的 The Diversities of Exoplanets</a> 的第三周的课程中，有一个很生动的演示。</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id19" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id9">[3]</a></td><td>Rossiter MacLaughlin effect.</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="statistics.html" class="btn btn-neutral float-right" title="系外行星统计结果">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="orbits.html" class="btn btn-neutral" title="天体轨道理论"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2014, Interplanetary Immigration Center.
+    </p>
+  </div>
+
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'3.14',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
