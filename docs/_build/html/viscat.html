@@ -1,0 +1,282 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>系外行星的分类和可视化 &mdash; Exoplanets 3.14 documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="Exoplanets 3.14 documentation" href="index.html"/>
+        <link rel="next" title="费米悖论——他们在哪里" href="fermi.html"/>
+        <link rel="prev" title="宜居带行星列表" href="hztable.html"/> 
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+          <a href="index.html" class="fa fa-home"> Exoplanets</a>
+        
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">我们的征途——系外行星</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#id6">什么是系外行星</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#id10">系外行星观测手段</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#id15">系外行星数据</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#id19">系外行星数据可视化</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#id20">未完</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="orbits.html">天体轨道理论</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="orbits.html#id2">开普勒定律</a></li>
+<li class="toctree-l2"><a class="reference internal" href="orbits.html#id7">开普勒三定律与系外行星探测</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="detection.html">系外行星的探测</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="detection.html#id2">径向速度法</a></li>
+<li class="toctree-l2"><a class="reference internal" href="detection.html#id4">天体测量学</a></li>
+<li class="toctree-l2"><a class="reference internal" href="detection.html#id6">直接影像</a></li>
+<li class="toctree-l2"><a class="reference internal" href="detection.html#id7">凌日法</a></li>
+<li class="toctree-l2"><a class="reference internal" href="detection.html#id13">微引力透镜</a></li>
+<li class="toctree-l2"><a class="reference internal" href="detection.html#id15">参考及尾注</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="statistics.html">系外行星统计结果</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="statistics.html#id2">行星质量-距离-半径</a></li>
+<li class="toctree-l2"><a class="reference internal" href="statistics.html#id12">行星的轨道特征和星系的结构</a></li>
+<li class="toctree-l2"><a class="reference internal" href="statistics.html#id19">参考及尾注</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="atmosphere.html">行星大气</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="atmosphere.html#id2">基础知识</a></li>
+<li class="toctree-l2"><a class="reference internal" href="atmosphere.html#id6">区分恒星光谱和行星光谱</a></li>
+<li class="toctree-l2"><a class="reference internal" href="atmosphere.html#id14">参考及尾注</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="hz.html">宜居性</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hztable.html">宜居带行星列表</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="hztable.html#id3">宜居带内行星列表</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hztable.html#refs-notes">Refs &amp; Notes</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">系外行星的分类和可视化</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">系外行星周期表</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="fermi.html">费米悖论——他们在哪里</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="fermi.html#david-brin-great-silence">David Brin 的 Great Silence</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fermi.html#id3">刘慈欣的黑暗森林</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fermi.html#randall-munroe-xkcd-fish">Randall Munroe (xkcd) 的 Fish</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fermi.html#bezsudnov-snarskii">Bezsudnov 和 Snarskii 的智慧扩张模型</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="exoint.html">有趣的档案</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exoint.html#refs-notes">Refs &amp; Notes</a></li>
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">Exoplanets</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>系外行星的分类和可视化</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          <a href="_sources/viscat.txt" rel="nofollow"> View page source</a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="id1">
+<h1>系外行星的分类和可视化<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id2">
+<h2>系外行星周期表<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>PHL 的 Habitable Exoplanets Catalog 里面有个分类方法是将系外行星按照轨道分为 Hot Zone, Habitale Zone, Cold Zone. 另外按照行星的状态分为 Mercurians, Subterrans, Terrans, Superterrans, Neptunians 和 Jovians.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="25%" />
+<col width="32%" />
+<col width="22%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>分类</td>
+<td>太阳系举例</td>
+<td>质量（地球质量为1）</td>
+<td>描述</td>
+</tr>
+<tr class="row-even"><td>Mercurians</td>
+<td>水星，月球</td>
+<td>10^-5 ~ 0.1</td>
+<td>小质量、球形</td>
+</tr>
+<tr class="row-odd"><td>Subterrans</td>
+<td>火星</td>
+<td>0.1 ~ 0.5</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Terrans</td>
+<td>地球，金星</td>
+<td>0.5 ~ 2</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Superterrans</td>
+<td>&nbsp;</td>
+<td>2 ~ 10</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Neptunians</td>
+<td>天文星，海王星</td>
+<td>10 ~ 50</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Jovians</td>
+<td>木星，土星</td>
+<td>&gt;50</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<div class="figure align-center">
+<img alt="_images/PT_Confirmed.jpg" src="_images/PT_Confirmed.jpg" />
+<p class="caption">图片来自：<a class="reference external" href="http://phl.upr.edu/projects/habitable-exoplanets-catalog/media/pte">PHL</a>  CREDIT: PHL &#64; UPR Arecibo.</p>
+</div>
+<div class="figure align-center">
+<img alt="_images/PT_Kepler.jpg" src="_images/PT_Kepler.jpg" />
+</div>
+<div class="figure align-center">
+<img alt="_images/PT_Solar_System.jpg" src="_images/PT_Solar_System.jpg" />
+</div>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="fermi.html" class="btn btn-neutral float-right" title="费米悖论——他们在哪里">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="hztable.html" class="btn btn-neutral" title="宜居带行星列表"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2014, Interplanetary Immigration Center.
+    </p>
+  </div>
+
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'3.14',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
