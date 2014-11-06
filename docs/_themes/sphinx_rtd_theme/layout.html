@@ -77,6 +77,8 @@
 
 <body class="wy-body-for-nav" role="document">
 
+<div>ACDs</div>
+
   <div class="wy-grid-for-nav">
 
     {# SIDE NAV, TOGGLES ON MOBILE #}
@@ -84,6 +86,9 @@
       <div class="wy-side-nav-search">
         {% block sidebartitle %}
           <a href="{{ pathto(master_doc) }}" class="fa fa-home"> {{ project }}</a>
+        {% endblock %}
+        {% block orginfo %}
+          <p>由 <a href="http://interimm.org" class="fa fa-rocket">星际移民中心</a> 提供。</p>
         {% endblock %}
         {% include "searchbox.html" %}
       </div>
