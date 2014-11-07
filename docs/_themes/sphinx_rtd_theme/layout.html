@@ -73,22 +73,39 @@
   {# Keep modernizr in head - http://modernizr.com/docs/#installing #}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
+
+
 </head>
 
 <body class="wy-body-for-nav" role="document">
 
-<div>ACDs</div>
+
+
+<div id='cssmenu' class='align-center'>
+<ul>
+   <li><a href='http://interimm.org'><span>星际移民中心首页</span></a></li>
+   <li><a href='#'><span>星海航纪</span></a></li>
+   <li class='active' style="background:white;"><a href='#' style="color:black;"><span>系外行星</span></a></li>
+   <li><a href='#'><span>星际移民之书</span></a></li>
+   <li><a href='#'><span>微博</span></a></li>
+   <li class='has-sub last'><a href='#'><span>其他</span></a>
+      <ul>
+         <li><a href='http://interimm.org/toolbox.html'><span>工具箱</span></a></li>
+         <li class='last'><a href='http://interimm.org/ip/index.html'><span>星际机构</span></a></li>
+      </ul>
+   </li>
+</ul>
+</div>
+
 
   <div class="wy-grid-for-nav">
 
     {# SIDE NAV, TOGGLES ON MOBILE #}
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-nav-search">
+
         {% block sidebartitle %}
-          <a href="{{ pathto(master_doc) }}" class="fa fa-home"> {{ project }}</a>
-        {% endblock %}
-        {% block orginfo %}
-          <p>由 <a href="http://interimm.org" class="fa fa-rocket">星际移民中心</a> 提供。</p>
+          <a href="{{ pathto(master_doc) }}" class="fa fa-globe"> {{ project }}文档</a>
         {% endblock %}
         {% include "searchbox.html" %}
       </div>
@@ -151,6 +168,9 @@
   {% if not READTHEDOCS %}
     <script type="text/javascript" src="{{ pathto('_static/js/theme.js', 1) }}"></script>
   {% endif %}
+
+  {# TOP MENU #}
+  <script type="text/javascript" src="{{ pathto('_static/js/menu-script.js', 1) }}"></script>
 
   {# STICKY NAVIGATION #}
   {% if theme_sticky_navigation %}
