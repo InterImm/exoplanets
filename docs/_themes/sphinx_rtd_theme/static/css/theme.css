@@ -49,7 +49,8 @@ background: #404040 !important;
   display: none;
 }
 #cssmenu {
-  font-family: Montserrat, sans-serif;
+  font-family: Montserrat, "Hiragino Sans GB", "Microsoft YaHei",
+             "WenQuanYi Micro Hei", sans-serif;
   background: black;
 }
 #cssmenu > ul > li {
@@ -71,7 +72,7 @@ background: #404040 !important;
 }
 #cssmenu > ul > li > a {
   padding: 17px;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 1px;
   text-decoration: none;
   color: #dddddd;
@@ -79,7 +80,7 @@ background: #404040 !important;
   text-transform: uppercase;
 }
 #cssmenu > ul > li:hover > a {
-  color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.2);
 }
 #cssmenu > ul > li.has-sub > a {
   padding-right: 30px;
@@ -149,7 +150,7 @@ background: #404040 !important;
 #cssmenu ul ul li a {
   border-bottom: 1px solid rgba(150, 150, 150, 0.15);
   padding: 11px 15px;
-  width: 170px;
+  width: 200px;
   font-size: 12px;
   text-decoration: none;
   color: #dddddd;
