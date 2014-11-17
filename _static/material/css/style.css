@@ -178,3 +178,15 @@ padding: 0 5px;
 color: #CCC;
 content: "|" !important;
 }
+
+.alert-info,
+.alert-danger,
+.alert-warning,
+.alert-success {
+  color: black !important;
+}
+
+.alert .alert-link, .alert a {
+  color: black !important;
+  text-decoration: underline;
+}
