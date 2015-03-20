@@ -224,3 +224,31 @@ content: "|" !important;
   color: black !important;
   text-decoration: underline;
 }
+
+
+
+div.note {
+padding: 10px 15px 10px 50px !important;
+border: solid 2px lightgrey !important;
+border-radius: 4px !important;
+background: none !important;
+}
+
+div.list {
+padding: 10px 15px 10px 50px !important;
+border: solid 2px rgb(202,229,255) !important;
+border-radius: 4px !important;
+background: none !important;
+}
+
+.list .first {
+  color: rgb(12,102,140) !important;
+  font-size: 140% !important;
+
+}
+
+
+.toctree-l1 ul {
+  margin-bottom: 1em !important;
+  margin-top:0.5em !important;
+}
