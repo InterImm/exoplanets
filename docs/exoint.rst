@@ -6,7 +6,7 @@
 
 
 .. admonition:: Kepler-10c
-   :class: note
+   :class: list
    :name: kepler-10c
 
 
@@ -20,7 +20,7 @@
 
 
 .. admonition:: Kepler-10b
-   :class: note 
+   :class: list 
    :name: kepler-10b
 
 
@@ -34,7 +34,7 @@
 
 
 .. admonition:: Alpha Cen B b
-   :class: note
+   :class: list
    :name: alpha-cen-b-b
 
 
@@ -48,7 +48,7 @@
 
 
 .. admonition:: Alpha Centauri 
-   :class: note
+   :class: list
    :name: alpha-centauri
 
 
@@ -60,7 +60,7 @@
 
 
 .. admonition:: GJ 1214b
-   :class: note
+   :class: list
    :name: gj-1214b
 
 
@@ -72,7 +72,7 @@
 
 
 .. admonition:: Gliese 667 Cc
-   :class: note
+   :class: list
    :name: gliese-667-cc
 
 
@@ -86,7 +86,7 @@
 
 
 .. admonition:: Kepler-62e
-   :class: note
+   :class: list
    :name: kepler-62e
 
 
@@ -98,17 +98,17 @@
 
       图中从左往右分别为 Kepler-62c, Kepler-62e, Kepler-62f. Image Credit: `NASA Ames/JPL-Caltech <http://en.wikipedia.org/wiki/File:Relative_sizes_of_all_of_the_habitable-zone_planets_discovered_to_date_alongside_Earth.jpg>`_
 
-   
-   该星系中行星比较多，下图前景中的行星为 Kepler-62f，背景中的十字光芒的星为 Kepler-62e.
 
    .. figure:: assets/exoint/Kepler-62f_with_62e_as_Morning_Star.jpg
       :align: center
 
-      前景中的行星为 Kepler-62f，背景中的十字光芒的星为 Kepler-62e. Image Credit: `NASA Ames/JPL-Caltech <http://en.wikipedia.org/wiki/File:Kepler-62f_with_62e_as_Morning_Star.jpg>`_
+      Image Credit: `NASA Ames,JPL-Caltech <http://en.wikipedia.org/wiki/File:Kepler-62f_with_62e_as_Morning_Star.jpg>`_
 
+
+   该星系中行星比较多，上图前景中的行星为 Kepler-62f，背景中的十字光芒的星为 Kepler-62e.
 
 .. admonition:: HAT-P-11b / Kepler-3b
-   :class: note
+   :class: list
    :name: kepler-3b
 
    【HAT-P-11b】一颗半径为地球 5 倍、质量为地球 26 倍的行星。虽然是一颗比海王星还要大的气态行星，但是上面却存在着晴朗的天空和水蒸气。温度可能高达 600 摄氏度。距离地球 122 光年，天球上位于天鹅座。
@@ -123,19 +123,19 @@
    .. figure:: assets/exoint/hat-p-11b.jpg
       :align: center
 
-      艺术想象图。`Image Credit: NASA/JPL-Caltech <http://www.nasa.gov/press/2014/september/nasa-telescopes-find-clear-skies-and-water-vapor-on-exoplanet/>`_
+      艺术想象图。`Image Credit: NASA JPL Caltech <http://www.nasa.gov/press/2014/september/nasa-telescopes-find-clear-skies-and-water-vapor-on-exoplanet/>`_
 
 
 
    .. figure:: assets/exoint/hat-p-11b-water.jpg
       :align: center
 
-      艺术想象图。`Image Credit: NASA/JPL-Caltech <http://www.nasa.gov/press/2014/september/nasa-telescopes-find-clear-skies-and-water-vapor-on-exoplanet/>`_
+      艺术想象图。`Image Credit: NASA JPL-Caltech <http://www.nasa.gov/press/2014/september/nasa-telescopes-find-clear-skies-and-water-vapor-on-exoplanet/>`_
 
 
 
 .. admonition:: Gliese 832c
-   :class: note
+   :class: list
    :name: gliese-832c
 
    【Gliese 832c】 一颗非常像地球的行星（ESI 0.81），是地球质量的 5.4 倍，公转周期大约 36 天。表面平均温度 -40到7摄氏度。围绕一颗红矮星公转，尚未确认大气存在。
@@ -147,7 +147,7 @@
 
    
 .. admonition:: Tau Ceti e
-   :class: note
+   :class: list
    :name: tau-ceti-e
 
    【Tau Ceti e】一颗距离地球仅有不到12光年的行星，质量为地球的4.3倍，围绕天仓五运行。由于靠近宜居带内侧，接收到更多的太阳光，因此会比地球更热，表面平均温度在70°。所在的恒星系统至少有五颗行星。
@@ -162,11 +162,15 @@
    .. figure:: assets/exoint/HEC_HD10700ef_Comparison.jpg
       :align: center
 
-      图源：`PHL <http://phl.upr.edu/press-releases/twonearbyhabitableworlds>`_
+      图片来源： `PHL <http://phl.upr.edu/press-releases/twonearbyhabitableworlds>`_
+
+   上图是与地球的比较。
+
+
 
    
 .. admonition:: More
-   :class: note
+   :class: list
    :name: more
 
    将会添加更多有趣的系外行星。

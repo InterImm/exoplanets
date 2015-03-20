@@ -3,6 +3,7 @@
 
 系外行星的探测方法有两大类，直接探测和间接探测。
 
+
 径向速度法
 --------------
 
@@ -153,13 +154,13 @@ ESA 发射了 `GAIA 卫星 <http://www.esa.int/spaceinvideos/Videos/2013/12/Insi
 
 
 凌日法
-------
+------------
 
 利用行星对恒星光源的遮挡，我们可以探测行星。
 
 一个非常好的理解凌日现象的例子是金星凌日：
 
-.. figure:: https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/NASA%27s_SDO_Satellite_Captures_First_Image_of_2012_Venus_Transit_%28Full_Disc%29.jpg/768px-NASA%27s_SDO_Satellite_Captures_First_Image_of_2012_Venus_Transit_%28Full_Disc%29.jpg
+.. figure:: assets/detection/SDO_Satellite_Captures_First_Image_of_2012_Venus_Transit.jpg
    :align: center
 
    来源：Wikipedia: `File:SDO Satellite Captures First Image of 2012 Venus Transit <https://en.wikipedia.org/wiki/File:NASA%27s_SDO_Satellite_Captures_First_Image_of_2012_Venus_Transit_(Full_Disc).jpg>`_
@@ -167,7 +168,7 @@ ESA 发射了 `GAIA 卫星 <http://www.esa.int/spaceinvideos/Videos/2013/12/Insi
 
 为了看得更明白些，我们看看下面这张 gif 图片：
 
-.. figure:: https://upload.wikimedia.org/wikipedia/commons/8/82/Astronomical_Transit.gif
+.. figure:: assets/detection/Astronomical_Transit.gif
    :align: center
 
    来源：Wikipedia: `File:Astronomical Transit.gif <https://en.wikipedia.org/wiki/File:Astronomical_Transit.gif>`_
@@ -176,7 +177,7 @@ ESA 发射了 `GAIA 卫星 <http://www.esa.int/spaceinvideos/Videos/2013/12/Insi
 这样当恒星被行星遮挡的时候，我们就会看到恒星的亮度有个降低，因为行星的遮挡是周期性的，我们可以看到周期性的亮度曲线的降低。
 
 
-.. figure:: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Planetary_transit.svg/800px-Planetary_transit.svg.png
+.. figure:: assets/detection/Planetary_transit.svg.png
    :align: center
 
    来源：Wikipedia: `File:Planetary transit.svg <https://commons.wikimedia.org/wiki/File:Planetary_transit.svg>`_
@@ -290,7 +291,7 @@ ESA 发射了 `GAIA 卫星 <http://www.esa.int/spaceinvideos/Videos/2013/12/Insi
 
 
 如何确认一颗行星
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 凌日现象可能有其他因素造成的，例如
@@ -345,12 +346,14 @@ ESA 发射了 `GAIA 卫星 <http://www.esa.int/spaceinvideos/Videos/2013/12/Insi
 这里的 :math:`M` 是引力源天体的质量，:math:`r` 是散射参数，即引力源天体中心距离入射光线的距离。
 
 
-一个实际的例子是这样的：
+一个实际的例子是这样的。
 
-.. figure:: assets/detection/800px-A_Horseshoe_Einstein_Ring_from_Hubble.JPG
+
+.. figure:: assets/detection/A_Horseshoe_Einstein_Ring_from_Hubble.JPG
    :align: center
 
-   来源：`Wiki Commons <https://commons.wikimedia.org/wiki/File:A_Horseshoe_Einstein_Ring_from_Hubble.JPG>`_
+   图片来源 `Einstein Ring <https://en.wikipedia.org/wiki/Einstein_ring>`_
+
 
 
 那么微引力透镜是什么思路呢？我们可以观测夜空，如果一个行星在某个光源和我们之间，这颗行星就可以对光源传来的光线造成微引力透镜效应。就我们银河系而言，我们可以朝着银河系中心看，因为那里的恒星的数密度比较大，也就是在背景星空上恒星更密集，对应于有更大的几率发现一颗行星对某恒星的光线产生影响，形成微引力透镜效应。
@@ -361,6 +364,7 @@ ESA 发射了 `GAIA 卫星 <http://www.esa.int/spaceinvideos/Videos/2013/12/Insi
    :class: note
 
    来源：`Wikipedia <https://en.wikipedia.org/wiki/File:ESO-VLT-Laser-phot-33a-07.jpg>`_
+
 
 可以看到银河系平面上因为被尘埃遮挡从而变得比较暗。因此一个比较好的策略是，朝向银河系平面稍稍上方的地方观测。
 

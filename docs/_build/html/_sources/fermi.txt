@@ -1,5 +1,5 @@
 费米悖论——他们在哪里
-==================
+====================================
 
 
 我们发现了这么多的行星，可是为什么我们还没有遇到外星人呢？他们都到哪里去了？
@@ -8,24 +8,22 @@
 
 现在我们已经确认了一千多颗系外行星，几千颗候选，而且这些数字还在继续增长。时至今日，费米的这个问题越来越重要，如果有那么多的栖居地，大家都在哪里呢？
 
-.. admonition:: 费米悖论
-   :class: note
 
-       宇宙显著的尺度和年龄意味着高等地外文明应该存在。
+   宇宙显著的尺度和年龄意味着高等地外文明应该存在。
 
-       The apparent size and age of the universe suggest that many technologically advanced extraterrestrial civilizations ought to exist.
+   The apparent size and age of the universe suggest that many technologically advanced extraterrestrial civilizations ought to exist.
 
-       但是，这个假设得不到充分的证据支持。
+   但是，这个假设得不到充分的证据支持。
 
-       However, this hypothesis seems inconsistent with the lack of observational evidence to support it.
+   However, this hypothesis seems inconsistent with the lack of observational evidence to support it.
 
-       -- `费米悖论|维基百科 <http://zh.wikipedia.org/wiki/%E8%B4%B9%E7%B1%B3%E6%82%96%E8%AE%BA>`_
+   -- `费米悖论|维基百科 <http://zh.wikipedia.org/wiki/%E8%B4%B9%E7%B1%B3%E6%82%96%E8%AE%BA>`_
 
 
 
 
 David Brin 的 Great Silence
-----------------------------
+--------------------------------------------------------
 
 
 .. admonition: 评论
@@ -130,7 +128,7 @@ Randall Munroe (xkcd) 的 Fish
 
 
 Bezsudnov 和 Snarskii 的智慧扩张模型
------------------------------------
+----------------------------------------------------------------------
 
 
 
