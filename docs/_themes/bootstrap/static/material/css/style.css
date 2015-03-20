@@ -234,6 +234,13 @@ border-radius: 4px !important;
 background: none !important;
 }
 
+div.warning {
+padding: 10px 15px 10px 50px !important;
+border: solid 2px #CEC2D7 !important;
+border-radius: 4px !important;
+background: none !important;
+}
+
 div.list {
 padding: 10px 15px 10px 50px !important;
 border: solid 2px rgb(202,229,255) !important;
