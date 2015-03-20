@@ -259,3 +259,17 @@ background: none !important;
   margin-bottom: 1em !important;
   margin-top:0.5em !important;
 }
+
+
+
+.caption {
+  color: #808080;
+/*  border-left: 5px solid #DDD;
+  border-right: 5px solid #DDD;
+  background: #F2F0F0;
+  padding: 10px;
+  margin: 10px; */
+}
+
+
+ul,ol{margin-bottom: 1em !important;}
