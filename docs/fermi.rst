@@ -98,7 +98,7 @@ David Brin 提出了 :math:`n_j` 的一个形式，
 
    1. 由第一条中，我们可以猜测甚至我们的太阳系就是一个被“圈起来”的动物园。他们在观察我们，而我们并没有观察他们。
    2. 可能为了保护自己，外星文明把自己保护起来，不敢发出声音，以免被发现受到可能的外来伤害。这条似乎并不是很成立，因为探测一个文明的技术要比星际飞行的技术容易多了。大气层中的活动，云层，地表活动等等，都能暴露自己。
-   3. 我们人类是外来的。外星文明在这个行星播种，然后离去，等待我们成长成人。
+   3. 我们人类是外来的。外星文明在这个行星播种，然后离去，等待我们成长成人。因为 DNA 结构拿了诺贝尔奖的 Francis Crick 和 L. Orgel 合写过一篇文章，提出了 Directed Panspermia 的思路。[#directedpanspermia]_ 我们的地球上的生命可能是外星生命的播种。论文中讨论了如何播种、动机等等问题。
 
 
 
@@ -113,7 +113,7 @@ David Brin 提出了 :math:`n_j` 的一个形式，
 
 
 
-
+.. [#directedpanspermia] F. H. C. Crick and L. E. Orgel, `Directed Panspermia <http://www.sciencedirect.com/science/article/pii/0019103573901103>`_ . ( `PDF <http://profiles.nlm.nih.gov/ps/access/SCBCCP.pdf>`_ )
 
 
 
