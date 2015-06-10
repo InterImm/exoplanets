@@ -30,7 +30,7 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
     <script type="text/javascript" src="_static/bootstrap-3.2.0/js/bootstrap.min.js"></script>
@@ -47,7 +47,7 @@
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
   </head>
-  <body>
+  <body role="document">
 
 <!-- Nav Bar at top -->
 <div class="navbar navbar-black" style="font-size:14px;">
@@ -60,14 +60,14 @@
         <a class="navbar-brand brand-style" href="http://interimm.org"><i class="fa fa-home"></i> &nbsp; 星际移民中心</a>
     </div>
     <div class="navbar-collapse collapse navbar-inverse-collapse">
-        <ul class="nav navbar-nav navbar-nav-black">
+        <ul class="nav navbar-nav navbar-nav-black" style="margin-bottom: 0em !important;">
         <li class="divider-vertical divider-white"></li>
             <li><a href="http://interimm.org/magazine"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li>
             <li><a href="http://interimm.org/InterImmBook"><i class="fa fa-archive"></i>&nbsp; 星际移民之书</a></li>
             <li class="active"><a href="http://interimm.org/exoplanets"><i class="fa fa-globe"></i>&nbsp; 系外行星档案</a></li>
 
         </ul>
-        <ul class="nav navbar-nav navbar-right navbar-nav-black">
+        <ul class="nav navbar-nav navbar-right navbar-nav-black" style="margin-bottom: 0em !important;">
         <li><a href="http://interimm.org/institutes.html"><i class="fa fa-sitemap"></i>&nbsp;星际机构</a></li>
             <li><a href="http://weibo.com/iiaofficial" target="_blank"> <i class="fa fa-weibo"></i>&nbsp; 微博</a></li>
             
@@ -137,16 +137,16 @@
 <p>开普勒三定律是描述天体运动的定律，他们描述了天体轨道形状和运动状态。通过牛顿引力定律，我们可以知道开普勒第三定律不仅仅适用于我们的太阳系，同时适用于其他的星系。</p>
 <div class="section" id="id3">
 <h3>开普勒第一定律<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
-<div class="figure align-center">
+<div class="figure align-center" id="id16">
 <img alt="开普勒第一定律" src="_images/Kepler-first-law.png" />
-<p class="caption">开普勒第一定律：每一个行星都沿各自的椭圆轨道环绕太阳，而太阳则处在椭圆的一个焦点中。<a class="footnote-reference" href="#id13" id="id4">[1]</a></p>
+<p class="caption"><span class="caption-text">开普勒第一定律：每一个行星都沿各自的椭圆轨道环绕太阳，而太阳则处在椭圆的一个焦点中。<a class="footnote-reference" href="#id13" id="id4">[1]</a></span></p>
 </div>
 </div>
 <div class="section" id="id5">
 <h3>开普勒第二定律<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
-<div class="figure align-center">
+<div class="figure align-center" id="id17">
 <img alt="开普勒第二定律" src="_images/Kepler-second-law.gif" />
-<p class="caption">开普勒第二定律：在相等时间内，太阳和运动着的行星的连线所扫过的面积都是相等的。这其实是角动量守恒。</p>
+<p class="caption"><span class="caption-text">开普勒第二定律：在相等时间内，太阳和运动着的行星的连线所扫过的面积都是相等的。这其实是角动量守恒。</span></p>
 </div>
 </div>
 <div class="section" id="id6">
@@ -165,21 +165,21 @@
 <li>在探测一个星系的时候，星系轨道平面并不是总是垂直于我们的视线方向的，那么我们如何处理这种倾斜呢？</li>
 </ol>
 <p>关于第一条，NASA 有 <a class="reference external" href="http://spaceplace.nasa.gov/barycenter/en/">两张图片</a> 解释的很好。</p>
-<div class="figure align-center">
+<div class="figure align-center" id="id18">
 <img alt="Barycentric Center" src="_images/doppspec-above.gif" />
-<p class="caption">由于 Kepler 定律中的中心指的是质心，虽然太阳质量很大，但是行星的质量和太阳质量的质心依然偏离了太阳的中心。这种情况对于太阳木星这两个来说更加显著。因此实际上在质心参考系看来，太阳和行星是共同围绕质心转动的。虽然这句话看起来像是废话，但是这对于我们的系外行星探测非常重要，因我们作为一个极远处的观测者，在我们的参考系中，恒星和行星组成的体系在我们的观测时间内是近似静止的。因此获得恒星和行星体系的质心参考系下面的天体轨道才是我们需要的。</p>
+<p class="caption"><span class="caption-text">由于 Kepler 定律中的中心指的是质心，虽然太阳质量很大，但是行星的质量和太阳质量的质心依然偏离了太阳的中心。这种情况对于太阳木星这两个来说更加显著。因此实际上在质心参考系看来，太阳和行星是共同围绕质心转动的。虽然这句话看起来像是废话，但是这对于我们的系外行星探测非常重要，因我们作为一个极远处的观测者，在我们的参考系中，恒星和行星组成的体系在我们的观测时间内是近似静止的。因此获得恒星和行星体系的质心参考系下面的天体轨道才是我们需要的。</span></p>
 </div>
-<div class="figure align-center">
+<div class="figure align-center" id="id19">
 <img alt="Barycentric Center" src="_images/dopspec-inline.gif" />
-<p class="caption">同上图。这是侧视图。</p>
+<p class="caption"><span class="caption-text">同上图。这是侧视图。</span></p>
 </div>
 <p>如果没有特殊说明，我们后面讨论恒星和行星的运动，都是在质心系中的讨论。</p>
 <div class="section" id="id9">
 <h3>修正开普勒三定律<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 <p>通过简单的牛顿引力定律，我们可以推导出所谓的 barycentric oribit 的相关的定律，这里面行星和恒星相互围绕他们的质心运动。</p>
-<div class="figure align-center">
+<div class="figure align-center" id="id20">
 <img alt="Barycentric Orbit" src="_images/barycentricOrbit.png" />
-<p class="caption">Barycentric Orbit. 我们将恒星和行星整体看做一个体系，在这个体系静止参考系中，他们的质心是静止的。这样我们可以描述恒星和行星各自的轨道。</p>
+<p class="caption"><span class="caption-text">Barycentric Orbit. 我们将恒星和行星整体看做一个体系，在这个体系静止参考系中，他们的质心是静止的。这样我们可以描述恒星和行星各自的轨道。</span></p>
 </div>
 <p>此时，我们可以直观的想象到，在质心系中，两个天体有相同的周期 <span class="math">\(P\)</span>。两个天体的半长轴之比只与他们的质量有关，</p>
 <div class="math">
@@ -238,26 +238,26 @@ a_2 &amp; = m_1 \left( \frac{P}{m_1+m_2} \right)^{2/3}\end{split}\]</div>
 <div class="section" id="id11">
 <h3>多星行<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
 <p>然而实际上对于多行星的系统，行星之间的共同作用可以产生一些显著的效果。例如对于太阳系来说，土星和木星的联合作用比较显著，可以产生比较大的太阳的移动。</p>
-<div class="figure align-center">
+<div class="figure align-center" id="id21">
 <img alt="_images/Solar_system_barycenter_pl.png" src="_images/Solar_system_barycenter_pl.png" />
-<p class="caption">太阳系的质心的变化图。图片来自 Wikipedia <a class="reference external" href="http://commons.wikimedia.org/wiki/File:Solar_system_barycenter_pl.svg">File:Solar system barycenter pl.svg</a></p>
+<p class="caption"><span class="caption-text">太阳系的质心的变化图。图片来自 Wikipedia <a class="reference external" href="http://commons.wikimedia.org/wiki/File:Solar_system_barycenter_pl.svg">File:Solar system barycenter pl.svg</a></span></p>
 </div>
-<div class="figure align-center">
+<div class="figure align-center" id="id22">
 <img alt="_images/Solar_System_Barycenter_2000-2050.png" src="_images/Solar_System_Barycenter_2000-2050.png" />
-<p class="caption">太阳系质心变化图。其中黄色的虚线圆是太阳的大小。图片来自 Wikipedia <a class="reference external" href="http://en.wikiversity.org/wiki/File:Solar_System_Barycenter_2000-2050.png">File:Solar System Barycenter 2000-2050.png</a></p>
+<p class="caption"><span class="caption-text">太阳系质心变化图。其中黄色的虚线圆是太阳的大小。图片来自 Wikipedia <a class="reference external" href="http://en.wikiversity.org/wiki/File:Solar_System_Barycenter_2000-2050.png">File:Solar System Barycenter 2000-2050.png</a></span></p>
 </div>
 <p>这样的复杂系统中，由于我们知道在质心系中，两个天体有相同的周期 P，从而两个天体的半长轴之比只与他们的质量有关。这样就是说，这些行星对恒星的运动造成的影响，是可以线性叠加的。</p>
-<div class="figure align-center">
+<div class="figure align-center" id="id23">
 <img alt="多星行系统" src="_images/multiplanets.png" />
-<p class="caption">多星行星系中，恒星的运动变得更加多样——各个行星对恒星的影响的叠加，即很多椭圆的叠加。</p>
+<p class="caption"><span class="caption-text">多星行星系中，恒星的运动变得更加多样——各个行星对恒星的影响的叠加，即很多椭圆的叠加。</span></p>
 </div>
 </div>
 <div class="section" id="id12">
 <h3>投影平面<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
 <p>在实际的观测中，我们并不一定站在恒星系统的上方或者正侧面观测的，一般而言会有一个倾斜角度。由于不能走过去把这个倾斜的恒星系统摆正，我们只好把这个倾斜角度考虑进来。</p>
-<div class="figure align-center">
+<div class="figure align-center" id="id24">
 <img alt="投影平面" src="_images/tiltedOrbitPlane.png" />
-<p class="caption">我们的视线方向并不总是跟轨道平面垂直或平行，所以我们处理的时候，需要添加一个转动矩阵。</p>
+<p class="caption"><span class="caption-text">我们的视线方向并不总是跟轨道平面垂直或平行，所以我们处理的时候，需要添加一个转动矩阵。</span></p>
 </div>
 <table class="docutils footnote" frame="void" id="id13" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
@@ -288,7 +288,7 @@ a_2 &amp; = m_1 \left( \frac{P}{m_1+m_2} \right)^{2/3}\end{split}\]</div>
     </p>
     <p>
         <span class="btn btn-flat disabled btn-xs">&copy; Copyright 2014, Interplanetary Immigration Center</span>
-      <span class="btn btn-flat btn-xs disabled">最近更新 Mar 20, 2015</span>  <a href="http://interimm.org/InterImmBook/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
+      <span class="btn btn-flat btn-xs disabled">最近更新 Jun 10, 2015</span>  <a href="http://interimm.org/InterImmBook/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
     </p>
   </div>
   <script>
