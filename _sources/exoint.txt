@@ -168,6 +168,28 @@
 
 
 
+.. admonition:: Kepler-452b
+   :class: list
+   :name: kepler-452b
+
+   【Kepler-452b】一颗距离地球大约 1400 光年的行星，它是第一颗被发现的围绕一颗与太阳相似的恒星运行的行星。其表面引力大约是地球表面引力的 2 倍。
+
+
+   .. figure:: assets/exoint/452b_artistconcept_comparisonwithearth.jpg
+      :align: center
+
+      Kepler-452b 艺术想象图与地球的比较。图源：`NASA <http://www.nasa.gov/press-release/nasa-kepler-mission-discovers-bigger-older-cousin-to-earth>`_
+
+
+   .. figure:: assets/exoint/kepler-452b-sys.jpg
+      :align: center
+
+      Kepler-452b 所在的星系。图片来源： `PHL <http://phl.upr.edu/press-releases/twonearbyhabitableworlds>`_
+
+   NASA 于 GMT 时间 2015 年 7 月 23 日 16 点举行电话新闻发布会，介绍了关于这颗行星的特殊之处。
+
+
+
    
 .. admonition:: More
    :class: list
