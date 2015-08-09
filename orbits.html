@@ -93,7 +93,7 @@
 <li class="toctree-l1"><a class="reference internal" href="intro.html">我们的征途——系外行星</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="">天体轨道理论</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#id2">开普勒定律</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id7">开普勒三定律与系外行星探测</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id9">开普勒三定律与系外行星探测</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="detection.html">系外行星的探测</a></li>
@@ -131,76 +131,92 @@
       
   <div class="section" id="id1">
 <h1>天体轨道理论<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<p>这部分中，我们先讨论天体轨道的一些理论，主要是开普勒定律以及修正。</p>
+<p>这部分中，我们先讨论天体轨道的一些理论，主要是开普勒定律以及在系外行星探测中需要的“所谓修正”。</p>
 <div class="section" id="id2">
 <h2>开普勒定律<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
-<p>开普勒三定律是描述天体运动的定律，他们描述了天体轨道形状和运动状态。通过牛顿引力定律，我们可以知道开普勒第三定律不仅仅适用于我们的太阳系，同时适用于其他的星系。</p>
+<p>开普勒三定律是描述天体运动的定律，他们描述了天体轨道形状和运动状态。通过牛顿引力定律（解出运动方程），我们可以知道开普勒第三定律不仅仅适用于我们的太阳系，同时适用于其他的星系。</p>
 <div class="section" id="id3">
 <h3>开普勒第一定律<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
-<div class="figure align-center" id="id16">
+<div class="figure align-center" id="id18">
 <img alt="开普勒第一定律" src="_images/Kepler-first-law.png" />
-<p class="caption"><span class="caption-text">开普勒第一定律：每一个行星都沿各自的椭圆轨道环绕太阳，而太阳则处在椭圆的一个焦点中。<a class="footnote-reference" href="#id13" id="id4">[1]</a></span></p>
+<p class="caption"><span class="caption-text">开普勒第一定律：每一个行星都沿各自的椭圆轨道环绕太阳，而太阳则处在椭圆的一个焦点中。<a class="footnote-reference" href="#id15" id="id4">[1]</a></span></p>
 </div>
 </div>
 <div class="section" id="id5">
 <h3>开普勒第二定律<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
-<div class="figure align-center" id="id17">
+<div class="figure align-center" id="id19">
 <img alt="开普勒第二定律" src="_images/Kepler-second-law.gif" />
 <p class="caption"><span class="caption-text">开普勒第二定律：在相等时间内，太阳和运动着的行星的连线所扫过的面积都是相等的。这其实是角动量守恒。</span></p>
 </div>
+<p>角动量是一个伪矢量，对于质点其定义为 <span class="math">\(\vec L = \vec r \times \vec p\)</span>，其中 <span class="math">\(\vec r\)</span> 是质点的位移矢量，而 <span class="math">\(\vec p\)</span> 是质点的动量。因此其方向是通过右手定则确定的。</p>
+<div class="figure align-center" id="id20">
+<img alt="角动量动画" src="_images/angular-momentum.gif" />
+<p class="caption"><span class="caption-text">这里面球体看作质点，深绿色是动量方向，红色是位移方向，深蓝色是加速度方向。浅蓝色是力矩方向，而浅绿色是我们关心的角动量的方向。因此这里理解角动量只需要关注：球体，深绿色，红色和浅绿色。</span></p>
 </div>
-<div class="section" id="id6">
-<h3>开普勒第三定律<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p>角动量在没有外界力矩的作用下的时候，是守恒的，例如在太阳系中的行星们。从定义可以看出来，当行星距离整个体系的引力中心更近的时候，由于角动量守恒，因此只能的结果就是动量更大，从而保证 <span class="math">\(\vec r\times \vec p\)</span> 不变。<a class="footnote-reference" href="#id7" id="id6">[3]</a></p>
+<table class="docutils footnote" frame="void" id="id7" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id6">[3]</a></td><td>实际上还跟动量和位移矢量的夹角有关，此处忽略。</td></tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id8">
+<h3>开普勒第三定律<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
 <p>开普勒第三定律：各个行星绕太阳公转周期的平方和它们的椭圆轨道的半长轴的立方成正比。</p>
 <div class="math">
 \[\frac{P^2}{a^3} = \frac{4\pi^2}{GM}\]</div>
 </div>
 </div>
-<div class="section" id="id7">
-<h2>开普勒三定律与系外行星探测<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
-<p>想要讲开普勒定律应用到行星探测中，我们有几个问题需要解决：</p>
+<div class="section" id="id9">
+<h2>开普勒三定律与系外行星探测<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<p>想要将开普勒定律应用到行星探测中，我们有几个问题需要解决：</p>
 <ol class="arabic simple">
-<li>对于开普勒定律更加严格的描述，应该是讲“太阳”改为“质心”，同时太阳变得不那么特殊，也服从开普勒定律。因为显然我们可以取两颗质量相等的天体让他们相互围绕，这时候两颗天体没有任何一颗相对于另一颗，当我们增加其中一颗的质量然后重新让他们相互围绕的时候，在质心系看来，重的一颗的半轴会越来越小，如果我们将这颗星变成无穷大质量，那么显然质心跟这颗天体重合，所有的定律都回到了原始的开普勒定律。 <strong>对于两颗任意质量的天体的相对运动，开普勒三定律该如何修改呢</strong>？对于第一和第二定律，只需要将太阳改为质心即可。对于第三定律，我们需要重新推导。</li>
+<li>对于开普勒定律更加严格的描述，应该是讲“太阳”改为“质心”，同时太阳变得不那么特殊，也服从开普勒定律。因为显然我们可以取两颗质量相等的天体让他们相互围绕，这时候两颗天体没有任何一颗相对于另一颗，当我们增加其中一颗的质量然后重新让他们相互围绕的时候，在质心系看来，重的一颗的半轴会越来越小，如果我们将这颗星变成无穷大质量，那么显然质心跟这颗天体重合，所有的定律都回到了原始的开普勒定律。 <strong>对于两颗任意质量的天体的相对运动，开普勒三定律该如何修改呢</strong>？对于第一和第二定律，只需要将太阳改为质心即可。对于第三定律，我们需要替换一些变量或者重新推导。</li>
 <li>对于多星行系统，多个行星对恒星带来的影响是什么呢？</li>
 <li>在探测一个星系的时候，星系轨道平面并不是总是垂直于我们的视线方向的，那么我们如何处理这种倾斜呢？</li>
 </ol>
 <p>关于第一条，NASA 有 <a class="reference external" href="http://spaceplace.nasa.gov/barycenter/en/">两张图片</a> 解释的很好。</p>
-<div class="figure align-center" id="id18">
+<div class="figure align-center" id="id21">
 <img alt="Barycentric Center" src="_images/doppspec-above.gif" />
 <p class="caption"><span class="caption-text">由于 Kepler 定律中的中心指的是质心，虽然太阳质量很大，但是行星的质量和太阳质量的质心依然偏离了太阳的中心。这种情况对于太阳木星这两个来说更加显著。因此实际上在质心参考系看来，太阳和行星是共同围绕质心转动的。虽然这句话看起来像是废话，但是这对于我们的系外行星探测非常重要，因我们作为一个极远处的观测者，在我们的参考系中，恒星和行星组成的体系在我们的观测时间内是近似静止的。因此获得恒星和行星体系的质心参考系下面的天体轨道才是我们需要的。</span></p>
 </div>
-<div class="figure align-center" id="id19">
+<div class="figure align-center" id="id22">
 <img alt="Barycentric Center" src="_images/dopspec-inline.gif" />
 <p class="caption"><span class="caption-text">同上图。这是侧视图。</span></p>
 </div>
 <p>如果没有特殊说明，我们后面讨论恒星和行星的运动，都是在质心系中的讨论。</p>
-<div class="section" id="id9">
-<h3>修正开普勒三定律<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id11">
+<h3>修正开普勒三定律<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
 <p>通过简单的牛顿引力定律，我们可以推导出所谓的 barycentric oribit 的相关的定律，这里面行星和恒星相互围绕他们的质心运动。</p>
-<div class="figure align-center" id="id20">
+<div class="figure align-center" id="id23">
 <img alt="Barycentric Orbit" src="_images/barycentricOrbit.png" />
 <p class="caption"><span class="caption-text">Barycentric Orbit. 我们将恒星和行星整体看做一个体系，在这个体系静止参考系中，他们的质心是静止的。这样我们可以描述恒星和行星各自的轨道。</span></p>
 </div>
-<p>此时，我们可以直观的想象到，在质心系中，两个天体有相同的周期 <span class="math">\(P\)</span>。两个天体的半长轴之比只与他们的质量有关，</p>
+<p>此时，我们可以直观的想象到，在质心系中，两个天体（例如我们讨论的行星和恒星）有相同的周期 <span class="math">\(P\)</span>。两个天体的半长轴之比只与他们的质量有关，因为质量大的显然会距离质心更近，而质量小的天体会距离恒星更远，</p>
 <div class="math">
 \[\frac{a_1}{a_2} = \frac{m_2}{m_1}.\]</div>
 <p>这正是质心系的定义而已。</p>
 <div class="note admonition">
 <p class="first admonition-title">进阶</p>
-<p>如果使用合适的单位（长度：AU即天文单位；质量：太阳质量；周期：年），我们可以将相关公式非常优雅的写出来，</p>
+<p>通过简单地将两个天体质量之和代入上面提到的开普勒第三定律中，即 <span class="math">\(M=m_1+m_2\)</span>，我们可以将两个天体对应的开普勒第三定律相关公式非常优雅的写出来，</p>
 <div class="math">
 \[\begin{split}a_1 &amp; = m_2 \left( \frac{P}{m_1+m_2} \right)^{2/3} \\
 a_2 &amp; = m_1 \left( \frac{P}{m_1+m_2} \right)^{2/3}\end{split}\]</div>
-<p>如果我们切换参考系，然其中一个天体静止，我们会得到这样一个结果，</p>
+<p>这些式子中的那些常数去哪里了呢？那些常数不在了，是因为这里使用了合适的单位（长度：AU即天文单位；质量：太阳质量；周期：年）。如果我们把上面两个式子相加，然后定义 <span class="math">\(a_r=a_1+a_2\)</span>，就可以得到一个非常简单的结果，</p>
 <div class="math">
 \[m_1+m_2 = \frac{a^3_r}{P}\]</div>
-<p class="last">其中 <span class="math">\(a_r=a_1+a_2\)</span>。</p>
+<p>其中 <span class="math">\(a_r=a_1+a_2\)</span>。当我面站在一个天体上的时候，这个公式变得非常有用，因为它跟两个天体之间的距离、两个天体质量和以及周期有关，而这些量是可以简单地在一个天体上测量的。</p>
+<p>这些公式应用与地球和太阳的情况，由于地球质量远远小于太阳质量，因此基本上退化到了太阳作为质心的情况。</p>
+<p>另一个处理是我们可以把两个天体分别的半长轴和半径关系的公式相除，这样可以得到一个非常简单的比值关系：两个天体的半长轴之比跟他们的质量成反比，</p>
+<div class="last math">
+\[\frac{a_1}{a_2} = \frac{m_2}{m_1}.\]</div>
 </div>
 <p>在系外行星的探测中，半长轴和质量之间的反比关系，</p>
 <div class="math">
 \[\frac{a_{Solar}}{a_{Planet}} = \frac{m_{Planet}}{m_{Solar}}\]</div>
-<p>可以给我们一个非常重要的提示，<strong>行星的质量越大，恒星的半长轴也越大，因为大多数情况下我们看不到行星只能看到恒星，所以这也就意味着我们越容易探测到这颗行星。</strong></p>
-<p>作为一些例子，我们可以看看太阳系的情况。<a class="footnote-reference" href="#id15" id="id10">[2]</a></p>
+<p>可以给我们一个非常重要的提示，<strong>行星的质量越大，恒星的半长轴也越大。而大多数情况下我们看不到行星只能看到恒星，所以这也就意味着，质量越大的行星给恒星相对于质心的运动带来的影响就越大，而恒星相对于质心的运动很多情况下是我们可以通过观测看到的，因此行星质量越大，就意味着我们越容易探测到这颗行星。</strong></p>
+<p>作为一些例子，我们可以看看太阳系的情况。<a class="footnote-reference" href="#id17" id="id12">[2]</a></p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="11%" />
@@ -233,42 +249,42 @@ a_2 &amp; = m_1 \left( \frac{P}{m_1+m_2} \right)^{2/3}\end{split}\]</div>
 </tr>
 </tbody>
 </table>
-<p>而太阳的半径为 <span class="math">\(1.39\times 10^{6}\)</span> 千米，所以相比于太阳的半径，地球和火星能带来的太阳的移动太小，这也从一个侧面说明了系外行星的探测的困难。</p>
+<p>而太阳的半径为 <span class="math">\(1.39\times 10^{6}\)</span> 千米，所以相比于太阳的半径，地球和火星能带来的太阳的移动太小，这也从一个侧面说明了系外行星探测中探测类地行星的困难。</p>
 </div>
-<div class="section" id="id11">
-<h3>多星行<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
-<p>然而实际上对于多行星的系统，行星之间的共同作用可以产生一些显著的效果。例如对于太阳系来说，土星和木星的联合作用比较显著，可以产生比较大的太阳的移动。</p>
-<div class="figure align-center" id="id21">
+<div class="section" id="id13">
+<h3>多星行<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<p>在多行星的系统中，行星之间的共同作用可以对恒星围绕星系质心的运动产生一些显著的效果。例如对于太阳系来说，土星和木星的联合作用比较显著，可以产生比较显著的太阳围绕太阳系质心的。</p>
+<div class="figure align-center" id="id24">
 <img alt="_images/Solar_system_barycenter_pl.png" src="_images/Solar_system_barycenter_pl.png" />
 <p class="caption"><span class="caption-text">太阳系的质心的变化图。图片来自 Wikipedia <a class="reference external" href="http://commons.wikimedia.org/wiki/File:Solar_system_barycenter_pl.svg">File:Solar system barycenter pl.svg</a></span></p>
 </div>
-<div class="figure align-center" id="id22">
+<div class="figure align-center" id="id25">
 <img alt="_images/Solar_System_Barycenter_2000-2050.png" src="_images/Solar_System_Barycenter_2000-2050.png" />
-<p class="caption"><span class="caption-text">太阳系质心变化图。其中黄色的虚线圆是太阳的大小。图片来自 Wikipedia <a class="reference external" href="http://en.wikiversity.org/wiki/File:Solar_System_Barycenter_2000-2050.png">File:Solar System Barycenter 2000-2050.png</a></span></p>
+<p class="caption"><span class="caption-text">历史上太阳位置和太阳系质心的相对变化图。其中黄色的虚线圆是太阳的大小。图片来自 Wikipedia <a class="reference external" href="http://en.wikiversity.org/wiki/File:Solar_System_Barycenter_2000-2050.png">File:Solar System Barycenter 2000-2050.png</a></span></p>
 </div>
 <p>这样的复杂系统中，由于我们知道在质心系中，两个天体有相同的周期 P，从而两个天体的半长轴之比只与他们的质量有关。这样就是说，这些行星对恒星的运动造成的影响，是可以线性叠加的。</p>
-<div class="figure align-center" id="id23">
+<div class="figure align-center" id="id26">
 <img alt="多星行系统" src="_images/multiplanets.png" />
 <p class="caption"><span class="caption-text">多星行星系中，恒星的运动变得更加多样——各个行星对恒星的影响的叠加，即很多椭圆的叠加。</span></p>
 </div>
 </div>
-<div class="section" id="id12">
-<h3>投影平面<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id14">
+<h3>投影平面<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
 <p>在实际的观测中，我们并不一定站在恒星系统的上方或者正侧面观测的，一般而言会有一个倾斜角度。由于不能走过去把这个倾斜的恒星系统摆正，我们只好把这个倾斜角度考虑进来。</p>
-<div class="figure align-center" id="id24">
+<div class="figure align-center" id="id27">
 <img alt="投影平面" src="_images/tiltedOrbitPlane.png" />
 <p class="caption"><span class="caption-text">我们的视线方向并不总是跟轨道平面垂直或平行，所以我们处理的时候，需要添加一个转动矩阵。</span></p>
 </div>
-<table class="docutils footnote" frame="void" id="id13" rules="none">
+<table class="docutils footnote" frame="void" id="id15" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
 <tr><td class="label"><a class="fn-backref" href="#id4">[1]</a></td><td><a class="reference external" href="https://zh.wikipedia.org/wiki/%E5%BC%80%E6%99%AE%E5%8B%92%E5%AE%9A%E5%BE%8B">开普勒定律</a></td></tr>
 </tbody>
 </table>
-<table class="docutils footnote" frame="void" id="id15" rules="none">
+<table class="docutils footnote" frame="void" id="id17" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id10">[2]</a></td><td>来自 <a class="reference external" href="https://class.coursera.org/extrasolarplanets-001">Coursera 的 The Diversities of Exoplanets</a></td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id12">[2]</a></td><td>来自 <a class="reference external" href="https://class.coursera.org/extrasolarplanets-001">Coursera 的 The Diversities of Exoplanets</a></td></tr>
 </tbody>
 </table>
 </div>
@@ -288,7 +304,7 @@ a_2 &amp; = m_1 \left( \frac{P}{m_1+m_2} \right)^{2/3}\end{split}\]</div>
     </p>
     <p>
         <span class="btn btn-flat disabled btn-xs">&copy; Copyright 2014, Interplanetary Immigration Center</span>
-      <span class="btn btn-flat btn-xs disabled">最近更新 Jul 23, 2015</span>  <a href="http://interimm.org/InterImmBook/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
+      <span class="btn btn-flat btn-xs disabled">最近更新 Aug 08, 2015</span>  <a href="http://interimm.org/InterImmBook/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
     </p>
   </div>
   <script>
