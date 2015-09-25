@@ -20,6 +20,8 @@
    -- `费米悖论|维基百科 <http://zh.wikipedia.org/wiki/%E8%B4%B9%E7%B1%B3%E6%82%96%E8%AE%BA>`_
 
 
+.. index:: Fermi Paradox
+.. index:: 费米悖论的解释
 
 费米悖论的解释
 ===========================
