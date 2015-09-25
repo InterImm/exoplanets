@@ -62,9 +62,9 @@
     <div class="navbar-collapse collapse navbar-inverse-collapse">
         <ul class="nav navbar-nav navbar-nav-black" style="margin-bottom: 0em !important;">
         <li class="divider-vertical divider-white"></li>
-            <li><a href="http://interimm.org/magazine"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li>
-            <li><a href="http://interimm.org/InterImmBook"><i class="fa fa-archive"></i>&nbsp; 星际移民之书</a></li>
-            <li class="active"><a href="http://interimm.org/exoplanets"><i class="fa fa-globe"></i>&nbsp; 系外行星档案</a></li>
+            <li><a href="http://magazine.interimm.org"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li>
+            <li><a href="http://book.interimm.org"><i class="fa fa-archive"></i>&nbsp; 星际移民之书</a></li>
+            <li class="active"><a href="http://exoplanets.interimm.org"><i class="fa fa-globe"></i>&nbsp; 系外行星档案</a></li>
 
         </ul>
         <ul class="nav navbar-nav navbar-right navbar-nav-black" style="margin-bottom: 0em !important;">
@@ -89,15 +89,16 @@
 <div class="container">
   <div class="row">
       <div class="col-md-3">
-        <div id="sidebar" class="bs-sidenav well" role="complementary"><ul class="current">
+        <div id="sidebar" class="bs-sidenav well" role="complementary"><div class="nav nav-pills nav-stacked">
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="intro.html">我们的征途——系外行星</a></li>
 <li class="toctree-l1"><a class="reference internal" href="orbits.html">天体轨道理论</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="">系外行星的探测</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id2">径向速度法</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id4">天体测量学</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id6">直接影像</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id7">凌日法</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id13">微引力透镜</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#index-1">径向速度法</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#index-3">天体测量学</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#index-5">直接影像</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#index-7">凌日法</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#index-9">微引力透镜</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#id14">参考及尾注</a></li>
 </ul>
 </li>
@@ -110,6 +111,11 @@
 <li class="toctree-l1"><a class="reference internal" href="exoint.html">有趣的档案</a></li>
 </ul>
 
+<ul class="current nav nav-list" style="border-top:1px solid grey;margin-top:1em;padding-top:1em;">
+	<li><a href="http://exoplanets.interimm.org/genindex.html">重要词条索引</a></li>
+	<li><a href="https://github.com/InterImm/exoplanets/issues" target="_blank">提交 BUG</a></li>
+</ul>
+</div>
         </div>
       </div>
     <div class="col-md-9">
@@ -136,8 +142,8 @@
   <div class="section" id="id1">
 <h1>系外行星的探测<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <p>系外行星的探测方法有两大类，直接探测和间接探测。</p>
-<div class="section" id="id2">
-<h2>径向速度法<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="index-0"></span><div class="section" id="index-1">
+<span id="id2"></span><h2>径向速度法<a class="headerlink" href="#index-1" title="Permalink to this headline">¶</a></h2>
 <p>在之前的理论的讨论中，我们提到了轨道平面不一定平行于我们的视线。</p>
 <div class="figure align-center" id="id19">
 <img alt="投影平面" src="_images/tiltedOrbitPlane.png" />
@@ -165,9 +171,9 @@ k &amp; = \frac{2\pi a_1\sin i}{P\sqrt{1-e^2}}\end{split}\]</div>
 </div>
 <p>HARPS 的光谱测量可以达到 1 m/s 的径向速度测量精度。而这要求仪器能够测量 15 纳米的波长变化，或者说要去能够测量 1/1000 的 CCD 上的单像素上的变化。这样也就需要我们把仪器的温度降低到足够低，使得热涨落降低到不影响我们测量的程度。</p>
 <p>然而，径向速度法所遇到的困难是，因为恒星在长时间上会有一些活动，从而导致光谱的变化，所以这种方法在测量长周期的天体的时候，需要考虑到恒星本身的变化。</p>
-</div>
-<div class="section" id="id4">
-<h2>天体测量学<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="index-2"></span></div>
+<div class="section" id="index-3">
+<span id="id4"></span><h2>天体测量学<a class="headerlink" href="#index-3" title="Permalink to this headline">¶</a></h2>
 <p>天体测量学（Astrometry）是测量天体位置的一个天文学分支。我们之前看到过我们的太阳其实一直在变动位置。</p>
 <img alt="_images/Solar_System_Barycenter_2000-2050.png" class="align-center" src="_images/Solar_System_Barycenter_2000-2050.png" />
 <p>那么，如果我们能够时刻监测恒星的位置，我们就可以推导出行星的状况。</p>
@@ -194,9 +200,9 @@ k &amp; = \frac{2\pi a_1\sin i}{P\sqrt{1-e^2}}\end{split}\]</div>
 <p class="caption"><span class="caption-text">来源：Wikipedia <a class="reference external" href="https://en.wikipedia.org/wiki/File:Gaia_spacecraft.jpg">File:Gaia spacecraft.jpg</a></span></p>
 </div>
 <p>ESA 发射了 <a class="reference external" href="http://www.esa.int/spaceinvideos/Videos/2013/12/Inside_Gaia_s_billion-pixel_camera">GAIA 卫星</a> ，用来精确测量距离并且探测巨行星。以下视频来自 <a class="reference external" href="http://www.esa.int/spaceinvideos/Videos/2013/12/Inside_Gaia_s_billion-pixel_camera">ESA</a> .</p>
-<iframe src="http://www.esa.int/spaceinvideos/content/view/embedjw/424168" width="640" height="360" frameborder="0"></iframe></div>
-<div class="section" id="id6">
-<h2>直接影像<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<iframe src="http://www.esa.int/spaceinvideos/content/view/embedjw/424168" width="640" height="360" frameborder="0"></iframe><span class="target" id="index-4"></span></div>
+<div class="section" id="index-5">
+<span id="id6"></span><h2>直接影像<a class="headerlink" href="#index-5" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-center" id="id23">
 <img alt="_images/directImaging.jpg" src="_images/directImaging.jpg" />
 <p class="caption"><span class="caption-text">直接影像法。来源：Wikipedia <a class="reference external" href="https://zh.wikipedia.org/wiki/File:444226main_exoplanet20100414-a-full.jpg">File:444226main exoplanet20100414-a-full.jpg</a></span></p>
@@ -204,9 +210,9 @@ k &amp; = \frac{2\pi a_1\sin i}{P\sqrt{1-e^2}}\end{split}\]</div>
 <p>由于行星反射的光子太少，加上恒星的掩盖，直接拍摄行星的影像非常困难。然而通过一些技术手段，这是可以做到的，而且这种方法的优点也很显著。</p>
 <p>相比于之前的天体测量学方法，这种方法需要测量的角度就不需要那么小了，因为我们现在是在测量行星的轨道，而不是恒星的。</p>
 <p>然而，想要直接看到行星，我们需要一个大口径的望远镜，而大口径的望远镜受到大气扰动的影响就越大。解决这个问题的方式是使用 adaptive optics. 下面来自 <a class="reference external" href="http://www.eso.org/public/videos/adaptiveopticsandmask/">ESO</a> 的视频清楚的展示了大气扰动的问题和自适应光学方法的效果。</p>
-<div id='flashplayer'>Loading player...</div><script type='text/javascript' src='http://www.eso.org/public/archives/djangoplicity/shadowbox3/libraries/mediaplayer5/jwplayer.js'></script><script type='text/javascript'>var sdfile = 'http://www.eso.org/public/archives/videos/medium_flash/adaptiveopticsandmask.flv';var imagefile = 'http://www.eso.org/public/archives/videos/videoframe/adaptiveopticsandmask.jpg';var flashsrc = 'http://www.eso.org/public/archives/djangoplicity/shadowbox3/libraries/mediaplayer5/player.swf';var sharelink = 'http://www.eso.org/public/videos/adaptiveopticsandmask/';var sharecode = '';var gaid = 'UA-1965004-1';var ipadfile = 'http://www.eso.org/public/archives/videos/medium_podcast/adaptiveopticsandmask.m4v';var mobilefile = 'http://www.eso.org/public/archives/videos/medium_podcast/adaptiveopticsandmask.m4v';var hdfile = 'http://www.eso.org/public/archives/videos/hd_and_apple/adaptiveopticsandmask.m4v';;</script><script type='text/javascript' src='http://www.eso.org/public/archives/djangoplicity/js/videoembed.js'></script></div>
-<div class="section" id="id7">
-<h2>凌日法<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<div id='flashplayer'>Loading player...</div><script type='text/javascript' src='http://www.eso.org/public/archives/djangoplicity/shadowbox3/libraries/mediaplayer5/jwplayer.js'></script><script type='text/javascript'>var sdfile = 'http://www.eso.org/public/archives/videos/medium_flash/adaptiveopticsandmask.flv';var imagefile = 'http://www.eso.org/public/archives/videos/videoframe/adaptiveopticsandmask.jpg';var flashsrc = 'http://www.eso.org/public/archives/djangoplicity/shadowbox3/libraries/mediaplayer5/player.swf';var sharelink = 'http://www.eso.org/public/videos/adaptiveopticsandmask/';var sharecode = '';var gaid = 'UA-1965004-1';var ipadfile = 'http://www.eso.org/public/archives/videos/medium_podcast/adaptiveopticsandmask.m4v';var mobilefile = 'http://www.eso.org/public/archives/videos/medium_podcast/adaptiveopticsandmask.m4v';var hdfile = 'http://www.eso.org/public/archives/videos/hd_and_apple/adaptiveopticsandmask.m4v';;</script><script type='text/javascript' src='http://www.eso.org/public/archives/djangoplicity/js/videoembed.js'></script><span class="target" id="index-6"></span></div>
+<div class="section" id="index-7">
+<span id="id7"></span><h2>凌日法<a class="headerlink" href="#index-7" title="Permalink to this headline">¶</a></h2>
 <p>利用行星对恒星光源的遮挡，我们可以探测行星。</p>
 <p>一个非常好的理解凌日现象的例子是金星凌日：</p>
 <div class="figure align-center" id="id24">
@@ -313,10 +319,10 @@ k &amp; = \frac{2\pi a_1\sin i}{P\sqrt{1-e^2}}\end{split}\]</div>
 <img alt="_images/massRangeDetected.png" src="_images/massRangeDetected.png" />
 <p class="caption"><span class="caption-text">红色区域是我们能够探测的区域。</span></p>
 </div>
+<span class="target" id="index-8"></span></div>
 </div>
-</div>
-<div class="section" id="id13">
-<h2>微引力透镜<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="index-9">
+<span id="id13"></span><h2>微引力透镜<a class="headerlink" href="#index-9" title="Permalink to this headline">¶</a></h2>
 <p>前面这两种方法有个很大的缺陷，就是对于长周期的行星的观测几乎无能无力，除非我们能够做几个世纪的观测，显然对现在而言，这是不现实的。另外，对于距离恒星太远的行星，对于恒星的光谱扰动太小，极不容易观测。所以我们需要另外的完全不同的方法。</p>
 <p>引力的时空几何，所以跟所有的运动耦合，因此可以影响物质的运动，包括光。</p>
 <div class="figure align-center" id="id32">
@@ -384,7 +390,7 @@ k &amp; = \frac{2\pi a_1\sin i}{P\sqrt{1-e^2}}\end{split}\]</div>
     </p>
     <p>
         <span class="btn btn-flat disabled btn-xs">&copy; Copyright 2014, Interplanetary Immigration Center</span>
-      <span class="btn btn-flat btn-xs disabled">最近更新 Aug 08, 2015</span>  <a href="http://interimm.org/InterImmBook/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
+      <span class="btn btn-flat btn-xs disabled">最近更新 Sep 24, 2015</span>  <a href="http://exoplanets.interimm.org/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
     </p>
   </div>
   <script>

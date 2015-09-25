@@ -4,6 +4,7 @@
 
 这里收集了一些有趣的系外行星档案。
 
+.. index:: Kepler-10c
 
 .. admonition:: Kepler-10c
    :class: list
@@ -18,6 +19,7 @@
       Credit: David A. Aguilar (CfA)
 
 
+.. index:: Kepler-10b
 
 .. admonition:: Kepler-10b
    :class: list 
@@ -33,6 +35,8 @@
       Credit: NASA
 
 
+.. index:: Alpha Cen B b
+
 .. admonition:: Alpha Cen B b
    :class: list
    :name: alpha-cen-b-b
@@ -46,6 +50,7 @@
 
 
 
+.. index:: Alpha Centauri 
 
 .. admonition:: Alpha Centauri 
    :class: list
@@ -59,6 +64,8 @@
 
 
 
+.. index:: GJ 1214b
+
 .. admonition:: GJ 1214b
    :class: list
    :name: gj-1214b
@@ -70,6 +77,7 @@
       :align: center
 
 
+.. index:: Gliese 667 Cc
 
 .. admonition:: Gliese 667 Cc
    :class: list
@@ -84,6 +92,8 @@
       Image Credit: `ESO/L. Calçada <http://en.wikipedia.org/wiki/File:Gliese_667_Cc_sunset.jpg>`_ .
 
 
+
+.. index:: Kepler-62e
 
 .. admonition:: Kepler-62e
    :class: list
@@ -106,6 +116,9 @@
 
 
    该星系中行星比较多，上图前景中的行星为 Kepler-62f，背景中的十字光芒的星为 Kepler-62e.
+
+
+.. index:: HAT-P-11b / Kepler-3b
 
 .. admonition:: HAT-P-11b / Kepler-3b
    :class: list
@@ -133,6 +146,7 @@
       艺术想象图。`Image Credit: NASA JPL-Caltech <http://www.nasa.gov/press/2014/september/nasa-telescopes-find-clear-skies-and-water-vapor-on-exoplanet/>`_
 
 
+.. index:: Gliese 832c
 
 .. admonition:: Gliese 832c
    :class: list
@@ -145,6 +159,8 @@
 
       Gliese 832c 想象图。来源：`File:Gj832c.png @ Wikipedia <https://en.wikipedia.org/wiki/File:Gj832c.png>`_
 
+
+.. index:: Tau Ceti e
    
 .. admonition:: Tau Ceti e
    :class: list
@@ -168,6 +184,8 @@
 
 
 
+.. index:: Kepler-452b
+
 .. admonition:: Kepler-452b
    :class: list
    :name: kepler-452b
@@ -187,6 +205,8 @@
       Kepler-452b 所在的星系。图片来源： `PHL <http://phl.upr.edu/press-releases/twonearbyhabitableworlds>`_
 
    NASA 于 GMT 时间 2015 年 7 月 23 日 16 点举行电话新闻发布会，介绍了关于这颗行星的特殊之处。
+
+
 
 
 

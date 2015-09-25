@@ -3,6 +3,8 @@
 
 系外行星的探测方法有两大类，直接探测和间接探测。
 
+.. index:: Radial Velocity
+.. index:: 径向速度法
 
 径向速度法
 --------------
@@ -60,7 +62,8 @@ HARPS 的光谱测量可以达到 1 m/s 的径向速度测量精度。而这要�
 然而，径向速度法所遇到的困难是，因为恒星在长时间上会有一些活动，从而导致光谱的变化，所以这种方法在测量长周期的天体的时候，需要考虑到恒星本身的变化。
 
 
-
+.. index:: Astrometry
+.. index:: 天体测量学
 
 天体测量学
 --------------
@@ -127,6 +130,9 @@ ESA 发射了 `GAIA 卫星 <http://www.esa.int/spaceinvideos/Videos/2013/12/Insi
 
 
 
+.. index:: Direct Imaging
+.. index:: 直接影像
+
 直接影像
 ----------------
 
@@ -151,6 +157,9 @@ ESA 发射了 `GAIA 卫星 <http://www.esa.int/spaceinvideos/Videos/2013/12/Insi
    <div id='flashplayer'>Loading player...</div><script type='text/javascript' src='http://www.eso.org/public/archives/djangoplicity/shadowbox3/libraries/mediaplayer5/jwplayer.js'></script><script type='text/javascript'>var sdfile = 'http://www.eso.org/public/archives/videos/medium_flash/adaptiveopticsandmask.flv';var imagefile = 'http://www.eso.org/public/archives/videos/videoframe/adaptiveopticsandmask.jpg';var flashsrc = 'http://www.eso.org/public/archives/djangoplicity/shadowbox3/libraries/mediaplayer5/player.swf';var sharelink = 'http://www.eso.org/public/videos/adaptiveopticsandmask/';var sharecode = '';var gaid = 'UA-1965004-1';var ipadfile = 'http://www.eso.org/public/archives/videos/medium_podcast/adaptiveopticsandmask.m4v';var mobilefile = 'http://www.eso.org/public/archives/videos/medium_podcast/adaptiveopticsandmask.m4v';var hdfile = 'http://www.eso.org/public/archives/videos/hd_and_apple/adaptiveopticsandmask.m4v';;</script><script type='text/javascript' src='http://www.eso.org/public/archives/djangoplicity/js/videoembed.js'></script>
 
 
+
+.. index:: Transit
+.. index:: 凌日法
 
 
 凌日法
@@ -321,6 +330,10 @@ ESA 发射了 `GAIA 卫星 <http://www.esa.int/spaceinvideos/Videos/2013/12/Insi
    红色区域是我们能够探测的区域。
 
 
+
+
+.. index:: Microlensing
+.. index:: 微引力透镜
 
 
 微引力透镜
