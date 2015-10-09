@@ -125,7 +125,7 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="">行星大气</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#id2">基础知识</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#id6">区分恒星光谱和行星光谱</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id14">参考及尾注</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id10">参考及尾注</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="hz.html">宜居性</a></li>
@@ -167,11 +167,11 @@
 <h1>行星大气<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <p>除了行星的轨道的信息，我们同样想要知道行星本身的性质，比如密度，成分，甚至大气。</p>
 <p>通过平均质量和密度关系，我们可以判断行星的可能成分。</p>
-<div class="figure align-center" id="id15">
+<div class="figure align-center" id="id11">
 <img alt="_images/massVSdensity.png" src="_images/massVSdensity.png" />
 <p class="caption"><span class="caption-text">图片：C. Lovis April 2014. 可见行星的质量和平均密度差别很大。红线是指的完全由岩石组成的行星，蓝线是完全由水组成的行星。</span></p>
 </div>
-<div class="figure align-center" id="id16">
+<div class="figure align-center" id="id12">
 <img alt="_images/radiusVSMass.png" src="_images/radiusVSMass.png" />
 <p class="caption"><span class="caption-text">图片来源：<a class="reference external" href="http://arxiv.org/abs/1310.7987">arXiv:1310.7987</a> . 半径-质量图。</span></p>
 </div>
@@ -186,7 +186,7 @@
 <ul class="simple">
 <li>黑体辐射</li>
 </ul>
-<div class="figure align-center" id="id17">
+<div class="figure align-center" id="id13">
 <img alt="_images/blackbody.png" src="_images/blackbody.png" />
 <p class="caption"><span class="caption-text">黑体谱是理想的情况下，完全平衡的情况下的光谱。可见光只占了黑体谱的很小的一部分。</span></p>
 </div>
@@ -200,7 +200,7 @@
 </ul>
 </div>
 <p>下图是几种可能的光谱，光谱确实可能为我们提供很多的信息。</p>
-<div class="figure align-center" id="id18">
+<div class="figure align-center" id="id14">
 <img alt="_images/emergentSpectra.png" src="_images/emergentSpectra.png" />
 <p class="caption"><span class="caption-text">第一种是黑体谱，没有吸收，没有部分衰减；第二种是光源有温度差，不同温度的分层，越往外温度越低，会对不同波长的电磁波有不同的吸收和发射；第三种是越往外温度越高的温度差异；第四种是一个气体被背后的光源照亮，然后产生的吸收谱。</span></p>
 </div>
@@ -209,12 +209,12 @@
 <h3>化学成分<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
 <p>系外行星上有哪些化学成分呢？</p>
 <p>先来看看我们太阳系的情况</p>
-<div class="figure align-center" id="id19">
+<div class="figure align-center" id="id15">
 <img alt="_images/elementAbundance.png" src="_images/elementAbundance.png" />
 <p class="caption"><span class="caption-text">氢和氦是最多的，其次是氧、碳和氮。原子数越多，基本上含量迅速减少。</span></p>
 </div>
 <p>有了元素的分布，我们可以定性的估计哪些化学成分会比较多。</p>
-<div class="figure align-center" id="id20">
+<div class="figure align-center" id="id16">
 <img alt="_images/chemical.png" src="_images/chemical.png" />
 <p class="caption"><span class="caption-text">氢气，氦气，各类氧化物，氮化物。根据温度的不同，可能的存在状态也不同。</span></p>
 </div>
@@ -224,7 +224,7 @@
 <li>分子的转动-振动谱线；</li>
 <li>散射，包括瑞利散射（散射粒子远小于光波长）和米散射（散射粒子大于光波长）。</li>
 </ol>
-<div class="figure align-center" id="id21">
+<div class="figure align-center" id="id17">
 <img alt="_images/atmosphereAtomMolecular.png" src="_images/atmosphereAtomMolecular.png" />
 <p class="caption"><span class="caption-text">对于不同的波长，不同的化学分子有不同的散射界面。散射界面越小，就显得越透明。来源：Burrows 2014</span></p>
 </div>
@@ -244,14 +244,14 @@
 <p>这样把第二个方程代入第一个方程，可以导出压强随着高度变化的解，</p>
 <div class="math">
 \[P(z) = P_0 e^{-z/H},\]</div>
-<p class="last">其中 <span class="math">\(H=\frac{kT}{\mu g}\)</span>.</p>
+<p class="last">其中 <span class="math">\(H=\frac{kT}{\mu g}\)</span> .</p>
 </div>
 <p>大气中的能量的传输有两种主要的方式，辐射和对流，这两种方式都可以跟温度差有关。</p>
 </div>
 </div>
 <div class="section" id="id6">
 <h2>区分恒星光谱和行星光谱<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
-<p>如果要区分两者光谱，理想的情况是我们能够直接有足够的角分辨率，从而能够从仪器中直接将行星和恒星分开。然而这是非常困难的。除了角分辨率的问题，行星相比于恒星实在太暗了，要比恒星暗 <span class="math">\(10^{-3}\)</span> 到 :math:<a href="#id7"><span class="problematic" id="id8">`</span></a>10^{-10}`倍。</p>
+<p>如果要区分两者光谱，理想的情况是我们能够直接有足够的角分辨率，从而能够从仪器中直接将行星和恒星分开。然而这是非常困难的。除了角分辨率的问题，行星相比于恒星实在太暗了，要比恒星暗 <span class="math">\(10^{-3}\)</span> 到 <span class="math">\(10^{-10}\)</span> 倍。</p>
 <div class="note admonition">
 <p class="first admonition-title">几个数字</p>
 <p class="last">假定我们从 10pc 远的地方看太阳系，想要分辨出地球和太阳，那么我们需要最小 0.1 弧秒的分辨率。然而，光学望远镜有一个光学上的衍射极限，直径 1.3m 的望远镜，衍射极限就是 0.1 弧秒，角分辨率不能比这个更加小。</p>
@@ -263,59 +263,63 @@
 <img alt="_images/transit.png" src="_images/transit.png" />
 </div>
 <p>一个很神奇的方法是使用凌日。当行星位于我们和恒星之间的时候，我们看到的光谱是包括行星的，但是当行星移动到恒星的背面，我们观测到的光谱就没有行星的成分了。通过对照这两类光谱，我们可以获得一些行星光谱的信息。</p>
-<div class="section" id="id9">
-<h3>透射光谱<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id7">
+<h3>透射光谱<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
 <p>前面我们看到，对于不同的波长，大气的透明度不同，所以当我们观测不同的波长的时候，我们会看到不同大小的行星。对于某些相对大气不透明的波长，因为行星大气底层密度大的区域阻止了光的通过，所以会看到一个更大的行星。当我们观测另外一些特别透明的波长的时候，我们会看到更小的行星。</p>
+<div class="note admonition">
+<p class="first admonition-title">透射</p>
+<p class="last">行星的大气层越厚对光的吸收就越好，但是对于不同的波长的吸收不同。有的波长吸收多，可以被相对比较高层的大气遮挡，这时候我们通过这个波段观察行星就会看到一个更大的行星。然而有的波长不容易被吸收，这时候我们观测到的是一个更小的行星，因为高层的大气不能遮挡这个波段。</p>
+</div>
 <p>我们可以计算大气在什么样的高度上就变得透明了，当然这个透明度跟散射界面有关。</p>
 <div class="math">
 \[z(\lambda) = H (\ln \sigma(\lambda)+\text{\Const})\]</div>
-<p>也就是说，散射界面越大，这个高度就越大。而这里面 :math:<a href="#id10"><span class="problematic" id="id11">`</span></a>H=frac{kT}{mu g}`是一个跟行星大气的特征有关的量。这样我们结合不同波长的观测的结果，就可以计算行星大气。另外，我们还可以根据对不同波长的透明度推断行星大气的化学成分。</p>
+<p>也就是说，散射界面越大，这个高度就越大。而这里面 <span class="math">\(H=\frac{kT}{\mu g}\)</span> 是一个跟行星大气的特征有关的量。这样我们结合不同波长的观测的结果，就可以计算行星大气。另外，我们还可以根据对不同波长的透明度推断行星大气的化学成分。</p>
 <div class="note admonition">
 <p class="first admonition-title">实例</p>
-<div class="figure align-center" id="id22">
+<div class="figure align-center" id="id18">
 <img alt="_images/transmission1.png" src="_images/transmission1.png" />
 <p class="caption"><span class="caption-text"><strong>HD 209458b</strong>， 右侧的巨大的峰值显示了水蒸气的透射波长。</span></p>
 </div>
-<div class="figure align-center" id="id23">
+<div class="figure align-center" id="id19">
 <img alt="_images/transmission2.png" src="_images/transmission2.png" />
 <p class="caption"><span class="caption-text"><strong>HD 189733b</strong>，红线是观测结果，逐渐降低的半径显示了很可能有雾气或者云层导致瑞利散射。</span></p>
 </div>
-<div class="last figure align-center" id="id24">
+<div class="last figure align-center" id="id20">
 <img alt="_images/transmission4.png" src="_images/transmission4.png" />
 <p class="caption"><span class="caption-text"><strong>GJ 1214b</strong>，几乎水平的结果暗示这颗行星有云层或者雾气。</span></p>
 </div>
 </div>
 </div>
-<div class="section" id="id12">
-<h3>热发射谱<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
-<div class="figure align-center" id="id25">
+<div class="section" id="id8">
+<h3>热发射谱<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center" id="id21">
 <img alt="_images/600px-Black_body.svg.png" src="_images/600px-Black_body.svg.png" />
 <p class="caption"><span class="caption-text">黑体辐射</span></p>
 </div>
-<p>如果行星吸收的所有的能量跟他释放的能量相同，那么这个行星处在热平衡，这时候（吸收或者放出的能量所对应）的温度叫做平衡温度:math:<cite>T_{eq}</cite>；如果我们假定行星是黑体，他放出的总的辐射的能量，所对应的黑体温度，就做有效温度 <span class="math">\(T_{eff}\)</span>。通过计算，我们可以得出</p>
+<p>如果行星吸收的所有的能量跟他释放的能量相同，那么这个行星处在热平衡，这时候（吸收或者放出的能量所对应）的温度叫做平衡温度 <span class="math">\(T_{eq}\)</span> ；如果我们假定行星是黑体，他放出的总的辐射的能量，所对应的黑体温度，就做有效温度 <span class="math">\(T_{eff}\)</span> 。通过计算，我们可以得出</p>
 <div class="math">
 \[T_{eq} = T_{eff}\sqrt{R_s}{a}\left(\frac{1-A_B}{4}\right)^{1/4}.\]</div>
 <p>其中 <span class="math">\(A_B\)</span> 是 bond albedo，即没有被吸收的能量占总的入射能量的比值。</p>
 <p>我们可以定义热发射流量比，即恒星的热发射的流量与恒星的比值，</p>
 <div class="math">
 \[\frac{F_p(\lambda)}{F_s(\lambda)} = \left(\frac{R_p}{R_s}\right)^2 \sqrt{R_s}{a}\left(\frac{1-A_B}{4}\right)^{/4}.\]</div>
-<p>可以发现右侧是一些跟轨道半长轴 a，恒星行星半径 <span class="math">\(R_p\)</span>，恒星半径 <span class="math">\(R_s\)</span>，<span class="math">\(A_B\)</span> 有关的量，而左边是观测值，这样我们通过对不同波长的对比，可以得到很多行星大气的信息。</p>
-<div class="figure align-center" id="id26">
+<p>可以发现右侧是一些跟轨道半长轴 a，恒星行星半径 <span class="math">\(R_p\)</span> ，恒星半径 <span class="math">\(R_s\)</span> ，<span class="math">\(A_B\)</span> 有关的量，而左边是观测值，这样我们通过对不同波长的对比，可以得到很多行星大气的信息。</p>
+<div class="figure align-center" id="id22">
 <img alt="_images/hd189733b.png" src="_images/hd189733b.png" />
 <p class="caption"><span class="caption-text"><strong>HD 189733b</strong>，一颗被潮汐锁定的行星，下面一张图是夜晚部分的曲线，显然要比白天部分的要冷。</span></p>
 </div>
 </div>
-<div class="section" id="id13">
-<h3>其他方式<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id9">
+<h3>其他方式<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 <p>行星也会有反射光谱，因为观测反射光谱也是一种可能的方法。</p>
-<div class="figure align-center" id="id27">
+<div class="figure align-center" id="id23">
 <img alt="_images/reflectance.png" src="_images/reflectance.png" />
 <p class="caption"><span class="caption-text">地球的反射光谱，可以看到非常多的细节，包括化学成分。</span></p>
 </div>
 </div>
 </div>
-<div class="section" id="id14">
-<h2>参考及尾注<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id10">
+<h2>参考及尾注<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
 <p>本文参考 Couresera 课程 <a class="reference external" href="https://class.coursera.org/extrasolarplanets-001">The Diversity of Exoplanets</a> .</p>
 <p>一篇关于如何探测工业文明的文章: <a class="reference external" href="http://arxiv.org/abs/1406.3025">arXiv:1406.3025</a> 。</p>
 </div>
