@@ -4,6 +4,94 @@
 
 这部分中，我们先讨论天体轨道的一些理论，主要是开普勒定律以及在系外行星探测中需要的“所谓修正”。
 
+.. index:: Celestial Coordinate Systems
+.. index:: 天球坐标系
+
+坐标
+--------------
+
+在天文和天体物理中，我们使用一些特殊的坐标系。如果我们不关心距离，只关心天体的方位，那么我们只需要两个坐标就足够了。
+
+.. figure:: assets/orbits/altitude-azimuth-system.png
+   :align: center
+
+   想想我们站在一个球形穹顶的中央，要指定一个恒星的方位，我们只需要说出图中 h 和 A 两个参数就可以了。当然我们也可以选择使用 z 和 A 来指定方位等等。选择并不是唯一。图片来自 BOB Figure 1.8.
+
+天文上常常就是采用这样的坐标：天球坐标系统，也就是 Celestial Coordinate Systems. 由于基准位置的选取不同，又分为很多不同的坐标系统：以观测所在地的地平线为基础平面的地平坐标系统（Horizontal Coordinate System），以赤道作为基准平面的赤道坐标系统（Equatorial Coordinate System），以黄道（地球上观察太阳一年在天球上的视运动的路径）作为基准的黄道坐标系（Ecliptic Coordinate System），以及以银河系盘面作为基准的银道坐标系（Galactic Coordinate System）等等。
+
+
+
+.. figure:: assets/orbits/galactic_longitude.jpg
+   :align: center
+
+   银道坐标系。来源 `Wikipedia File:Galactic longitude.JPG <https://commons.wikimedia.org/wiki/File:Galactic_longitude.JPG>`_ 。银道坐标系统可以很方便地用来指定银河系中的天体的方位。
+
+
+赤道坐标系是比较常用的一种坐标系统。以地球赤道对应的天球上的位置为基准平面，类似与地球上一样划分出经度和纬度，分布成为赤经（Right Ascension或对应时角）和赤纬（Declination）。
+
+
+.. figure:: assets/orbits/earth_within_celestial_sphere.gif
+   :align: center
+
+   赤道坐标系。来源：`File:Earth within celestial sphere.gif <https://commons.wikimedia.org/wiki/File:Earth_within_celestial_sphere.gif>`_ 。地球赤道对应的天球上的天赤道。其中红色表示黄道，赤经和赤纬用绿色标出。
+
+
+选定了基准平面，还有一个变化可以选择，即选择天球坐标固定在什么上。这里常用的选择有两个，一个是固定在地球表面也就是天球坐标随地球一起转动，这是我们用时角来表示坐标，另一个是选择是坐标固定在恒星上，不随地球转动，这是我们用赤经赤纬来表示坐标。
+
+
+.. index:: Luminosity
+.. index:: Magnitude
+.. index:: 光度
+.. index:: 星等
+
+
+光度和星等
+--------------
+
+
+
+在天文上，描述一个天体有多么亮，我们有多种方法。其中比较常用的包括光度、绝对星等和视星等。
+
+* 光度，Luminosity，其实就是辐射功率，也就是某个面积上单位时间内通过的光的能量。例如对于恒星来说，光度就是单位时间内释放的总能量。因此单位是功率单位。通常天文上使用太阳光度作为一个参考值，:math:`L_{\odot} = 3.8 W` 。
+* 视星等，Apparent Magnitude，是一个用来表征我们在地球上观测到的天体的亮度的量。
+* 绝对星等是在一个特定距离上的视星等。
+
+
+视星等的定义是通过来自天体的光在地球上观测的时候的辐射通量来定义的。我们定义辐射通量为单位面积上单位时间内通过的光的能量，标记为 :math:`F`。视星等的定义为
+
+.. math::
+   m - m_0 = -2.5 \log_{10} \left( \frac{F}{F_0} \right),
+
+其中，:math:`m_0` 和 :math:`F_0` 是参考天体的视星等和辐射通量。从定义看出，视星等的值越小，天体越亮。太阳的视星等是 -26.74，而月亮的视星等是 -12.74。
+
+关于辐射通量的有趣的一点是，距离恒星越远，辐射通量就越小，因为距离越远，恒星的辐射功率被平均在了一个更大的球面上，单位面积的功率就小了。
+
+为了去掉距离的影响，绝对星等被定义为距离恒星 10 秒差距的地方的视星等。
+
+.. math::
+   M = m + 5 \log_{10} \left( \frac{d_0}{d} \right)，
+
+其中 :math:`d_0 = 10pc`。
+
+
+.. addmonition:: 视星等和绝对星等
+   :class: note
+
+   按照绝对星等的定义，
+
+   M - m_0 = -2.5 \log_{10} \left(L/4\pi d_0^2 \right) + Constant，
+
+   结合视星等的定义，我们得出
+
+   .. math::
+      m - M &= -2.5 \log_{10} \left( L/4\pi d^2 \right) + 2.5 \log_{10} \left( L/4\pi d_0^2 \right) \\
+      & = -2.5 \log_{10} \left( \left(\frac{d}{d_0}\right)^2 \right) \\
+      & = -5 \log_{10} \frac{d_0}{d}.
+
+
+
+
+
 
 .. index:: Kepler's Law
 .. index:: 开普勒定律
@@ -224,12 +312,13 @@
 
 
 
+参考和尾注
+---------------
 
-
-
-
-
+关于天体轨道理论可以参考 Carroll B. W., Ostlie D.A., An Introduction to Modern Astrophysics. 
 
 
 .. [1] `开普勒定律 <https://zh.wikipedia.org/wiki/%E5%BC%80%E6%99%AE%E5%8B%92%E5%AE%9A%E5%BE%8B>`_
 .. [2] 来自 `Coursera 的 The Diversities of Exoplanets <https://class.coursera.org/extrasolarplanets-001>`_
+
+
