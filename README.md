@@ -1,6 +1,7 @@
 exoplanets
 ==========
 
+[![Build Status](https://travis-ci.org/InterImm/exoplanets.svg?branch=master)](https://travis-ci.org/InterImm/exoplanets)
 
 系外行星相关的基础知识，科研进展，数据分析，可视化等。
 
