@@ -172,15 +172,13 @@
    .. figure:: assets/exoint/HEC_HD10700e.jpg
       :align: center
 
-      Tau Ceti e 艺术想象图。图源：`PHL <http://phl.upr.edu/press-releases/twonearbyhabitableworlds>`_
-
+      Tau Ceti e 艺术想象图。图片来源：`PHL <http://phl.upr.edu/press-releases/twonearbyhabitableworlds>`_
 
    .. figure:: assets/exoint/HEC_HD10700ef_Comparison.jpg
       :align: center
 
-      图片来源： `PHL <http://phl.upr.edu/press-releases/twonearbyhabitableworlds>`_
+      与地球的比较。图片来源: PHL http://phl.upr.edu/press-releases/twonearbyhabitableworlds
 
-   上图是与地球的比较。
 
 
 
@@ -202,7 +200,7 @@
    .. figure:: assets/exoint/kepler-452b-sys.jpg
       :align: center
 
-      Kepler-452b 所在的星系。图片来源： `PHL <http://phl.upr.edu/press-releases/twonearbyhabitableworlds>`_
+      Kepler-452b 所在的星系。图片来源： PHL `http://phl.upr.edu/press-releases/twonearbyhabitableworlds>`
 
    NASA 于 GMT 时间 2015 年 7 月 23 日 16 点举行电话新闻发布会，介绍了关于这颗行星的特殊之处。
 

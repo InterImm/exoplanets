@@ -31,18 +31,18 @@ PHL 的 Habitable Exoplanets Catalog 里面有个分类方法是将系外行星�
 .. figure:: assets/viscat/PT_Confirmed.jpg
    :align: center
 
-   图片来自：`PHL <http://phl.upr.edu/projects/habitable-exoplanets-catalog/media/pte>`_  CREDIT: PHL @ UPR Arecibo.
+   图片来自：PHL `http://phl.upr.edu/projects/habitable-exoplanets-catalog/media/pte`  CREDIT: PHL @ UPR Arecibo.
 
 
 .. figure:: assets/viscat/PT_Kepler.jpg
    :align: center
 
-   图片来自：`PHL <http://phl.upr.edu/projects/habitable-exoplanets-catalog/media/pte>`_  CREDIT: PHL @ UPR Arecibo.
+   图片来自：PHL `http://phl.upr.edu/projects/habitable-exoplanets-catalog/media/pte`  CREDIT: PHL @ UPR Arecibo.
 
 .. figure:: assets/viscat/PT_Solar_System.jpg
    :align: center
 
-   图片来自：`PHL <http://phl.upr.edu/projects/habitable-exoplanets-catalog/media/pte>`_  CREDIT: PHL @ UPR Arecibo.
+   图片来自：PHL `http://phl.upr.edu/projects/habitable-exoplanets-catalog/media/pte`  CREDIT: PHL @ UPR Arecibo.
 
 
 

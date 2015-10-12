@@ -19,7 +19,7 @@
 
 1995 年，人们确认了第一颗围绕主序星运动的系外行星，名为 `51 Pegasi b <http://en.wikipedia.org/wiki/51_Pegasi>`_ 。
 
-.. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/51_Pegasi_b_v3.jpg/640px-51_Pegasi_b_v3.jpg
+.. image:: assets/intro/51_Pegasi_b_v3.jpg
    :alt: center
 
 间隔十多年，可谓是好事多磨难。现在，随着各类技术的出现，和人们对系外行星的关注度越来越高，系外行星已经不在稀有，被确认的系外行星现在达到了 1713 颗（此为 `NASA Exoplanet Archive <http://exoplanetarchive.ipac.caltech.edu/index.html>`_ 的数据，截止到 2014-05-14； 在 `The Extrasolar Planets Encyclopaedia <http://exoplanet.eu/>`_ 上截止到 2014-05-28 有 1792 颗），而被列入 Kepler Object of Interest 的候选达到了 3845 颗（`NASA Exoplanet Archive <http://exoplanetarchive.ipac.caltech.edu/index.html>`_，截止到 2013-02-13），并且有 443 个多行星系统（`NASA Exoplanet Archive <http://exoplanetarchive.ipac.caltech.edu/index.html>`_，截止到 2013-05-14）。
@@ -59,7 +59,7 @@
 系外行星的观测手段在近几年来有了很多进展，而且新的方法还在被提出。[2]_
 
 径向速度（Radial Velocity，简称 RV）
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 径向速度是一种很重要的方法，因为径向速度变化可以引起恒星光谱的多普勒偏移，即这种方法是可以跟光谱联系起来的，而光谱的测量，很久以来一直是我们最精密的测量手段之一。目前大多数被确认的系外行星，都是用径向速度的方法首先观测到的。
@@ -132,7 +132,7 @@ Kepler 卫星的工作原理主要就是凌日法。这种方法的特点是速�
 
 
 开放数据和分析工具
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 列举一下我这段时间遇到的一些提供数据和工具的网站：
 
@@ -186,7 +186,7 @@ Kepler 卫星的工作原理主要就是凌日法。这种方法的特点是速�
 
 
 系外行星数据可视化
------------------
+----------------------------------
 
 
 一张合理的图像会给我们比数字更加直观的感受，可以说通过合理的设计图像，可以获得一些看数据得不到的灵感，insight.
@@ -206,7 +206,7 @@ Kepler 卫星的工作原理主要就是凌日法。这种方法的特点是速�
 ”XKCD 的 1071 号作品“是一个很有趣的可视化，使用了 bubble chart 的手段：
 
 
-.. figure:: http://multiverse.lamost.org/blog/wp-content/uploads/2013/05/exoplanets.png
+.. figure:: assets/intro/exoplanets.png
    :align: center
    :alt: Exoplanets By XKCD. http://xkcd.com/1071/
 
