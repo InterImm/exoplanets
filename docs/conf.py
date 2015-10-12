@@ -48,6 +48,28 @@ source_suffix = '.rst'
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
 
+latex_preamble = r"""
+\usepackage{mathrsfs}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{slashed}
+\usepackage{graphicx}
+
+\usepackage{babel}
+
+\newcommand{\overlr}[1]{\overset\leftrightarrow{#1}}
+\newcommand{\overl}[1]{\overset\leftarrow{#1}}
+\newcommand{\overr}[1]{\overset\rightarrow{#1}}
+
+\newcommand{\bra}[1]{\left\langle #1\right|}
+\newcommand{\ket}[1]{\left| #1\right\rangle}
+\newcommand{\braket}[2]{\langle #1 \mid #2 \rangle}
+\newcommand{\avg}[1]{\left< #1 \right>}
+
+"""
+
+
+
 # The master toctree document.
 master_doc = 'index'
 

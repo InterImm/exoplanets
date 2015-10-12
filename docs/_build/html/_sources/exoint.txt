@@ -177,7 +177,7 @@
    .. figure:: assets/exoint/HEC_HD10700ef_Comparison.jpg
       :align: center
 
-      与地球的比较。图片来源: PHL http://phl.upr.edu/press-releases/twonearbyhabitableworlds
+      与地球的比较。图片来源: PHL `http://phl.upr.edu/press-releases/twonearbyhabitableworlds`
 
 
 

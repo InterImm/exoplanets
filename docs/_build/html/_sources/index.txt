@@ -19,7 +19,7 @@
 
 文档内容若无特殊说明使用 CC BY-SA 协议。
 
-.. image:: https://raw.github.com/opentf/GuokrBadge/master/cc/gs/cc_bysa.flat.guokr.32.png
+.. image:: _static/images/cc_bysa.flat.guokr.32.png
    :align: center
 
 
