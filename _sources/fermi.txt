@@ -131,7 +131,7 @@ Randall Munroe (xkcd) 的 Fish
 -------------------------------
 
 
-.. figure:: http://imgs.xkcd.com/comics/fish.png
+.. figure:: assets/fermi/fish.png
    :align: center
    :alt: Randall Munroe's Fish
 
