@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 
-
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
-    <title>宜居带行星列表 &mdash; 系外行星 3.14 documentation</title>
-    
+    <title>宜居带行星列表 &#8212; 系外行星 3.14 documentation</title>
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="_static/bootstrap-3.2.0/css/bootstrap.min.css" type="text/css" />
@@ -17,14 +14,15 @@
     <link rel="stylesheet" href="_static/material/css/ripples.min.css" type="text/css" />
     <link rel="stylesheet" href="_static/material/css/snackbar.min.css" type="text/css" />
     <link rel="stylesheet" href="_static/material/css/style.css" type="text/css" />
-    
+    <link rel="stylesheet" href="_static/style.css" type="text/css" />
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
         VERSION:     '3.14',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
       };
     </script>
     <script type="text/javascript" src="_static/jquery.js"></script>
@@ -37,7 +35,8 @@
     <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
     <script type="text/javascript" src="_static/material/js/material.min.js"></script>
     <script type="text/javascript" src="_static/material/js/ripples.min.js"></script>
-    <link rel="top" title="系外行星 3.14 documentation" href="index.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="系外行星的分类和可视化" href="viscat.html" />
     <link rel="prev" title="宜居性" href="hz.html" />
 <meta charset='utf-8'>
@@ -74,7 +73,7 @@
 
 
   </head>
-  <body role="document">
+  <body>
 
 <!-- Nav Bar at top -->
 <div class="navbar navbar-black" style="font-size:14px;">
@@ -84,29 +83,43 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand brand-style" href="http://interimm.org"><i class="fa fa-home"></i> &nbsp; 星际移民中心</a>
+        <a class="navbar-brand brand-style" href="javascript:void(0)"><i class="fa fa-home"></i> &nbsp; 星际移民中心</a>
     </div>
     <div class="navbar-collapse collapse navbar-inverse-collapse">
-        <ul class="nav navbar-nav navbar-nav-black" style="margin-bottom: 0em !important;">
+        <ul class="nav navbar-nav navbar-nav-black">
         <li class="divider-vertical divider-white"></li>
-            
             <li><a href="http://book.interimm.org"><i class="fa fa-archive"></i>&nbsp; 星际移民之书</a></li>
-            <li class="active"><a href="http://exoplanets.interimm.org"><i class="fa fa-globe"></i>&nbsp; 系外行星档案</a></li>
-            <li><a href="http://magazine.interimm.org"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li>
-
+            <li class="active"><a href="http://exoplanets.interimm.org"><i class="fa fa-globe"></i>&nbsp; 系外行星</a></li>
+            <!-- <li><a href="http://magazine.interimm.org"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li> -->
+            <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 专栏</a></li>
+            <li><a href="http://interimm.org/hub"><i class="fa fa-building-o"></i>&nbsp; 企业</a></li>
         </ul>
-        <ul class="nav navbar-nav navbar-right navbar-nav-black" style="margin-bottom: 0em !important;">
-        <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 知乎专栏</a></li>
-            <li><a href="http://weibo.com/iiaofficial" target="_blank"> <i class="fa fa-weibo"></i>&nbsp; 微博</a></li>
-            
+        <ul class="nav navbar-nav navbar-right navbar-nav-black">
+        <!-- Switch on/off between the following two lines to activate/deactivate the calendar icon -->
+        <!-- <li><a href="#activities" style="color:orange;"><i class="fa fa-calendar"></i></a></li> -->
+        <li><a href="#activities" style="color:grey;" data-toggle="tooltip" data-placement="bottom" title="相关活动"><i class="fa fa-calendar"></i></a></li>
+        <!-- <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 知乎专栏</a></li> -->
+        <li><a href="http://weibo.com/iiaofficial" style="color:#5bc0de;" target="_blank" data-toggle="tooltip" data-placement="bottom" title="微博"> <i class="fa fa-weibo"></i></a></li>
+        <li><a href="http://interimm.org/mars-map/" style="color:orange;" data-toggle="tooltip" data-placement="bottom" title="火星互动地图"><i class="fa fa-map"></i></a></li>
+
             <li class="dropdown">
-                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-arrow-circle-o-down"></i>&nbsp; 更多 <b class="caret"></b></a>
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-arrow-circle-o-down"></i> 更多<b class="caret"></b></a>
                 <ul class="dropdown-menu black-bg">
-                    <li><a href="http://github.com/InterImm" target="_blank"><i class="fa fa-github"></i>&nbsp; GitHub</a></li>
-                    <li><a href="http://www.guokr.com/group/396/" target="_blank"><i class="fa fa-lightbulb-o"></i>&nbsp; 果壳网小组</a></li>
+                   <li><a href="institutes.html"><i class="fa fa-sitemap"></i>&nbsp;星际机构</a></li>
+
+                   <li><a href="toolbox.html"><i class="fa fa-cogs"></i>&nbsp;工具箱</a></li>
+                   <li><a href="http://interimm.org/mars-clock"><i class="fa fa-clock-o"></i>&nbsp;火星时钟</a></li>
+
+                   <li><a href="http://interimm.org/mars-map/" style="color:orange;" data-toggle="tooltip" data-placement="bottom" title="火星互动地图"><i class="fa fa-map"></i>&nbsp;火星地图</a></li>
+                   <li><a href="http://cities.interimm.org/" style="color:orange;" ><i class="fa fa-map-signs"></i>&nbsp;火星城市</a></li>
+                   <li><a href="http://timeline.interimm.org"><i class="fa fa-clock-o"></i>&nbsp;时间线</a></li>
+
                     <li class="divider"></li>
-                    <li><a href="http://interimm.org/toolbox.html"><i class="fa fa-cogs"></i>&nbsp;工具箱</a></li>
-                    <li><a href="http://interimm.org/institutes.html"><i class="fa fa-sitemap"></i>&nbsp;星际机构</a></li>
+
+                    <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 知乎专栏</a></li>
+                    <li><a href="http://magazine.interimm.org"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li>
+                    <li><a href="http://www.guokr.com/group/396/" target="_blank"><i class="fa fa-lightbulb-o"></i>&nbsp; 果壳网小组</a></li>
+                    <li><a href="http://github.com/InterImm" target="_blank"><i class="fa fa-github"></i>&nbsp; GitHub</a></li>
                 </ul>
             </li>
         </ul>
@@ -126,7 +139,7 @@
 <li class="toctree-l1"><a class="reference internal" href="statistics.html">系外行星统计结果</a></li>
 <li class="toctree-l1"><a class="reference internal" href="atmosphere.html">行星大气</a></li>
 <li class="toctree-l1"><a class="reference internal" href="hz.html">宜居性</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">宜居带行星列表</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">宜居带行星列表</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#index-0">宜居带内行星列表</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#refs-notes">Refs &amp; Notes</a></li>
 </ul>
@@ -157,7 +170,7 @@
           <a href="viscat.html" title=系外行星的分类和可视化><span class="label label-info"><i class="fa fa-angle-right">&nbsp;</i></span></a>
         
         
-          <a href="_sources/hztable.txt" rel="nofollow" title="本页面的源代码"><span class="label label-default">&nbsp;<i class="fa fa-code"></i>&nbsp;</span></a>
+          <a href="_sources/hztable.rst.txt" rel="nofollow" title="本页面的源代码"><span class="label label-default">&nbsp;<i class="fa fa-code"></i>&nbsp;</span></a>
         
       </li>
   </ul>
@@ -235,7 +248,7 @@
 </tr>
 <tr class="row-even"><td>11 Com b</td>
 <td>16.128</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>326.0</td>
 <td>0.231</td>
 <td>94.8</td>
@@ -248,7 +261,7 @@
 </tr>
 <tr class="row-odd"><td>11 UMi b</td>
 <td>11.087</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>516.2</td>
 <td>0.080</td>
 <td>117.6</td>
@@ -261,7 +274,7 @@
 </tr>
 <tr class="row-even"><td>14 And b</td>
 <td>4.684</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>185.8</td>
 <td>0.000</td>
 <td>0.0</td>
@@ -274,7 +287,7 @@
 </tr>
 <tr class="row-odd"><td>14 Her b</td>
 <td>5.215</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>1773.4</td>
 <td>0.369</td>
 <td>22.6</td>
@@ -287,7 +300,7 @@
 </tr>
 <tr class="row-even"><td>16 Cyg B b</td>
 <td>1.640</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>798.5</td>
 <td>0.681</td>
 <td>85.8</td>
@@ -300,7 +313,7 @@
 </tr>
 <tr class="row-odd"><td>18 Del b</td>
 <td>10.298</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>993.3</td>
 <td>0.080</td>
 <td>166.1</td>
@@ -313,7 +326,7 @@
 </tr>
 <tr class="row-even"><td>24 Sex b</td>
 <td>1.836</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>455.2</td>
 <td>0.184</td>
 <td>227.0</td>
@@ -326,7 +339,7 @@
 </tr>
 <tr class="row-odd"><td>24 Sex c</td>
 <td>1.517</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>910.0</td>
 <td>0.412</td>
 <td>352.0</td>
@@ -339,7 +352,7 @@
 </tr>
 <tr class="row-even"><td>30 Ari B b</td>
 <td>9.878</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>335.1</td>
 <td>0.289</td>
 <td>307.0</td>
@@ -352,7 +365,7 @@
 </tr>
 <tr class="row-odd"><td>42 Dra b</td>
 <td>3.732</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>479.1</td>
 <td>0.380</td>
 <td>218.7</td>
@@ -365,7 +378,7 @@
 </tr>
 <tr class="row-even"><td>47 UMa b</td>
 <td>2.546</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>1078.0</td>
 <td>0.032</td>
 <td>334.0</td>
@@ -378,7 +391,7 @@
 </tr>
 <tr class="row-odd"><td>47 UMa c</td>
 <td>0.546</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>2391.0</td>
 <td>0.098</td>
 <td>295.0</td>
@@ -391,7 +404,7 @@
 </tr>
 <tr class="row-even"><td>4 UMa b</td>
 <td>7.132</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>269.3</td>
 <td>0.432</td>
 <td>23.8</td>
@@ -404,7 +417,7 @@
 </tr>
 <tr class="row-odd"><td>51 Peg b</td>
 <td>0.461</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>4.2</td>
 <td>0.013</td>
 <td>58.0</td>
@@ -417,7 +430,7 @@
 </tr>
 <tr class="row-even"><td>55 Cnc b</td>
 <td>0.801</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>14.7</td>
 <td>0.004</td>
 <td>110.0</td>
@@ -430,7 +443,7 @@
 </tr>
 <tr class="row-odd"><td>55 Cnc c</td>
 <td>0.165</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>44.4</td>
 <td>0.070</td>
 <td>356.0</td>
@@ -443,7 +456,7 @@
 </tr>
 <tr class="row-even"><td>55 Cnc d</td>
 <td>3.545</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>4909.0</td>
 <td>0.020</td>
 <td>254.0</td>
@@ -469,7 +482,7 @@
 </tr>
 <tr class="row-even"><td>55 Cnc f</td>
 <td>0.173</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>261.2</td>
 <td>0.320</td>
 <td>139.0</td>
@@ -482,7 +495,7 @@
 </tr>
 <tr class="row-odd"><td>61 Vir b</td>
 <td>0.016</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>4.2</td>
 <td>0.120</td>
 <td>105.0</td>
@@ -495,7 +508,7 @@
 </tr>
 <tr class="row-even"><td>61 Vir c</td>
 <td>0.033</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>38.0</td>
 <td>0.140</td>
 <td>341.0</td>
@@ -508,7 +521,7 @@
 </tr>
 <tr class="row-odd"><td>61 Vir d</td>
 <td>0.072</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>123.0</td>
 <td>0.350</td>
 <td>314.0</td>
@@ -521,7 +534,7 @@
 </tr>
 <tr class="row-even"><td>6 Lyn b</td>
 <td>2.209</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>874.8</td>
 <td>0.059</td>
 <td>314.9</td>
@@ -534,7 +547,7 @@
 </tr>
 <tr class="row-odd"><td>70 Vir b</td>
 <td>7.461</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>116.7</td>
 <td>0.401</td>
 <td>358.7</td>
@@ -547,7 +560,7 @@
 </tr>
 <tr class="row-even"><td>75 Cet b</td>
 <td>2.760</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>691.9</td>
 <td>0.117</td>
 <td>165.0</td>
@@ -560,7 +573,7 @@
 </tr>
 <tr class="row-odd"><td>7 CMa b</td>
 <td>2.432</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>763.0</td>
 <td>0.140</td>
 <td>12.0</td>
@@ -573,7 +586,7 @@
 </tr>
 <tr class="row-even"><td>81 Cet b</td>
 <td>4.311</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>952.7</td>
 <td>0.206</td>
 <td>175.0</td>
@@ -586,7 +599,7 @@
 </tr>
 <tr class="row-odd"><td>91 Aqr b</td>
 <td>3.070</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>181.4</td>
 <td>0.027</td>
 <td>177.3</td>
@@ -599,7 +612,7 @@
 </tr>
 <tr class="row-even"><td>alpha Ari b</td>
 <td>1.717</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>380.0</td>
 <td>0.250</td>
 <td>89.2</td>
@@ -612,7 +625,7 @@
 </tr>
 <tr class="row-odd"><td>alpha Cen B b</td>
 <td>0.004</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>3.2</td>
 <td>0.000</td>
 <td>0.0</td>
@@ -625,7 +638,7 @@
 </tr>
 <tr class="row-even"><td>BD -08 2823 b</td>
 <td>0.046</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>5.6</td>
 <td>0.150</td>
 <td>30.0</td>
@@ -638,7 +651,7 @@
 </tr>
 <tr class="row-odd"><td>BD -08 2823 c</td>
 <td>0.328</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>237.6</td>
 <td>0.190</td>
 <td>127.0</td>
@@ -651,7 +664,7 @@
 </tr>
 <tr class="row-even"><td>BD -10 3166 b</td>
 <td>0.430</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>3.5</td>
 <td>0.019</td>
 <td>334.0</td>
@@ -664,7 +677,7 @@
 </tr>
 <tr class="row-odd"><td>BD +14 4559 b</td>
 <td>1.519</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>268.9</td>
 <td>0.290</td>
 <td>87.6</td>
@@ -677,7 +690,7 @@
 </tr>
 <tr class="row-even"><td>BD +20 2457 b</td>
 <td>11.888</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>379.6</td>
 <td>0.150</td>
 <td>207.6</td>
@@ -690,7 +703,7 @@
 </tr>
 <tr class="row-odd"><td>BD +20 2457 c</td>
 <td>6.902</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>622.0</td>
 <td>0.180</td>
 <td>126.0</td>
@@ -703,7 +716,7 @@
 </tr>
 <tr class="row-even"><td>BD +48 738 b</td>
 <td>1.265</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>392.6</td>
 <td>0.200</td>
 <td>358.9</td>
@@ -716,7 +729,7 @@
 </tr>
 <tr class="row-odd"><td>beta Gem b</td>
 <td>2.758</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>589.6</td>
 <td>0.020</td>
 <td>354.6</td>
@@ -1015,7 +1028,7 @@
 </tr>
 <tr class="row-even"><td>epsilon CrB b</td>
 <td>6.049</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>417.9</td>
 <td>0.110</td>
 <td>133.1</td>
@@ -1028,7 +1041,7 @@
 </tr>
 <tr class="row-odd"><td>epsilon Eri b</td>
 <td>1.054</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>2500.0</td>
 <td>0.250</td>
 <td>6.0</td>
@@ -1041,7 +1054,7 @@
 </tr>
 <tr class="row-even"><td>epsilon Ret b</td>
 <td>1.377</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>428.1</td>
 <td>0.060</td>
 <td>216.0</td>
@@ -1054,7 +1067,7 @@
 </tr>
 <tr class="row-odd"><td>epsilon Tau b</td>
 <td>7.677</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>594.9</td>
 <td>0.151</td>
 <td>94.4</td>
@@ -1067,7 +1080,7 @@
 </tr>
 <tr class="row-even"><td>gamma Cep b</td>
 <td>1.517</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>905.6</td>
 <td>0.120</td>
 <td>49.6</td>
@@ -1080,7 +1093,7 @@
 </tr>
 <tr class="row-odd"><td>gamma Leo A b</td>
 <td>10.372</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>428.5</td>
 <td>0.144</td>
 <td>206.7</td>
@@ -1106,7 +1119,7 @@
 </tr>
 <tr class="row-odd"><td>GJ 179 b</td>
 <td>0.824</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>2288.0</td>
 <td>0.210</td>
 <td>153.0</td>
@@ -1145,7 +1158,7 @@
 </tr>
 <tr class="row-even"><td>GJ 581 b</td>
 <td>0.050</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>5.4</td>
 <td>0.031</td>
 <td>251.0</td>
@@ -1158,7 +1171,7 @@
 </tr>
 <tr class="row-odd"><td>GJ 581 c</td>
 <td>0.017</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>12.9</td>
 <td>0.070</td>
 <td>235.0</td>
@@ -1171,7 +1184,7 @@
 </tr>
 <tr class="row-even"><td>GJ 581 e</td>
 <td>0.006</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>3.1</td>
 <td>0.320</td>
 <td>236.0</td>
@@ -1184,7 +1197,7 @@
 </tr>
 <tr class="row-odd"><td>GJ 667 C b</td>
 <td>0.018</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>7.2</td>
 <td>0.130</td>
 <td>5.7</td>
@@ -1197,7 +1210,7 @@
 </tr>
 <tr class="row-even"><td>GJ 667 C c</td>
 <td>0.012</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>28.1</td>
 <td>0.020</td>
 <td>292.2</td>
@@ -1210,7 +1223,7 @@
 </tr>
 <tr class="row-odd"><td>GJ 667 C d</td>
 <td>0.016</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>91.6</td>
 <td>0.030</td>
 <td>40.1</td>
@@ -1223,7 +1236,7 @@
 </tr>
 <tr class="row-even"><td>GJ 667 C e</td>
 <td>0.009</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>62.2</td>
 <td>0.020</td>
 <td>28.6</td>
@@ -1236,7 +1249,7 @@
 </tr>
 <tr class="row-odd"><td>GJ 667 C f</td>
 <td>0.009</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>39.0</td>
 <td>0.030</td>
 <td>103.1</td>
@@ -1249,7 +1262,7 @@
 </tr>
 <tr class="row-even"><td>GJ 667 C g</td>
 <td>0.014</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>256.2</td>
 <td>0.080</td>
 <td>51.6</td>
@@ -1262,7 +1275,7 @@
 </tr>
 <tr class="row-odd"><td>GJ 86 b</td>
 <td>4.001</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>15.8</td>
 <td>0.042</td>
 <td>269.0</td>
@@ -1314,7 +1327,7 @@
 </tr>
 <tr class="row-odd"><td>HAT-P-13 c</td>
 <td>14.270</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>446.3</td>
 <td>0.662</td>
 <td>175.3</td>
@@ -1847,7 +1860,7 @@
 </tr>
 <tr class="row-even"><td>HD 100655 b</td>
 <td>1.334</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>157.6</td>
 <td>0.085</td>
 <td>132.0</td>
@@ -1860,7 +1873,7 @@
 </tr>
 <tr class="row-odd"><td>HD 100777 b</td>
 <td>1.165</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>383.7</td>
 <td>0.360</td>
 <td>202.7</td>
@@ -1873,7 +1886,7 @@
 </tr>
 <tr class="row-even"><td>HD 10180 c</td>
 <td>0.042</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>5.8</td>
 <td>0.077</td>
 <td>279.0</td>
@@ -1886,7 +1899,7 @@
 </tr>
 <tr class="row-odd"><td>HD 10180 d</td>
 <td>0.038</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>16.4</td>
 <td>0.143</td>
 <td>292.0</td>
@@ -1899,7 +1912,7 @@
 </tr>
 <tr class="row-even"><td>HD 10180 e</td>
 <td>0.080</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>49.7</td>
 <td>0.065</td>
 <td>174.0</td>
@@ -1912,7 +1925,7 @@
 </tr>
 <tr class="row-odd"><td>HD 10180 f</td>
 <td>0.074</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>122.7</td>
 <td>0.133</td>
 <td>265.0</td>
@@ -1925,7 +1938,7 @@
 </tr>
 <tr class="row-even"><td>HD 10180 g</td>
 <td>0.067</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>602.0</td>
 <td>0.000</td>
 <td>90.0</td>
@@ -1938,7 +1951,7 @@
 </tr>
 <tr class="row-odd"><td>HD 10180 h</td>
 <td>0.206</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>2248.0</td>
 <td>0.151</td>
 <td>184.0</td>
@@ -1951,7 +1964,7 @@
 </tr>
 <tr class="row-even"><td>HD 101930 b</td>
 <td>0.299</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>70.5</td>
 <td>0.110</td>
 <td>251.0</td>
@@ -1964,7 +1977,7 @@
 </tr>
 <tr class="row-odd"><td>HD 102117 b</td>
 <td>0.170</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>20.8</td>
 <td>0.121</td>
 <td>279.0</td>
@@ -1977,7 +1990,7 @@
 </tr>
 <tr class="row-even"><td>HD 102195 b</td>
 <td>0.453</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>4.1</td>
 <td>0.000</td>
 <td>0.0</td>
@@ -1990,7 +2003,7 @@
 </tr>
 <tr class="row-odd"><td>HD 102272 b</td>
 <td>4.109</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>127.6</td>
 <td>0.050</td>
 <td>118.0</td>
@@ -2003,7 +2016,7 @@
 </tr>
 <tr class="row-even"><td>HD 102329 b</td>
 <td>4.478</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>778.1</td>
 <td>0.211</td>
 <td>178.0</td>
@@ -2016,7 +2029,7 @@
 </tr>
 <tr class="row-odd"><td>HD 102365 b</td>
 <td>0.051</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>122.1</td>
 <td>0.340</td>
 <td>105.0</td>
@@ -2029,7 +2042,7 @@
 </tr>
 <tr class="row-even"><td>HD 102956 b</td>
 <td>0.951</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>6.5</td>
 <td>0.048</td>
 <td>12.0</td>
@@ -2042,7 +2055,7 @@
 </tr>
 <tr class="row-odd"><td>HD 103197 b</td>
 <td>0.098</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>47.8</td>
 <td>0.000</td>
 <td>0.0</td>
@@ -2055,7 +2068,7 @@
 </tr>
 <tr class="row-even"><td>HD 103774 b</td>
 <td>0.368</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>5.9</td>
 <td>0.090</td>
 <td>318.0</td>
@@ -2068,7 +2081,7 @@
 </tr>
 <tr class="row-odd"><td>HD 104067 b</td>
 <td>0.186</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>55.8</td>
 <td>0.000</td>
 <td>90.0</td>
@@ -2081,7 +2094,7 @@
 </tr>
 <tr class="row-even"><td>HD 104985 b</td>
 <td>4.917</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>199.5</td>
 <td>0.090</td>
 <td>203.5</td>
@@ -2094,7 +2107,7 @@
 </tr>
 <tr class="row-odd"><td>HD 106252 b</td>
 <td>6.959</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>1531.0</td>
 <td>0.482</td>
 <td>292.8</td>
@@ -2107,7 +2120,7 @@
 </tr>
 <tr class="row-even"><td>HD 106270 b</td>
 <td>11.087</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>2890.0</td>
 <td>0.402</td>
 <td>15.4</td>
@@ -2120,7 +2133,7 @@
 </tr>
 <tr class="row-odd"><td>HD 10647 b</td>
 <td>0.925</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>1003.0</td>
 <td>0.160</td>
 <td>336.0</td>
@@ -2133,7 +2146,7 @@
 </tr>
 <tr class="row-even"><td>HD 10697 b</td>
 <td>6.235</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>1075.2</td>
 <td>0.099</td>
 <td>111.2</td>
@@ -2146,7 +2159,7 @@
 </tr>
 <tr class="row-odd"><td>HD 107148 b</td>
 <td>0.212</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>48.1</td>
 <td>0.050</td>
 <td>75.0</td>
@@ -2159,7 +2172,7 @@
 </tr>
 <tr class="row-even"><td>HD 108147 b</td>
 <td>0.258</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>10.9</td>
 <td>0.530</td>
 <td>308.0</td>
@@ -2172,7 +2185,7 @@
 </tr>
 <tr class="row-odd"><td>HD 108863 b</td>
 <td>2.766</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>443.4</td>
 <td>0.000</td>
 <td>177.0</td>
@@ -2185,7 +2198,7 @@
 </tr>
 <tr class="row-even"><td>HD 108874 b</td>
 <td>1.290</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>394.5</td>
 <td>0.128</td>
 <td>219.4</td>
@@ -2198,7 +2211,7 @@
 </tr>
 <tr class="row-odd"><td>HD 108874 c</td>
 <td>1.028</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>1680.4</td>
 <td>0.273</td>
 <td>10.5</td>
@@ -2211,7 +2224,7 @@
 </tr>
 <tr class="row-even"><td>HD 109246 b</td>
 <td>0.768</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>68.3</td>
 <td>0.120</td>
 <td>235.0</td>
@@ -2224,7 +2237,7 @@
 </tr>
 <tr class="row-odd"><td>HD 109749 b</td>
 <td>0.275</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>5.2</td>
 <td>0.000</td>
 <td>0.0</td>
@@ -2237,7 +2250,7 @@
 </tr>
 <tr class="row-even"><td>HD 111232 b</td>
 <td>6.842</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>1143.0</td>
 <td>0.200</td>
 <td>98.0</td>
@@ -2250,7 +2263,7 @@
 </tr>
 <tr class="row-odd"><td>HD 113337 b</td>
 <td>2.830</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>324.0</td>
 <td>0.460</td>
 <td>219.2</td>
@@ -2263,7 +2276,7 @@
 </tr>
 <tr class="row-even"><td>HD 114386 b</td>
 <td>1.364</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>937.7</td>
 <td>0.230</td>
 <td>273.0</td>
@@ -2276,7 +2289,7 @@
 </tr>
 <tr class="row-odd"><td>HD 114613 b</td>
 <td>0.506</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>3827.0</td>
 <td>0.250</td>
 <td>244.0</td>
@@ -2289,7 +2302,7 @@
 </tr>
 <tr class="row-even"><td>HD 114729 b</td>
 <td>0.945</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>1114.0</td>
 <td>0.167</td>
 <td>93.0</td>
@@ -2302,7 +2315,7 @@
 </tr>
 <tr class="row-odd"><td>HD 114762 b</td>
 <td>11.635</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>83.9</td>
 <td>0.335</td>
 <td>201.3</td>
@@ -2315,7 +2328,7 @@
 </tr>
 <tr class="row-even"><td>HD 114783 b</td>
 <td>1.105</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>493.7</td>
 <td>0.144</td>
 <td>86.0</td>
@@ -2328,7 +2341,7 @@
 </tr>
 <tr class="row-odd"><td>HD 11506 b</td>
 <td>4.735</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>1405.0</td>
 <td>0.300</td>
 <td>262.0</td>
@@ -2341,7 +2354,7 @@
 </tr>
 <tr class="row-even"><td>HD 116029 b</td>
 <td>1.908</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>670.0</td>
 <td>0.000</td>
 <td>40.0</td>
@@ -2354,7 +2367,7 @@
 </tr>
 <tr class="row-odd"><td>HD 117207 b</td>
 <td>1.819</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>2597.0</td>
 <td>0.144</td>
 <td>73.0</td>
@@ -2367,7 +2380,7 @@
 </tr>
 <tr class="row-even"><td>HD 117618 b</td>
 <td>0.177</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>25.8</td>
 <td>0.420</td>
 <td>254.0</td>
@@ -2380,7 +2393,7 @@
 </tr>
 <tr class="row-odd"><td>HD 118203 b</td>
 <td>2.136</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>6.1</td>
 <td>0.309</td>
 <td>155.7</td>
@@ -2393,7 +2406,7 @@
 </tr>
 <tr class="row-even"><td>HD 11964 b</td>
 <td>0.608</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>1944.6</td>
 <td>0.041</td>
 <td>155.0</td>
@@ -2406,7 +2419,7 @@
 </tr>
 <tr class="row-odd"><td>HD 11964 c</td>
 <td>0.077</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>37.9</td>
 <td>0.302</td>
 <td>101.9</td>
@@ -2419,7 +2432,7 @@
 </tr>
 <tr class="row-even"><td>HD 11977 b</td>
 <td>7.400</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>711.0</td>
 <td>0.400</td>
 <td>351.5</td>
@@ -2432,7 +2445,7 @@
 </tr>
 <tr class="row-odd"><td>HD 120084 b</td>
 <td>4.477</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>2082.0</td>
 <td>0.660</td>
 <td>117.0</td>
@@ -2445,7 +2458,7 @@
 </tr>
 <tr class="row-even"><td>HD 121504 b</td>
 <td>1.222</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>63.3</td>
 <td>0.030</td>
 <td>265.0</td>
@@ -2458,7 +2471,7 @@
 </tr>
 <tr class="row-odd"><td>HD 1237 b</td>
 <td>3.375</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>133.7</td>
 <td>0.511</td>
 <td>290.7</td>
@@ -2471,7 +2484,7 @@
 </tr>
 <tr class="row-even"><td>HD 125595 b</td>
 <td>0.042</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>9.7</td>
 <td>0.000</td>
 <td>90.0</td>
@@ -2484,7 +2497,7 @@
 </tr>
 <tr class="row-odd"><td>HD 125612 b</td>
 <td>3.068</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>559.4</td>
 <td>0.459</td>
 <td>41.5</td>
@@ -2497,7 +2510,7 @@
 </tr>
 <tr class="row-even"><td>HD 125612 c</td>
 <td>0.058</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>4.2</td>
 <td>0.275</td>
 <td>103.5</td>
@@ -2510,7 +2523,7 @@
 </tr>
 <tr class="row-odd"><td>HD 126614 A b</td>
 <td>0.386</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>1244.0</td>
 <td>0.410</td>
 <td>243.0</td>
@@ -2523,7 +2536,7 @@
 </tr>
 <tr class="row-even"><td>HD 12661 b</td>
 <td>2.341</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>262.7</td>
 <td>0.377</td>
 <td>296.0</td>
@@ -2536,7 +2549,7 @@
 </tr>
 <tr class="row-odd"><td>HD 12661 c</td>
 <td>1.949</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>1707.9</td>
 <td>0.031</td>
 <td>165.4</td>
@@ -2549,7 +2562,7 @@
 </tr>
 <tr class="row-even"><td>HD 128311 b</td>
 <td>1.457</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>454.2</td>
 <td>0.345</td>
 <td>63.0</td>
@@ -2562,7 +2575,7 @@
 </tr>
 <tr class="row-odd"><td>HD 128311 c</td>
 <td>3.248</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>923.8</td>
 <td>0.230</td>
 <td>28.0</td>
@@ -2575,7 +2588,7 @@
 </tr>
 <tr class="row-even"><td>HD 130322 b</td>
 <td>1.043</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>10.7</td>
 <td>0.011</td>
 <td>145.0</td>
@@ -2588,7 +2601,7 @@
 </tr>
 <tr class="row-odd"><td>HD 131496 b</td>
 <td>2.241</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>883.0</td>
 <td>0.163</td>
 <td>22.0</td>
@@ -2601,7 +2614,7 @@
 </tr>
 <tr class="row-even"><td>HD 131664 b</td>
 <td>18.328</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>1951.0</td>
 <td>0.638</td>
 <td>149.7</td>
@@ -2614,7 +2627,7 @@
 </tr>
 <tr class="row-odd"><td>HD 13189 b</td>
 <td>7.123</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>471.6</td>
 <td>0.270</td>
 <td>160.7</td>
@@ -2627,7 +2640,7 @@
 </tr>
 <tr class="row-even"><td>HD 132563 B b</td>
 <td>1.492</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>1544.0</td>
 <td>0.220</td>
 <td>158.0</td>
@@ -2640,7 +2653,7 @@
 </tr>
 <tr class="row-odd"><td>HD 134987 b</td>
 <td>1.563</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>258.2</td>
 <td>0.233</td>
 <td>352.7</td>
@@ -2653,7 +2666,7 @@
 </tr>
 <tr class="row-even"><td>HD 134987 c</td>
 <td>0.805</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>5000.0</td>
 <td>0.120</td>
 <td>195.0</td>
@@ -2666,7 +2679,7 @@
 </tr>
 <tr class="row-odd"><td>HD 136118 b</td>
 <td>11.681</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>1187.3</td>
 <td>0.338</td>
 <td>319.9</td>
@@ -2679,7 +2692,7 @@
 </tr>
 <tr class="row-even"><td>HD 136418 b</td>
 <td>1.993</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>464.3</td>
 <td>0.255</td>
 <td>12.0</td>
@@ -2692,7 +2705,7 @@
 </tr>
 <tr class="row-odd"><td>HD 137388 b</td>
 <td>0.228</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>330.0</td>
 <td>0.360</td>
 <td>86.0</td>
@@ -2705,7 +2718,7 @@
 </tr>
 <tr class="row-even"><td>HD 13908 b</td>
 <td>0.865</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>19.4</td>
 <td>0.046</td>
 <td>185.0</td>
@@ -2718,7 +2731,7 @@
 </tr>
 <tr class="row-odd"><td>HD 13908 c</td>
 <td>5.130</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>931.0</td>
 <td>0.120</td>
 <td>185.0</td>
@@ -2731,7 +2744,7 @@
 </tr>
 <tr class="row-even"><td>HD 13931 b</td>
 <td>1.881</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>4218.0</td>
 <td>0.020</td>
 <td>290.0</td>
@@ -2744,7 +2757,7 @@
 </tr>
 <tr class="row-odd"><td>HD 139357 b</td>
 <td>10.075</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>1125.7</td>
 <td>0.100</td>
 <td>235.4</td>
@@ -2757,7 +2770,7 @@
 </tr>
 <tr class="row-even"><td>HD 141937 b</td>
 <td>9.475</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>653.2</td>
 <td>0.410</td>
 <td>187.7</td>
@@ -2770,7 +2783,7 @@
 </tr>
 <tr class="row-odd"><td>HD 142022 b</td>
 <td>4.468</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>1928.0</td>
 <td>0.530</td>
 <td>170.0</td>
@@ -2783,7 +2796,7 @@
 </tr>
 <tr class="row-even"><td>HD 142245 b</td>
 <td>1.890</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>1299.0</td>
 <td>0.000</td>
 <td>234.0</td>
@@ -2796,7 +2809,7 @@
 </tr>
 <tr class="row-odd"><td>HD 142415 b</td>
 <td>1.662</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>386.3</td>
 <td>0.500</td>
 <td>255.0</td>
@@ -2809,7 +2822,7 @@
 </tr>
 <tr class="row-even"><td>HD 142 b</td>
 <td>1.306</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>350.3</td>
 <td>0.260</td>
 <td>303.0</td>
@@ -2822,7 +2835,7 @@
 </tr>
 <tr class="row-odd"><td>HD 145377 b</td>
 <td>5.782</td>
-<td>&nbsp;</td>
+<td>&#160;</td>
 <td>103.9</td>
 <td>0.307</td>
 <td>138.1</td>
@@ -2852,7 +2865,7 @@
 
 <hr style="border: 0;height: 1px;background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));">
 <!-- 多说评论框 start -->
-  <div class="ds-thread" data-thread-key="hztable" data-title="宜居带行星列表 &mdash; 系外行星 3.14 documentation" data-url="http://book.interimm.org/hztable.html"></div>
+  <div class="ds-thread" data-thread-key="hztable" data-title="宜居带行星列表 &#8212; 系外行星 3.14 documentation" data-url="http://book.interimm.org/hztable.html"></div>
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
@@ -2862,7 +2875,7 @@ var duoshuoQuery = {short_name:"exoplanet"};
     ds.type = 'text/javascript';ds.async = true;
     ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
     ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0] 
+    (document.getElementsByTagName('head')[0]
      || document.getElementsByTagName('body')[0]).appendChild(ds);
   })();
   </script>
@@ -2881,7 +2894,7 @@ var duoshuoQuery = {short_name:"exoplanet"};
     </p>
     <p>
         <span class="btn btn-flat disabled btn-xs">&copy; Copyright 2014, Interplanetary Immigration Center</span>
-      <span class="btn btn-flat btn-xs disabled">最近更新 May 04, 2016</span>  <a href="http://exoplanets.interimm.org/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
+      <span class="btn btn-flat btn-xs disabled">最近更新 Mar 03, 2018</span>  <a href="http://exoplanets.interimm.org/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
     </p>
   </div>
   <script>

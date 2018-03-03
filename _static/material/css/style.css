@@ -44,6 +44,7 @@ p, pre, ul, ol, dl, form, hr {
 
 img {
   margin: 1em auto 1em auto;
+  max-width: 100% !important;
 }
 
 .alert-info {
@@ -87,6 +88,7 @@ img {
 .navbar .brand-style:focus {
   color: rgba(255, 255, 255, 1);
 }
+
 
 .black-bg {
   background-color: black;
@@ -218,6 +220,7 @@ content: "|" !important;
 .alert-warning,
 .alert-success {
   color: black !important;
+  border-left: 5px solid #CCC !important;
 }
 
 .alert .alert-link, .alert a {
@@ -225,18 +228,19 @@ content: "|" !important;
   text-decoration: underline;
 }
 
-
+/*
+div.note {
+  background-image: -webkit-linear-gradient(top,#FFFFE0 0,#FFFFE0 100%) !important;
+  background-image: -o-linear-gradient(top,#FFFFE0 0,#FFFFE0 100%) !important;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#FFFFE0),to(#FFFFE0)) !important;
+  background-image: linear-gradient(to bottom,#FFFFE0 0,#FFFFE0 100%) !important;
+  border-left: 5px solid #CCC !important;
+}
+*/
 
 div.note {
 padding: 10px 15px 10px 50px !important;
 border: solid 2px lightgrey !important;
-border-radius: 4px !important;
-background: none !important;
-}
-
-div.warning {
-padding: 10px 15px 10px 50px !important;
-border: solid 2px #CEC2D7 !important;
 border-radius: 4px !important;
 background: none !important;
 }
@@ -259,17 +263,3 @@ background: none !important;
   margin-bottom: 1em !important;
   margin-top:0.5em !important;
 }
-
-
-
-.caption {
-  color: #808080;
-/*  border-left: 5px solid #DDD;
-  border-right: 5px solid #DDD;
-  background: #F2F0F0;
-  padding: 10px;
-  margin: 10px; */
-}
-
-
-ul,ol{margin-bottom: 1em !important;}
