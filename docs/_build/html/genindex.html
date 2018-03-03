@@ -1,13 +1,10 @@
 
 <!DOCTYPE html>
 
-
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
-    <title>Index &mdash; 系外行星 3.14 documentation</title>
-    
+    <title>Index &#8212; 系外行星 3.14 documentation</title>
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="_static/bootstrap-3.2.0/css/bootstrap.min.css" type="text/css" />
@@ -18,14 +15,15 @@
     <link rel="stylesheet" href="_static/material/css/ripples.min.css" type="text/css" />
     <link rel="stylesheet" href="_static/material/css/snackbar.min.css" type="text/css" />
     <link rel="stylesheet" href="_static/material/css/style.css" type="text/css" />
-    
+    <link rel="stylesheet" href="_static/style.css" type="text/css" />
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
         VERSION:     '3.14',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
       };
     </script>
     <script type="text/javascript" src="_static/jquery.js"></script>
@@ -38,7 +36,8 @@
     <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
     <script type="text/javascript" src="_static/material/js/material.min.js"></script>
     <script type="text/javascript" src="_static/material/js/ripples.min.js"></script>
-    <link rel="top" title="系外行星 3.14 documentation" href="index.html" />
+    <link rel="index" title="Index" href="#" />
+    <link rel="search" title="Search" href="search.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -73,7 +72,7 @@
 
 
   </head>
-  <body role="document">
+  <body>
 
 <!-- Nav Bar at top -->
 <div class="navbar navbar-black" style="font-size:14px;">
@@ -83,29 +82,43 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand brand-style" href="http://interimm.org"><i class="fa fa-home"></i> &nbsp; 星际移民中心</a>
+        <a class="navbar-brand brand-style" href="javascript:void(0)"><i class="fa fa-home"></i> &nbsp; 星际移民中心</a>
     </div>
     <div class="navbar-collapse collapse navbar-inverse-collapse">
-        <ul class="nav navbar-nav navbar-nav-black" style="margin-bottom: 0em !important;">
+        <ul class="nav navbar-nav navbar-nav-black">
         <li class="divider-vertical divider-white"></li>
-            
             <li><a href="http://book.interimm.org"><i class="fa fa-archive"></i>&nbsp; 星际移民之书</a></li>
-            <li class="active"><a href="http://exoplanets.interimm.org"><i class="fa fa-globe"></i>&nbsp; 系外行星档案</a></li>
-            <li><a href="http://magazine.interimm.org"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li>
-
+            <li class="active"><a href="http://exoplanets.interimm.org"><i class="fa fa-globe"></i>&nbsp; 系外行星</a></li>
+            <!-- <li><a href="http://magazine.interimm.org"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li> -->
+            <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 专栏</a></li>
+            <li><a href="http://interimm.org/hub"><i class="fa fa-building-o"></i>&nbsp; 企业</a></li>
         </ul>
-        <ul class="nav navbar-nav navbar-right navbar-nav-black" style="margin-bottom: 0em !important;">
-        <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 知乎专栏</a></li>
-            <li><a href="http://weibo.com/iiaofficial" target="_blank"> <i class="fa fa-weibo"></i>&nbsp; 微博</a></li>
-            
+        <ul class="nav navbar-nav navbar-right navbar-nav-black">
+        <!-- Switch on/off between the following two lines to activate/deactivate the calendar icon -->
+        <!-- <li><a href="#activities" style="color:orange;"><i class="fa fa-calendar"></i></a></li> -->
+        <li><a href="#activities" style="color:grey;" data-toggle="tooltip" data-placement="bottom" title="相关活动"><i class="fa fa-calendar"></i></a></li>
+        <!-- <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 知乎专栏</a></li> -->
+        <li><a href="http://weibo.com/iiaofficial" style="color:#5bc0de;" target="_blank" data-toggle="tooltip" data-placement="bottom" title="微博"> <i class="fa fa-weibo"></i></a></li>
+        <li><a href="http://interimm.org/mars-map/" style="color:orange;" data-toggle="tooltip" data-placement="bottom" title="火星互动地图"><i class="fa fa-map"></i></a></li>
+
             <li class="dropdown">
-                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-arrow-circle-o-down"></i>&nbsp; 更多 <b class="caret"></b></a>
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-arrow-circle-o-down"></i> 更多<b class="caret"></b></a>
                 <ul class="dropdown-menu black-bg">
-                    <li><a href="http://github.com/InterImm" target="_blank"><i class="fa fa-github"></i>&nbsp; GitHub</a></li>
-                    <li><a href="http://www.guokr.com/group/396/" target="_blank"><i class="fa fa-lightbulb-o"></i>&nbsp; 果壳网小组</a></li>
+                   <li><a href="institutes.html"><i class="fa fa-sitemap"></i>&nbsp;星际机构</a></li>
+
+                   <li><a href="toolbox.html"><i class="fa fa-cogs"></i>&nbsp;工具箱</a></li>
+                   <li><a href="http://interimm.org/mars-clock"><i class="fa fa-clock-o"></i>&nbsp;火星时钟</a></li>
+
+                   <li><a href="http://interimm.org/mars-map/" style="color:orange;" data-toggle="tooltip" data-placement="bottom" title="火星互动地图"><i class="fa fa-map"></i>&nbsp;火星地图</a></li>
+                   <li><a href="http://cities.interimm.org/" style="color:orange;" ><i class="fa fa-map-signs"></i>&nbsp;火星城市</a></li>
+                   <li><a href="http://timeline.interimm.org"><i class="fa fa-clock-o"></i>&nbsp;时间线</a></li>
+
                     <li class="divider"></li>
-                    <li><a href="http://interimm.org/toolbox.html"><i class="fa fa-cogs"></i>&nbsp;工具箱</a></li>
-                    <li><a href="http://interimm.org/institutes.html"><i class="fa fa-sitemap"></i>&nbsp;星际机构</a></li>
+
+                    <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 知乎专栏</a></li>
+                    <li><a href="http://magazine.interimm.org"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li>
+                    <li><a href="http://www.guokr.com/group/396/" target="_blank"><i class="fa fa-lightbulb-o"></i>&nbsp; 果壳网小组</a></li>
+                    <li><a href="http://github.com/InterImm" target="_blank"><i class="fa fa-github"></i>&nbsp; GitHub</a></li>
                 </ul>
             </li>
         </ul>
@@ -169,241 +182,248 @@
  | <a href="#R"><strong>R</strong></a>
  | <a href="#S"><strong>S</strong></a>
  | <a href="#T"><strong>T</strong></a>
- | <a href="#Symbols"><strong>Symbols</strong></a>
+ | <a href="#光"><strong>光</strong></a>
+ | <a href="#凌"><strong>凌</strong></a>
+ | <a href="#天"><strong>天</strong></a>
+ | <a href="#宜"><strong>宜</strong></a>
+ | <a href="#开"><strong>开</strong></a>
+ | <a href="#引"><strong>引</strong></a>
+ | <a href="#径"><strong>径</strong></a>
+ | <a href="#微"><strong>微</strong></a>
+ | <a href="#星"><strong>星</strong></a>
+ | <a href="#直"><strong>直</strong></a>
+ | <a href="#系"><strong>系</strong></a>
+ | <a href="#费"><strong>费</strong></a>
  
 </div>
 <h2 id="A">A</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="exoint.html#index-2">Alpha Cen B b</a>
-  </dt>
-
-      
-  <dt><a href="exoint.html#index-3">Alpha Centauri</a>
-  </dt>
-
-  </dl></td>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="detection.html#index-2">Astrometry</a>
-  </dt>
-
-  </dl></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="exoint.html#index-2">Alpha Cen B b</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="exoint.html#index-3">Alpha Centauri</a>
+</li>
+      <li><a href="detection.html#index-2">Astrometry</a>
+</li>
+  </ul></td>
 </tr></table>
 
 <h2 id="C">C</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="orbits.html#index-0">Celestial Coordinate Systems</a>
-  </dt>
-
-  </dl></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="orbits.html#index-0">Celestial Coordinate Systems</a>
+</li>
+  </ul></td>
 </tr></table>
 
 <h2 id="D">D</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="detection.html#index-4">Direct Imaging</a>
-  </dt>
-
-  </dl></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="detection.html#index-4">Direct Imaging</a>
+</li>
+  </ul></td>
 </tr></table>
 
 <h2 id="F">F</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="fermi.html#index-0">Fermi Paradox</a>
-  </dt>
-
-  </dl></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="fermi.html#index-0">Fermi Paradox</a>
+</li>
+  </ul></td>
 </tr></table>
 
 <h2 id="G">G</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="exoint.html#index-4">GJ 1214b</a>
-  </dt>
-
-      
-  <dt><a href="exoint.html#index-5">Gliese 667 Cc</a>
-  </dt>
-
-  </dl></td>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="exoint.html#index-8">Gliese 832c</a>
-  </dt>
-
-  </dl></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="exoint.html#index-4">GJ 1214b</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="exoint.html#index-5">Gliese 667 Cc</a>
+</li>
+      <li><a href="exoint.html#index-8">Gliese 832c</a>
+</li>
+  </ul></td>
 </tr></table>
 
 <h2 id="H">H</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="exoint.html#index-7">HAT-P-11b / Kepler-3b</a>
-  </dt>
-
-  </dl></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="exoint.html#index-7">HAT-P-11b / Kepler-3b</a>
+</li>
+  </ul></td>
 </tr></table>
 
 <h2 id="K">K</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="orbits.html#index-6">Kepler&#39;s Law</a>
-  </dt>
-
-      
-  <dt><a href="exoint.html#index-1">Kepler-10b</a>
-  </dt>
-
-      
-  <dt><a href="exoint.html#index-0">Kepler-10c</a>
-  </dt>
-
-  </dl></td>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="exoint.html#index-10">Kepler-452b</a>
-  </dt>
-
-      
-  <dt><a href="exoint.html#index-6">Kepler-62e</a>
-  </dt>
-
-  </dl></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="orbits.html#index-6">Kepler&#39;s Law</a>
+</li>
+      <li><a href="exoint.html#index-1">Kepler-10b</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="exoint.html#index-0">Kepler-10c</a>
+</li>
+      <li><a href="exoint.html#index-10">Kepler-452b</a>
+</li>
+      <li><a href="exoint.html#index-6">Kepler-62e</a>
+</li>
+  </ul></td>
 </tr></table>
 
 <h2 id="L">L</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="orbits.html#index-2">Luminosity</a>
-  </dt>
-
-  </dl></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="orbits.html#index-2">Luminosity</a>
+</li>
+  </ul></td>
 </tr></table>
 
 <h2 id="M">M</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="orbits.html#index-3">Magnitude</a>
-  </dt>
-
-  </dl></td>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="detection.html#index-8">Microlensing</a>
-  </dt>
-
-  </dl></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="orbits.html#index-3">Magnitude</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="detection.html#index-8">Microlensing</a>
+</li>
+  </ul></td>
 </tr></table>
 
 <h2 id="R">R</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="detection.html#index-0">Radial Velocity</a>
-  </dt>
-
-  </dl></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="detection.html#index-0">Radial Velocity</a>
+</li>
+  </ul></td>
 </tr></table>
 
 <h2 id="S">S</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="atmosphere.html#index-0">Spectrum</a>
-  </dt>
-
-  </dl></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="atmosphere.html#index-0">Spectrum</a>
+</li>
+  </ul></td>
 </tr></table>
 
 <h2 id="T">T</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="exoint.html#index-9">Tau Ceti e</a>
-  </dt>
-
-  </dl></td>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="detection.html#index-6">Transit</a>
-  </dt>
-
-  </dl></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="exoint.html#index-9">Tau Ceti e</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="detection.html#index-6">Transit</a>
+</li>
+  </ul></td>
 </tr></table>
 
-<h2 id="Symbols">Symbols</h2>
+<h2 id="光">光</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="orbits.html#index-4">光度</a>
-  </dt>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="orbits.html#index-4">光度</a>
+</li>
+  </ul></td>
+</tr></table>
 
-      
-  <dt><a href="detection.html#index-7">凌日法</a>
-  </dt>
+<h2 id="凌">凌</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="detection.html#index-7">凌日法</a>
+</li>
+  </ul></td>
+</tr></table>
 
-      
-  <dt><a href="detection.html#index-3">天体测量学</a>
-  </dt>
+<h2 id="天">天</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="detection.html#index-3">天体测量学</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="orbits.html#index-1">天球坐标系</a>
+</li>
+  </ul></td>
+</tr></table>
 
-      
-  <dt><a href="orbits.html#index-1">天球坐标系</a>
-  </dt>
+<h2 id="宜">宜</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="hztable.html#index-0">宜居带内行星列表</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="hz.html#index-0">宜居性</a>
+</li>
+  </ul></td>
+</tr></table>
 
-      
-  <dt><a href="hztable.html#index-0">宜居带内行星列表</a>
-  </dt>
+<h2 id="开">开</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="orbits.html#index-7">开普勒定律</a>
+</li>
+  </ul></td>
+</tr></table>
 
-      
-  <dt><a href="hz.html#index-0">宜居性</a>
-  </dt>
+<h2 id="引">引</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="statistics.html#index-0">引潮力</a>
+</li>
+  </ul></td>
+</tr></table>
 
-      
-  <dt><a href="orbits.html#index-7">开普勒定律</a>
-  </dt>
+<h2 id="径">径</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="detection.html#index-1">径向速度法</a>
+</li>
+  </ul></td>
+</tr></table>
 
-  </dl></td>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="statistics.html#index-0">引潮力</a>
-  </dt>
+<h2 id="微">微</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="detection.html#index-9">微引力透镜</a>
+</li>
+  </ul></td>
+</tr></table>
 
-      
-  <dt><a href="detection.html#index-1">径向速度法</a>
-  </dt>
+<h2 id="星">星</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="orbits.html#index-5">星等</a>
+</li>
+  </ul></td>
+</tr></table>
 
-      
-  <dt><a href="detection.html#index-9">微引力透镜</a>
-  </dt>
+<h2 id="直">直</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="detection.html#index-5">直接影像</a>
+</li>
+  </ul></td>
+</tr></table>
 
-      
-  <dt><a href="orbits.html#index-5">星等</a>
-  </dt>
+<h2 id="系">系</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="viscat.html#index-0">系外行星周期表</a>
+</li>
+  </ul></td>
+</tr></table>
 
-      
-  <dt><a href="detection.html#index-5">直接影像</a>
-  </dt>
-
-      
-  <dt><a href="viscat.html#index-0">系外行星周期表</a>
-  </dt>
-
-      
-  <dt><a href="fermi.html#index-1">费米悖论的解释</a>
-  </dt>
-
-  </dl></td>
+<h2 id="费">费</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="fermi.html#index-1">费米悖论的解释</a>
+</li>
+  </ul></td>
 </tr></table>
 
 
@@ -412,7 +432,7 @@
 
 <hr style="border: 0;height: 1px;background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));">
 <!-- 多说评论框 start -->
-  <div class="ds-thread" data-thread-key="genindex" data-title="Index &mdash; 系外行星 3.14 documentation" data-url="http://book.interimm.org/genindex.html"></div>
+  <div class="ds-thread" data-thread-key="genindex" data-title="Index &#8212; 系外行星 3.14 documentation" data-url="http://book.interimm.org/genindex.html"></div>
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
@@ -422,7 +442,7 @@ var duoshuoQuery = {short_name:"exoplanet"};
     ds.type = 'text/javascript';ds.async = true;
     ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
     ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0] 
+    (document.getElementsByTagName('head')[0]
      || document.getElementsByTagName('body')[0]).appendChild(ds);
   })();
   </script>
@@ -441,7 +461,7 @@ var duoshuoQuery = {short_name:"exoplanet"};
     </p>
     <p>
         <span class="btn btn-flat disabled btn-xs">&copy; Copyright 2014, Interplanetary Immigration Center</span>
-      <span class="btn btn-flat btn-xs disabled">最近更新 May 04, 2016</span>  <a href="http://exoplanets.interimm.org/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
+      <span class="btn btn-flat btn-xs disabled">最近更新 Mar 03, 2018</span>  <a href="http://exoplanets.interimm.org/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
     </p>
   </div>
   <script>
